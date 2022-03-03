@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 600px;
+}
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: gray;
+    animation: jump 1s infinite;
+}
+@keyframes jump {
+    0%, 100% {
+        transform:translateY(0)
+    }
+    50% {
+        transform: translateY(-60px)
+    }
+}
+@media (prefered-reduced-motion) {
+    .circle {
+        animation: none;
+    }
+}
+@media (prefers-color-scheme) {
+    body {
+        background-color: darkgray;
+    }
+    .circle {
+        background-color: azure;
+    }
+}
+@media (orientation: landscape) {
+    .circle {
+        background-color: blueviolet;
+    }
+}
