@@ -12,4 +12,4 @@ If the users needs help, they can easily click on the "questionmark"-button that
 
 In this website, technologies such as HTML, CSS/SASS and JavaScript is used to develop the scrollytelling website. 
 
-The group of this prosjekt, Lisa, Alexandra and Fadumo, are all responsible to contribute and maintaiing the project. 
+The group of this prosect, Lisa, Alexandra and Fadumo, are all responsible to contribute and maintaining the project. 
