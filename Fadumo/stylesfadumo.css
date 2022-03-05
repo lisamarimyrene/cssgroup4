@@ -1,0 +1,59 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.rectangle {
+height: 500px;
+width: 700px;
+border-radius: 15px;
+background-color: rgb(100, 182, 214);
+animation: spin 2s ease 0s infinite alternate;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@media (prefers-reduce-motion) {
+    .rectangle {
+        animation: none;
+    }
+}
+
+@media (prefers-color-schame: blue) {
+    .rectangle{
+        background-color: darkblue;
+    }
+}
+
+@media (orientation: landscape) {
+    .rectangle {
+        background: rgb(141, 160, 56);
+    }
+}
+
+@media (orientation: landscap) {
+    @media (prefers-color-schame: dark) { 
+        .rectangle {background: #520066};
+    }
+}
+
+@media (orientation: landscape) and (prefers-color-schame: light) {
+    .rectangle {background: #520066};
+}
+
+@media (orientation: landscape), (prefers-color-schame: light) {
+    .rectangle {background: #520066};
+}
