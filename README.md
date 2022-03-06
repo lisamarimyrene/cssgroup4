@@ -14,3 +14,4 @@ In this website, technologies such as HTML, CSS/SASS and JavaScript is used to d
 
 The group of this project, Lisa, Alexandra and Fadumo, are all responsible to contribute and maintaining the project. 
 
+We realized a little late that we had to create branches and merge through pull request, so we had already made all the changes to the main branch. We have now created branches and will use pull request and merge to the main branch from now on.
