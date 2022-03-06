@@ -2,14 +2,15 @@
 
 # About the project
 
-In this project we are making a scrollytelling that has an socially impactful theme. 
-This project goes through a story about how Global Warming are affecting the different seasons. 
+In this project we are making a scrollytelling story that has a socially impactful theme. 
+The story is about how Global Warming is affecting the different seasons; spring (front page), summer, fall and winter. 
 
-This project is useful for developing our skills further as Web Devolopers. A scrollytelling is also a good way to tell a story. 
+For us as developers, the project is useful for further developing our skills and challenging ourselves. A scrollytelling is also a good way to tell a story. For the consumer of the story, it is useful in terms of how the topic will enlighten the consumer on serious topics such as climate change. It sheds some light on some of the grave consequences global warming will have on the earth and specifically changes in seasons as we know them.
 
 The project starts at the top, and the users will then scroll down to see the story evolve. 
 If the users needs help, they can easily click on the "questionmark"-button that will be added to the website. There it will cointain useful information about how to use the website.
 
 In this website, technologies such as HTML, CSS/SASS and JavaScript is used to develop the scrollytelling website. 
 
-The group of this prosjekt, Lisa, Alexandra and Fadumo, are all responsible to contribute and maintaing the project. 
+The group of this project, Lisa, Alexandra and Fadumo, are all responsible to contribute and maintaining the project. 
+
