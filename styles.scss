@@ -1,2 +1,90 @@
-@import "_colors";
-@import "_styles";
+@import 'assets/styles/_animations.scss';
+@import 'assets/styles/_colors.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+figure { 
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figureLisa {
+    background-color: $backgroundLisa;
+    
+    .circle {
+        top: 200px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: $figureColorLisa;
+        animation: jump 1s infinite;
+    }
+}
+.figureAlexandra {
+    background: linear-gradient($backgroundAlexandra1,$backgroundAlexandra2);
+
+    .square {
+        height:150px;
+        width:150px;
+        background-color: $figureColorAlexandra;
+        animation: slideinout;
+        animation-duration: 1s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+    }
+}
+.figureFadumo {
+    background-color: $backgroundFadumo;
+
+    .rectangle {
+        height: 300px;
+        width: 450px;
+        border-radius: 15px;
+        background-color: $figureColorFadumo;
+        animation: spin 2s ease 0s infinite alternate;
+    }
+}
+
+@media (prefered-reduced-motion) {
+    .circle, .square, .rectangle {
+        animation: none;
+    }
+}
+/* @media (prefers-color-scheme:dark) {
+    .figureLisa {
+        background-color: #364f4f;
+        
+        .circle {
+            background-color: #cbf1f2;
+        }
+    }
+    .figureAlexandra {
+        background: #46374a;
+
+        .square {
+            background:rgb(107, 31, 107);
+        }
+    }
+    .figureFadumo {
+        background: #354733;
+        
+        .rectangle{
+            background-color: #adcfa9;
+        }
+    }
+}*/
+@media (orientation: landscape) {
+    .circle {
+        background-color: blueviolet;
+    }
+    .square {
+        background:rgb(118, 119, 214);
+    }
+    .rectangle {
+        background: rgb(141, 160, 56);
+    }
+}
+/* Helping source: https://www.youtube.com/watch?v=hObPr5IfFVU&t=257s */
