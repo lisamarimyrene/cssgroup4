@@ -1,50 +1,60 @@
-@import './assets/styles/_animations.scss';
-@import './assets/styles/_colors.scss';
-@import './assets/styles/_fonts.scss';
-@import './assets/styles/_figures.scss';
+@use './assets/styles/_colors.scss';
+@use './assets/styles/_fonts.scss';
+@use './assets/styles/_figures.scss';
 
 * {
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: colors.$background-spring;
+    width: 100%;
 
-@media (prefered-reduced-motion) {
-    .circle, .square, .rectangle {
-        animation: none;
+    h1, p {
+        margin: 0 auto;
+        text-align: center;
     }
-}
-@media (prefers-color-scheme:dark) {
-    .figureLisa {
-        background-color: #364f4f;
-        
-        .circle {
-            background-color: #cbf1f2;
+    .frames {
+        height: 55vw;
+        border: solid .5px grey;
+    }
+    #frame1{
+        display: flex;
+        flex-direction: column;
+            
+        #ground {
+            margin-top: auto;
         }
     }
-    .figureAlexandra {
-        background: #46374a;
+    #frame2{
+        
+    }
+    #frame3{
+        background-color: colors.$background-summerBlue;
+    }
+    #frame4{
+        background-color: colors.$background-summerRed;
+    }
+    #frame5{
+        background-color: colors.$background-summerBlue;
+    }
+    #frame6{
+        background-color: colors.$background-autumnLight;
+    }
+    #frame7{
+        background-color: colors.$background-autumnDark;
+    }
+    #frame8{
+        background-color: colors.$background-autumnDark;
+    }
+    #frame9{
+        background-color: colors.$background-winter;
+    }
+    #frame10{
+        background-color: colors.$background-winter;
+    }
+    #frame11{
+        background-color: colors.$background-winter;
+    }
+}
 
-        .square {
-            background:rgb(107, 31, 107);
-        }
-    }
-    .figureFadumo {
-        background: #354733;
-        
-        .rectangle{
-            background-color: #adcfa9;
-        }
-    }
-}
-@media (orientation: landscape) {
-    .circle {
-        background-color: blueviolet;
-    }
-    .square {
-        background:rgb(118, 119, 214);
-    }
-    .rectangle {
-        background: rgb(141, 160, 56);
-    }
-}
-/* Helping source: https://www.youtube.com/watch?v=hObPr5IfFVU&t=257s */
