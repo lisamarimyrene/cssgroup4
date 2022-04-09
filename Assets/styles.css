@@ -25,30 +25,63 @@ body .frames {
 body .ground {
   margin-top: auto;
 }
+body #frame1 .ground1 {
+  fill: #79D186;
+}
+body #frame2 .ground2 {
+  fill: #79D186;
+}
 body #frame3 {
   background-color: #70E6F2;
+}
+body #frame3 .ground3 {
+  fill: #79D186;
 }
 body #frame4 {
   background-color: #F2A5A5;
 }
+body #frame4 .ground4 {
+  fill: #79D186;
+}
 body #frame5 {
   background-color: #70E6F2;
+}
+body #frame5 .ground5 {
+  fill: #79D186;
 }
 body #frame6 {
   background-color: #BDD6D4;
 }
+body #frame6 .ground6 {
+  fill: #79D186;
+}
 body #frame7 {
   background-color: #BDD6D4;
+}
+body #frame7 .ground7 {
+  fill: #79D186;
 }
 body #frame8 {
   background-color: #BDD6D4;
 }
+body #frame8 .ground8 {
+  fill: #79D186;
+}
 body #frame9 {
   background-color: #83C2CC;
+}
+body #frame9 .ground9 {
+  fill: #79D186;
 }
 body #frame10 {
   background-color: #83C2CC;
 }
+body #frame10 .ground10 {
+  fill: #79D186;
+}
 body #frame11 {
   background-color: #83C2CC;
+}
+body #frame11 .ground11 {
+  fill: #79D186;
 }/*# sourceMappingURL=styles.css.map */

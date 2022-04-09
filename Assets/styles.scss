@@ -1,5 +1,5 @@
-@use './assets/styles/_colors.scss';
-@use './assets/styles/_fonts.scss';
+@use './styles/colors.scss';
+@use './styles/_fonts.scss';
 
 * {
     padding: 0;
@@ -26,32 +26,79 @@ body {
     .ground {
         margin-top: auto;
     }
+    #frame1 {
+        .ground1 {
+            fill: #79D186;
+        }
+
+    }
+    #frame2 {
+        .ground2 {
+            fill: #79D186;
+        }
+    }
     #frame3{
         background-color: colors.$background-summerBlue;
+        
+        .ground3 {
+            fill: #79D186;
+        }
     }
     #frame4{
         background-color: colors.$background-summerRed;
+
+        .ground4 {
+            fill: #79D186;
+        }
     }
     #frame5{
         background-color: colors.$background-summerBlue;
+
+        .ground5 {
+            fill: #79D186;
+        }
     }
     #frame6{
         background-color: colors.$background-autumnLight;
+
+        .ground6 {
+            fill: #79D186;
+        }
     }
     #frame7{
         background-color: colors.$background-autumnDark;
+
+        .ground7 {
+            fill: #79D186;
+        }
     }
     #frame8{
         background-color: colors.$background-autumnDark;
+
+        .ground8 {
+            fill: #79D186;
+        }
     }
     #frame9{
         background-color: colors.$background-winter;
+
+        .ground9 {
+            fill: #79D186;
+        }
     }
     #frame10{
         background-color: colors.$background-winter;
+
+        .ground10 {
+            fill: #79D186;
+        }
     }
     #frame11{
         background-color: colors.$background-winter;
+
+        .ground11 {
+            fill: #79D186;
+        }
     }
 }
 
