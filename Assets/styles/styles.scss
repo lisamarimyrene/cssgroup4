@@ -5,95 +5,116 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: colors.$background-spring;
     width: 100%;
 
-    h1, p {
+    h1,
+    p {
         margin: 0 auto;
         text-align: center;
         margin-top: 30px;
     }
+
     h1 {
         margin-top: 200px;
     }
+
     .frames {
         height: 100vh;
         border: solid .5px grey;
         display: flex;
         flex-direction: column;
     }
+
     .ground {
         margin-top: auto;
+        width: 100%;
     }
+
+    .three {
+        width: 200px;
+        margin-left: 900px;
+    }
+
     #frame1 {
         .ground1 {
             fill: #79D186;
         }
-
     }
+
     #frame2 {
         .ground2 {
             fill: #79D186;
         }
     }
-    #frame3{
+
+    #frame3 {
         background-color: colors.$background-summerBlue;
-        
+
         .ground3 {
             fill: #8EEA81;
         }
     }
-    #frame4{
+
+    #frame4 {
         background-color: colors.$background-summerRed;
 
         .ground4 {
             fill: #8EEA81;
         }
     }
-    #frame5{
+
+    #frame5 {
         background-color: colors.$background-summerBlue;
 
         .ground5 {
             fill: #8EEA81;
         }
     }
-    #frame6{
+
+    #frame6 {
         background-color: colors.$background-autumnLight;
 
         .ground6 {
             fill: #E0A53D;
         }
     }
-    #frame7{
+
+    #frame7 {
         background-color: colors.$background-autumnDark;
 
         .ground7 {
             fill: #E0A53D;
         }
     }
-    #frame8{
+
+    #frame8 {
         background-color: colors.$background-autumnDark;
 
         .ground8 {
             fill: #E0A53D;
         }
     }
-    #frame9{
+
+    #frame9 {
         background-color: colors.$background-winter;
 
         .ground9 {
             fill: #DAF6F7;
         }
     }
-    #frame10{
+
+    #frame10 {
         background-color: colors.$background-winter;
 
         .ground10 {
             fill: #DAF6F7;
         }
     }
-    #frame11{
+
+    #frame11 {
         background-color: colors.$background-winter;
 
         .ground11 {
@@ -101,4 +122,3 @@ body {
         }
     }
 }
-

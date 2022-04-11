@@ -8,7 +8,8 @@ body {
   background-color: #B5E0EA;
   width: 100%;
 }
-body h1, body p {
+body h1,
+body p {
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
@@ -24,6 +25,11 @@ body .frames {
 }
 body .ground {
   margin-top: auto;
+  width: 100%;
+}
+body .three {
+  width: 200px;
+  margin-left: 900px;
 }
 body #frame1 .ground1 {
   fill: #79D186;
@@ -56,13 +62,13 @@ body #frame6 .ground6 {
   fill: #E0A53D;
 }
 body #frame7 {
-  background-color: #BDD6D4;
+  background-color: #9BAAA7;
 }
 body #frame7 .ground7 {
   fill: #E0A53D;
 }
 body #frame8 {
-  background-color: #BDD6D4;
+  background-color: #9BAAA7;
 }
 body #frame8 .ground8 {
   fill: #E0A53D;
