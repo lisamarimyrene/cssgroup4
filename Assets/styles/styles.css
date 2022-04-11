@@ -1,6 +1,4 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Raleway&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -64,8 +62,6 @@ body #frame6 {
 }
 body #frame6 .ground6 {
   fill: #E0A53D;
-  
-  
 }
 body #frame7 {
   background-color: #9BAAA7;
@@ -97,12 +93,3 @@ body #frame11 {
 body #frame11 .ground11 {
   fill: #DAF6F7;
 }/*# sourceMappingURL=styles.css.map */
-
-
-.tree {
-  width:300px;
-  position:absolute;
-  top:3500px;
-  left:50px;
-}
-
