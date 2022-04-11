@@ -42,16 +42,17 @@ body .three, body .pinetree, body .cloud, body .pinetreeSmall {
 }
 body .three {
   left: 1000px;
+  margin-top: 300px;
 }
 body .pinetree {
   left: 50px;
   width: 220px;
-  margin-top: 300px;
+  margin-top: 380px;
 }
 body .pinetreeSmall {
   width: 140px;
   left: 250px;
-  margin-top: 300px;
+  margin-top: 400px;
 }
 body .cloud {
   margin-top: 40px;
