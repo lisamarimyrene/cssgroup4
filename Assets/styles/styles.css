@@ -34,12 +34,22 @@ body .ground {
   width: 100%;
   display: block;
 }
-body .three {
-  width: 220px;
-  margin-top: 170px;
+body .three, body .pinetree, body .cloud {
+  width: 240px;
+  margin-top: 230px;
   z-index: 100;
   position: absolute;
   left: 30px;
+}
+body .pinetree {
+  left: 260px;
+  width: 200px;
+  margin-top: 360px;
+}
+body .cloud {
+  margin-top: 40px;
+  left: 400px;
+  width: 200px;
 }
 body #frame1 .ground1 {
   fill: #79D186;
