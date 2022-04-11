@@ -34,17 +34,24 @@ body .ground {
   width: 100%;
   display: block;
 }
-body .three, body .pinetree, body .cloud {
+body .three, body .pinetree, body .cloud, body .pinetreeSmall {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
   position: absolute;
-  left: 30px;
+}
+body .three {
+  left: 1000px;
 }
 body .pinetree {
-  left: 260px;
-  width: 200px;
-  margin-top: 360px;
+  left: 50px;
+  width: 220px;
+  margin-top: 300px;
+}
+body .pinetreeSmall {
+  width: 140px;
+  left: 250px;
+  margin-top: 300px;
 }
 body .cloud {
   margin-top: 40px;

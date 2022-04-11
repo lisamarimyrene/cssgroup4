@@ -42,18 +42,27 @@ body {
         
     }
 
-    .three, .pinetree, .cloud {
+    .three, .pinetree, .cloud, .pinetreeSmall {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
         position:absolute;
-        left: 30px;
+      
     }
 
+    .three {
+        left: 1000px;
+    }
 .pinetree {
-    left:260px;
-    width:200px;
-    margin-top:360px;
+    left:50px;
+    width:220px;
+    margin-top:300px;
+}
+
+.pinetreeSmall {
+    width:140px;
+    left:250px;
+    margin-top:300px;
 }
 
 .cloud {
