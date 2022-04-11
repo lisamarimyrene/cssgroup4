@@ -18,11 +18,11 @@ body {
         
     }
 
-    p 
-    {
+    p {
         font-family: fonts.$fontJosefinSans;
         font-size:20px;
     }
+
     h1 {
         margin-top: 200px;
         font-family: fonts.$fontLibreBaskerville;
@@ -46,11 +46,11 @@ body {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
-        position:absolute;
-      
+        position: absolute; 
     }
 
     .three {
+        width: 300px;
         left: 1000px;
         margin-top:300px;
     }
@@ -65,13 +65,25 @@ body {
     left:250px;
     margin-top:400px;
 }
-
-.cloud {
-    margin-top:40px;
-    left:400px;
-    width:200px;
+        margin-top: 240px;
+    }
+    .pinetree {
+        left:50px;
+        width:220px;
+        margin-top:300px;
+    }
     
-}
+    .pinetreeSmall {
+        width:140px;
+        left:250px;
+        margin-top:300px;
+    }
+    
+    .cloud {
+        margin-top:40px;
+        left:400px;
+        width:200px; 
+    }
 
     #frame1 {
         .ground1 {

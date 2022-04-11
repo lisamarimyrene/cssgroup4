@@ -41,8 +41,10 @@ body .three, body .pinetree, body .cloud, body .pinetreeSmall {
   position: absolute;
 }
 body .three {
+  width: 300px;
   left: 1000px;
   margin-top: 300px;
+  margin-top: 240px;
 }
 body .pinetree {
   left: 50px;
