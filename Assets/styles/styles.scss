@@ -39,15 +39,29 @@ body {
         margin-top: auto;
         width: 100%;
         display: block;
+        
     }
 
-    .three {
-        width: 220px;
-        margin-top: 170px;
+    .three, .pinetree, .cloud {
+        width: 240px;
+        margin-top: 230px;
         z-index: 100;
         position:absolute;
         left: 30px;
     }
+
+.pinetree {
+    left:260px;
+    width:200px;
+    margin-top:360px;
+}
+
+.cloud {
+    margin-top:40px;
+    left:400px;
+    width:200px;
+    
+}
 
     #frame1 {
         .ground1 {
