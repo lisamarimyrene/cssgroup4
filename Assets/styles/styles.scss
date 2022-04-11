@@ -31,11 +31,13 @@ body {
     .ground {
         margin-top: auto;
         width: 100%;
+        display: block;
     }
 
     .three {
         width: 200px;
-        margin-left: 900px;
+        margin-top: 100px;
+        z-index: 100;
     }
 
     #frame1 {
