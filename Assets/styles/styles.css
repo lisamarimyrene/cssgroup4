@@ -25,6 +25,7 @@ body p {
 body h1 {
   margin-top: 280px;
   font-family: "Libre Baskerville", serif;
+  color: #575757;
 }
 body .frames {
   height: 100vh;
@@ -76,6 +77,43 @@ body .info-txt {
   max-width: 400px;
   line-height: 35px;
   font-size: 25px;
+}
+body .flower-div {
+  position: absolute;
+  width: 400px;
+  z-index: 100;
+  margin-left: 700px;
+  margin-top: 490px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+body .flower-div .flower {
+  width: 30px;
+}
+body .flower-div .flower1 {
+  margin-bottom: 35px;
+}
+body .flower-div .flower2 {
+  margin-bottom: 40px;
+}
+body .flower-div .flower3 {
+  margin-bottom: 10px;
+}
+body .flower-div .flower4 {
+  margin-bottom: 10px;
+}
+body .flower-div .flower5 {
+  margin-bottom: -25px;
+}
+body .flower-div .flower6 {
+  margin-bottom: -25px;
+}
+body .flower-div .flower7 {
+  margin-bottom: -55px;
+}
+body .flower-div .flower8 {
+  margin-bottom: -45px;
 }
 body #frame1 .ground1 {
   fill: #79D186;
