@@ -20,7 +20,10 @@ body {
 
     p {
         font-family: fonts.$fontJosefinSans;
-        font-size:20px;
+        font-size:25px;
+        max-width: 430px;
+        line-height: 35px;
+        font-weight: 1000;
     }
 
     h1 {
@@ -48,41 +51,34 @@ body {
         z-index: 100;
         position: absolute; 
     }
-
     .three {
         width: 300px;
         left: 1000px;
-        margin-top:300px;
-    }
-.pinetree {
-    left:50px;
-    width:220px;
-    margin-top:380px;
-}
+        margin-top:250px;
 
-.pinetreeSmall {
-    width:140px;
-    left:250px;
-    margin-top:400px;
-}
-        margin-top: 240px;
     }
     .pinetree {
         left:50px;
         width:220px;
-        margin-top:300px;
+        margin-top:390px;
     }
     
     .pinetreeSmall {
         width:140px;
         left:250px;
-        margin-top:300px;
+        margin-top:390px;
     }
     
     .cloud {
         margin-top:40px;
         left:400px;
         width:200px; 
+    }
+    .info-txt {
+        margin-top: 200px;
+        max-width: 400px;
+        line-height: 35px;
+        font-size: 25px;
     }
 
     #frame1 {

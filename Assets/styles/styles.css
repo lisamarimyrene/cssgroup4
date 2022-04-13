@@ -17,7 +17,10 @@ body p {
 }
 body p {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
+  max-width: 430px;
+  line-height: 35px;
+  font-weight: 1000;
 }
 body h1 {
   margin-top: 200px;
@@ -43,23 +46,28 @@ body .three, body .pinetree, body .cloud, body .pinetreeSmall {
 body .three {
   width: 300px;
   left: 1000px;
-  margin-top: 300px;
-  margin-top: 240px;
+  margin-top: 250px;
 }
 body .pinetree {
   left: 50px;
   width: 220px;
-  margin-top: 380px;
+  margin-top: 390px;
 }
 body .pinetreeSmall {
   width: 140px;
   left: 250px;
-  margin-top: 400px;
+  margin-top: 390px;
 }
 body .cloud {
   margin-top: 40px;
   left: 400px;
   width: 200px;
+}
+body .info-txt {
+  margin-top: 200px;
+  max-width: 400px;
+  line-height: 35px;
+  font-size: 25px;
 }
 body #frame1 .ground1 {
   fill: #79D186;
