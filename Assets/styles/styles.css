@@ -23,7 +23,7 @@ body p {
   font-weight: 1000;
 }
 body h1 {
-  margin-top: 200px;
+  margin-top: 280px;
   font-family: "Libre Baskerville", serif;
 }
 body .frames {
@@ -37,13 +37,13 @@ body .ground {
   width: 100%;
   display: block;
 }
-body .three, body .pinetree, body .cloud, body .pinetreeSmall {
+body .tree, body .pinetree, body .cloud, body .pinetreeSmall {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
   position: absolute;
 }
-body .three {
+body .tree {
   width: 300px;
   left: 1000px;
   margin-top: 250px;
@@ -59,12 +59,20 @@ body .pinetreeSmall {
   margin-top: 390px;
 }
 body .cloud {
-  margin-top: 40px;
-  left: 400px;
+  margin-top: 50px;
+  left: 300px;
   width: 200px;
 }
+body .sunsky {
+  width: 190px;
+  margin-top: 20px;
+}
+body .sun {
+  margin-top: 10px;
+  width: 250px;
+}
 body .info-txt {
-  margin-top: 200px;
+  margin-top: 280px;
   max-width: 400px;
   line-height: 35px;
   font-size: 25px;
