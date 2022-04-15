@@ -37,7 +37,9 @@ body {
         border: solid .5px grey;
         display: flex;
         flex-direction: column;
+        
     }
+
 
     .ground {
         margin-top: auto;
@@ -189,6 +191,7 @@ body {
 
     #frame6 {
         background-color: colors.$background-autumnLight;
+       
 
         .ground6 {
             fill: #E0A53D;
