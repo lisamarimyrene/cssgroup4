@@ -38,7 +38,7 @@ body .ground {
   width: 100%;
   display: block;
 }
-body .tree, body .pinetree, body .cloud, body .pinetreeSmall {
+body .tree, body .pinetree, body .cloud, body .pinetreeSmall, body .lightning, body .lightningS, body .tornado {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
@@ -71,6 +71,21 @@ body .sunsky {
 body .sun {
   margin-top: 10px;
   width: 250px;
+}
+body .lightning, body .lightningS {
+  width: 30px;
+  margin-left: 330px;
+  margin-top: 120px;
+  z-index: 80;
+}
+body .lightningS {
+  margin-left: 350px;
+  margin-top: 200px;
+}
+body .tornado {
+  width: 80px;
+  margin-left: 40px;
+  margin-top: 340px;
 }
 body .info-txt {
   margin-top: 280px;
