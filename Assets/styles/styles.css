@@ -36,8 +36,6 @@ body .ground {
   margin-top: auto;
   width: 100%;
   display: block;
-  position: -webkit-sticky;
-  position: sticky;
 }
 body .tree, body .pinetree, body .cloud, body .pinetreeSmall, body .lightning, body .lightningS, body .tornado {
   width: 240px;
