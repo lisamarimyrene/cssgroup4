@@ -346,20 +346,20 @@
 }
 @-webkit-keyframes raindrop {
   0% {
-    left: 200px;
+    left: 20%;
   }
   100% {
     margin-top: 600px;
-    left: 100px;
+    left: 10%;
   }
 }
 @keyframes raindrop {
   0% {
-    left: 200px;
+    left: 20%;
   }
   100% {
     margin-top: 600px;
-    left: 100px;
+    left: 10%;
   }
 }
 * {
@@ -474,25 +474,83 @@ body .raindrops {
   position: absolute;
   left: 10px;
   width: 0.5px;
-  height: 20px;
+  height: 25px;
   background: white;
   transform: rotate(10deg);
-  -webkit-animation: raindrop 1s infinite;
-          animation: raindrop 1s infinite;
   z-index: 101;
 }
-body .rain1 {
-  left: 50px;
+body .rain1, body .rain4, body .rain7, body .rain9, body .rain14, body .rain16 {
   -webkit-animation: raindrop 1.5s infinite;
           animation: raindrop 1.5s infinite;
 }
-body .rain2 {
-  left: 100px;
+body .rain2, body .rain6, body .rain10, body .rain15, body .rain20 {
+  -webkit-animation: raindrop 2s infinite;
+          animation: raindrop 2s infinite;
 }
-body .rain3 {
-  left: 150px;
+body .rain3, body .rain8, body .rain11, body .rain19, body .rain17 {
   -webkit-animation: raindrop 0.5s infinite;
           animation: raindrop 0.5s infinite;
+}
+body .rain5, body .rain13, body .rain18, body .rain12 {
+  -webkit-animation: raindrop 1s infinite;
+          animation: raindrop 1s infinite;
+}
+body .rain2 {
+  margin-left: -15%;
+}
+body .rain3 {
+  margin-left: -10%;
+}
+body .rain4 {
+  margin-left: 5%;
+}
+body .rain5 {
+  margin-left: 10%;
+}
+body .rain6 {
+  margin-left: 15%;
+}
+body .rain7 {
+  margin-left: 20%;
+}
+body .rain8 {
+  margin-left: 20%;
+}
+body .rain9 {
+  margin-left: 25%;
+}
+body .rain10 {
+  margin-left: 35%;
+}
+body .rain11 {
+  margin-left: 40%;
+}
+body .rain12 {
+  margin-left: 45%;
+}
+body .rain13 {
+  margin-left: 50%;
+}
+body .rain14 {
+  margin-left: 55%;
+}
+body .rain15 {
+  margin-left: 60%;
+}
+body .rain16 {
+  margin-left: 65%;
+}
+body .rain17 {
+  margin-left: 70%;
+}
+body .rain18 {
+  margin-left: 75%;
+}
+body .rain19 {
+  margin-left: 80%;
+}
+body .rain20 {
+  margin-left: 90%;
 }
 body .info-txt {
   margin-top: 280px;
