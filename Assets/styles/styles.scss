@@ -52,7 +52,8 @@ body {
     .pinetreeSmall,
     .lightning,
     .lightningS,
-    .tornado {
+    .tornado,
+    .tornado2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
@@ -103,19 +104,53 @@ body {
         margin-left: 330px;
         margin-top: 120px;
         z-index: 80;
+        animation: lightning 6s infinite;
 
     }
 
     .lightningS {
         margin-left: 350px;
         margin-top: 200px;
+        
     }
 
-    .tornado {
+    .tornado, .tornado2 {
         width: 80px;
         margin-left: 40px;
         margin-top: 340px;
+        animation:  tornado 6s infinite;
+        z-index:100;
     }
+
+.tornado2 {
+    animation: tornado2 4s infinite; 
+    z-index:99;
+}
+
+.raindrops  {
+    position: absolute;
+    left:10px;
+    width: .5px;
+    height: 20px;
+    background:white;
+    transform: rotate(10deg);
+    animation: raindrop 1s infinite;
+    z-index:101;
+}
+
+.rain1 {
+    left:50px;
+    animation: raindrop 1.5s infinite;
+}
+
+.rain2 {
+    left:100px;
+}
+
+.rain3 {
+    left:150px;
+    animation: raindrop .5s infinite;
+}
 
     .info-txt {
         margin-top: 280px;
@@ -316,6 +351,7 @@ body {
             animation: flower8 2s ease-in;
         }
         
+      
 
     }
 }

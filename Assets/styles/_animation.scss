@@ -57,3 +57,32 @@
     50% {left: 500px;}
     100% {left: 300px;}
 }
+
+@keyframes lightning {
+    0% {  left: 100px;}
+    50% { margin-top:400px; left: 100px;}
+    100% {left: 100px; }
+}
+
+@keyframes tornado {
+   
+    0% { left: 350px; margin-top:450px; }
+    30% {left: 500px; width:80px; margin-top:500px; }
+    50% { margin-top:400px; left: 600px; width:100px;}
+    75% {left: 500px; width:90px; margin-top:450px; }
+    100% {left: 350px;  margin-top:450px; }
+}
+
+@keyframes tornado2 {
+
+    0% { right: 50px; margin-top:450px; }
+    50% { margin-top:460px; right: 100px; width:130px;}
+    100% {right: 50px;  margin-top:450px; }
+
+}
+
+@keyframes raindrop {
+0% {left:200px;}
+    100% { margin-top:600px; left:100px;  }
+
+}
