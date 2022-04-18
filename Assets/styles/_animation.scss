@@ -1,0 +1,59 @@
+@keyframes ground {
+    from {opacity: 0; bottom: -350px;}
+    to {opacity: 1; bottom: 0px;}
+}
+@keyframes flower1 {
+    from {margin-bottom: 200px;}
+    to {margin-bottom: 35px;}
+}
+@keyframes flower2 {
+    from {margin-bottom: 150px;}
+    to {margin-bottom: 15px}
+}
+@keyframes flower3 {
+    from {margin-bottom: 200px;}
+    to {margin-bottom: 20px;}
+}
+@keyframes flower4 {
+    from {margin-bottom: 150px;}
+    to {margin-bottom: -5px;}
+}
+@keyframes flower5 {
+    from {margin-bottom: 200px;}
+    to {margin-bottom: -20px;}
+}
+@keyframes flower6 {
+    from {margin-bottom: 150px;}
+    to {margin-bottom: -45px;}
+}
+@keyframes flower7 {
+    from {margin-bottom: 200px;}
+    to {margin-bottom: -35px;}
+}
+@keyframes flower8 {
+    from {margin-bottom: 150px;}
+    to {margin-bottom: -65px;}
+}
+@keyframes tree {
+    from {left: 1500px;}
+    to {left: 1000px;}
+}
+@keyframes pinetreeBig {
+    from {left: -200px;}
+    to {left: 50px;}
+    
+}
+@keyframes pinetreeSmall {
+    from {left: -200px;}
+    to {left: 250px;}
+}
+@keyframes text {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes cloud {
+    0% {left: 300px;}
+    50% {left: 500px;}
+    100% {left: 300px;}
+}
