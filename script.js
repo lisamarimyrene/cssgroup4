@@ -1,3 +1,5 @@
+//Documentation: https://scrollmagic.io/docs/ScrollMagic.Scene.html
+
 //Controller
 let controller = new ScrollMagic.Controller();
 
