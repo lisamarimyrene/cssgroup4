@@ -53,7 +53,8 @@ body {
     .lightning,
     .lightningS,
     .tornado,
-    .tornado2 {
+    .tornado2,
+    .cloud2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
@@ -86,6 +87,11 @@ body {
         margin-top: 50px;
         width: 200px;
         animation: cloud 6s infinite;
+    }
+
+    .cloud2 {
+        margin-top:100px;
+        animation: cloud2 6s infinite;
     }
 
     .sunsky {
@@ -230,6 +236,23 @@ body {
 .rain20 {
     margin-left:90%;
 }
+
+//Media quieries to reduce animations
+
+@media (prefers-reduced-motion) {
+    .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
+        animation: none;
+    }
+
+    .raindrops {
+        visibility: hidden;
+    }
+
+    .cloud {
+        left:250px;
+    }
+}
+
 
     .info-txt {
         margin-top: 280px;

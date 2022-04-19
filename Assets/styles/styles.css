@@ -240,6 +240,28 @@
     left: 300px;
   }
 }
+@-webkit-keyframes cloud2 {
+  0% {
+    left: 1000px;
+  }
+  50% {
+    left: 1100px;
+  }
+  100% {
+    left: 1000px;
+  }
+}
+@keyframes cloud2 {
+  0% {
+    left: 1000px;
+  }
+  50% {
+    left: 1100px;
+  }
+  100% {
+    left: 1000px;
+  }
+}
 @-webkit-keyframes lightning {
   0% {
     left: 100px;
@@ -406,7 +428,8 @@ body .pinetreeSmall,
 body .lightning,
 body .lightningS,
 body .tornado,
-body .tornado2 {
+body .tornado2,
+body .cloud2 {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
@@ -435,6 +458,11 @@ body .cloud {
   width: 200px;
   -webkit-animation: cloud 6s infinite;
           animation: cloud 6s infinite;
+}
+body .cloud2 {
+  margin-top: 100px;
+  -webkit-animation: cloud2 6s infinite;
+          animation: cloud2 6s infinite;
 }
 body .sunsky {
   width: 190px;
@@ -551,6 +579,18 @@ body .rain19 {
 }
 body .rain20 {
   margin-left: 90%;
+}
+@media (prefers-reduced-motion) {
+  body .cloud, body .cloud2, body .lightning, body .lightningS, body .raindrops, body .flower-div, body .tornado, body .tornado2 {
+    -webkit-animation: none;
+            animation: none;
+  }
+  body .raindrops {
+    visibility: hidden;
+  }
+  body .cloud {
+    left: 250px;
+  }
 }
 body .info-txt {
   margin-top: 280px;
