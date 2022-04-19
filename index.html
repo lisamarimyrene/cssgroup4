@@ -10,14 +10,18 @@
 </head>
 
 <body>
+    <!---- SCROLLY MAGIC LIBRARY ---->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
     <!------------------------- SPRING ------------------------->
-    <div class="frames" id="frame1">
-        <h1>Global Warming...</h1>
-        <p>..is a real issue affecting the entire globe.</p>
+
+    <div class="frames frame1">
+        <h1 class="text">Global Warming...</h1>
+        <p class="text">..is a real issue affecting the entire globe.</p>
         
         <img class="tree" src="./assets/svgGeneral/svgSpring/threeSpringWinter.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
+        <img class="pinetreeSmall" id="pinetreeSmall1" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
         <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsWhite.svg" alt="Clouds">
         <div class="flower-div">
             <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink1.svg" alt="flower1">
@@ -34,14 +38,15 @@
             <path class="ground1" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
-    <div class="frames" id="frame2">
-        <h1>The seasons are changing</h1>
-        <p>We will take you through every season and their changes.</p>
+    
+    <div class="frames frame2">
+        <h1 class="text">The seasons are changing</h1>
+        <p class="text">We will take you through every season and their changes.</p>
      
         <img class="tree" src="./assets/svgGeneral/svgSpring/threeSpringFlowers.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud sunsky" src="./Assets/svgGeneral/svgSpring/cloudsWhiteSun.svg" alt="Clouds">
+        <img class="cloud sunsky"src="./Assets/svgGeneral/svgSpring/cloudsWhiteSun.svg" alt="Clouds">
         <div class="flower-div">
             <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg" alt="flower1">
             <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg" alt="flower2">
@@ -59,8 +64,8 @@
     </div>
 
     <!------------------------- SUMMER ------------------------->
-    <div class="frames" id="frame3">
-        <h1>Summer</h1>
+    <div class="frames frame3">
+        <h1 class="text">Summer</h1>
         <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
@@ -80,8 +85,8 @@
             <path class="ground3" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
-    <div class="frames" id="frame4">
-        <p class="info-txt">The temperature are getting higher with an increased risk of drought.</p>
+    <div class="frames frame4">
+        <p class="text info-txt">The temperature are getting higher with an increased risk of drought.</p>
         <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
@@ -101,8 +106,8 @@
             <path class="ground4" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
-    <div class="frames" id="frame5">
-        <p class="info-txt">The summer will also last longer which shortens the other seasons.</p>
+    <div class="frames frame5">
+        <p class="text info-txt">The summer will also last longer which shortens the other seasons.</p>
         <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
@@ -124,8 +129,9 @@
     </div>
     
     <!------------------------- FALL ------------------------->
-    <div class="frames" id="frame6">
-        <h1>Fall</h1>
+    <div class="frames frame6">
+        <h1 class="text">Fall</h1>
+        <p>The fall season will be warmer and shorter, with more weather changes..</p>
         <img class="tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
@@ -147,16 +153,35 @@
         </svg>
        
     </div>
-    <div class="frames" id="frame7">
-        <p class="info-txt">The weather will be more destructive and extreme than ever before.</p>
+    <div class="frames frame7">
+        <p class="text info-txt">The temperature changes causes more destructive and extreme weather than ever before. *add more text later*  </p>
+        <div class="raindrops rain1"></div>
+<div class="raindrops rain2"></div>
+<div class="raindrops rain3"></div>
+<div class="raindrops rain4"></div>
+<div class="raindrops rain5"></div>
+<div class="raindrops rain6"></div>
+<div class="raindrops rain7"></div>
+<div class="raindrops rain8"></div>
+<div class="raindrops rain9"></div>
+<div class="raindrops rain10"></div>
+<div class="raindrops rain11"></div>
+<div class="raindrops rain12"></div>
+<div class="raindrops rain13"></div>
+<div class="raindrops rain14"></div>
+<div class="raindrops rain15"></div>
+<div class="raindrops rain16"></div>
+<div class="raindrops rain17"></div>
+<div class="raindrops rain18"></div>
+<div class="raindrops rain19"></div>
+<div class="raindrops rain20"></div>
+
 
         <img class="tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
         <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
         <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
-        <img class="lightning" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
-        <img class="lightningS" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
-        <img class="tornado" src="./Assets/svgGeneral/svgFall/stormSmall.svg" alt="Tornado">
+        <img class="cloud2" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
         <div class="flower-div">
             <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg" alt="flower1">
             <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg" alt="flower2">
@@ -172,8 +197,29 @@
             <path class="ground7" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
-    <div class="frames" id="frame8">
-        <p class="info-txt">Hurricanes and tornadoes will be more frequent and cause irrepearable damages to humanity and earth...</p>
+    <div class="frames frame8">
+        <p class="text info-txt">Hurricanes and tornadoes will be more extreme and cause irrepearable damages to humanity and earth... *add more text later*</p>
+<div class="raindrops rain1"></div>
+<div class="raindrops rain2"></div>
+<div class="raindrops rain3"></div>
+<div class="raindrops rain4"></div>
+<div class="raindrops rain5"></div>
+<div class="raindrops rain6"></div>
+<div class="raindrops rain7"></div>
+<div class="raindrops rain8"></div>
+<div class="raindrops rain9"></div>
+<div class="raindrops rain10"></div>
+<div class="raindrops rain11"></div>
+<div class="raindrops rain12"></div>
+<div class="raindrops rain13"></div>
+<div class="raindrops rain14"></div>
+<div class="raindrops rain15"></div>
+<div class="raindrops rain16"></div>
+<div class="raindrops rain17"></div>
+<div class="raindrops rain18"></div>
+<div class="raindrops rain19"></div>
+<div class="raindrops rain20"></div>
+
 
         <img class="tree" src="./assets/svgGeneral/svgFall/treeFallWinter.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
@@ -181,7 +227,8 @@
         <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
         <img class="lightning" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
         <img class="lightningS" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
- <img class="tornado" src="./Assets/svgGeneral/svgFall/stormSmall.svg" alt="Tornado">
+        
+        <img class="tornado2" src="./Assets/svgGeneral/svgFall/stormSmall.svg" alt="Tornado">
 
         <div class="flower-div">
             <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower1">
@@ -198,9 +245,10 @@
             <path class="ground8" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
+
     <!------------------------- WINTER ------------------------->
-    <div class="frames" id="frame9">
-        <h1>Winter</h1>
+    <div class="frames frame9">
+        <h1 class="text">Winter</h1>
 
         <img class="tree" src="./assets/svgGeneral/svgWinter/threeYellow.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
@@ -221,8 +269,8 @@
             <path class="ground9" d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55" transform="translate(-0.06 -8.39)"/>
         </svg>
     </div>
-    <div class="frames" id="frame10">
-        <p class="info-txt">The winter are getting shorter and there's less snow throughout the season.</p>
+    <div class="frames frame10">
+        <p class="text info-txt">The winter are getting shorter and there's less snow throughout the season.</p>
 
         <img class="tree" src="./assets/svgGeneral/svgWinter/threeWinter.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">
@@ -244,8 +292,8 @@
         </svg>
 
     </div>
-    <div class="frames" id="frame11">
-        <p class="info-txt">The permafrost can melt, and this will have fatal concequences for the globe.</p>
+    <div class="frames frame11">
+        <p class="text info-txt">The permafrost can melt, and this will have fatal concequences for the globe.</p>
 
         <img class="tree" src="./assets/svgGeneral/svgWinter/threeWinter.svg" alt="Tree">
         <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">

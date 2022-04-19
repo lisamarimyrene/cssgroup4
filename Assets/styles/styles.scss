@@ -1,5 +1,6 @@
 @use './colors.scss';
 @use './fonts.scss';
+@use './animation';
 
 * {
     padding: 0;
@@ -7,20 +8,19 @@
 }
 
 body {
-    background-color: colors.$background-spring;
     width: 100%;
+
 
     h1,
     p {
         margin: 0 auto;
         text-align: center;
         margin-top: 10px;
-        
     }
 
     p {
         font-family: fonts.$fontJosefinSans;
-        font-size:25px;
+        font-size: 25px;
         max-width: 430px;
         line-height: 35px;
         font-weight: 1000;
@@ -36,73 +36,223 @@ body {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        
     }
-
 
     .ground {
         margin-top: auto;
+        bottom: 0;
         width: 100%;
-        display: block;
-        
+        position: fixed;
+
     }
 
-    .tree, .pinetree, .cloud, .pinetreeSmall, .lightning, .lightningS, .tornado {
+    .tree,
+    .pinetree,
+    .cloud,
+    .pinetreeSmall,
+    .lightning,
+    .lightningS,
+    .tornado,
+    .tornado2,
+    .cloud2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
-        position: absolute; 
+        position: absolute;
     }
+
     .tree {
         width: 300px;
         left: 1000px;
-        margin-top:250px;
+        margin-top: 250px;
+        position: absolute;
 
     }
+
     .pinetree {
-        left:50px;
-        width:220px;
-        margin-top:370px;
+        left: 50px;
+        width: 220px;
+        margin-top: 370px;
+        position: absolute;
     }
-    
+
     .pinetreeSmall {
-        width:140px;
-        left:250px;
-        margin-top:390px;
+        width: 140px;
+        left: 250px;
+        margin-top: 390px;
+        position: absolute;
     }
-    
+
     .cloud {
-        margin-top:50px;
-        left:300px;
-        width:200px; 
+        margin-top: 50px;
+        width: 200px;
+        animation: cloud 6s infinite;
     }
+
+    .cloud2 {
+        margin-top:100px;
+        animation: cloud2 6s infinite;
+    }
+
     .sunsky {
         width: 190px;
         margin-top: 20px;
     }
+
     .sun {
         margin-top: 10px;
-        width:250px;
+        width: 250px;
     }
 
-    .lightning, .lightningS {
-        width:30px;
-        margin-left:330px;
-        margin-top:120px;
-        z-index:80;
-    
+    .lightning,
+    .lightningS {
+        width: 30px;
+        margin-left: 330px;
+        margin-top: 120px;
+        z-index: 80;
+        animation: lightning 6s infinite;
+
     }
 
     .lightningS {
         margin-left: 350px;
-        margin-top:200px;
+        margin-top: 200px;
+        
     }
 
-    .tornado {
-        width:80px;
-        margin-left:40px;
-        margin-top:340px;
+    .tornado, .tornado2 {
+        width: 80px;
+        margin-left: 40px;
+        margin-top: 340px;
+        animation:  tornado 6s infinite;
+        z-index:100;
     }
+
+.tornado2 {
+    animation: tornado2 4s infinite; 
+    z-index:99;
+}
+
+.raindrops  {
+    position: absolute;
+    left:10px;
+    width: .5px;
+    height: 25px;
+    background:white;
+    transform: rotate(10deg);
+    z-index:101;
+}
+
+
+.rain1, .rain4, .rain7, .rain9, .rain14, .rain16 {
+    animation: raindrop 1.5s infinite;
+}
+
+.rain2, .rain6, .rain10, .rain15, .rain20 {
+    animation: raindrop 2s infinite;
+}
+
+.rain3, .rain8, .rain11, .rain19, .rain17 {
+    animation: raindrop .5s infinite;
+}
+
+.rain5, .rain13, .rain18, .rain12 {
+    animation: raindrop 1s infinite;
+}
+
+
+.rain2 {
+    margin-left:-15%;
+}
+
+.rain3 {
+    margin-left:-10%; 
+}
+
+.rain4 {
+    margin-left:5%; 
+}
+
+.rain5 {
+    margin-left:10%;
+}
+  
+.rain6 {
+    margin-left:15%;  
+}
+
+.rain7 {
+    margin-left:20%;
+}
+
+.rain8 {
+    margin-left:20%;
+}
+
+.rain9 {
+    margin-left:25%;
+}
+
+.rain10 {
+    margin-left:35%;
+}
+
+.rain11 {
+    margin-left:40%;
+}
+
+.rain12 {
+    margin-left:45%;
+}
+
+.rain13 {
+    margin-left:50%;
+}
+
+.rain14 {
+    margin-left:55%;
+}
+
+.rain15 {
+    margin-left:60%;
+}
+
+.rain16 {
+    margin-left:65%;
+}
+
+.rain17 {
+    margin-left:70%;
+}
+
+.rain18 {
+    margin-left:75%;
+}
+
+.rain19 {
+    margin-left:80%;
+}
+
+.rain20 {
+    margin-left:90%;
+}
+
+//Media quieries to reduce animations
+
+@media (prefers-reduced-motion) {
+    .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
+        animation: none;
+    }
+
+    .raindrops {
+        visibility: hidden;
+    }
+
+    .cloud {
+        left:250px;
+    }
+}
+
 
     .info-txt {
         margin-top: 280px;
@@ -110,6 +260,7 @@ body {
         line-height: 35px;
         font-size: 25px;
     }
+
     .flower-div {
         position: absolute;
         width: 400px;
@@ -122,118 +273,187 @@ body {
 
         .flower {
             width: 30px;
-    
+
         }
+
         .flower1 {
             margin-bottom: 35px;
         }
+
         .flower2 {
             margin-bottom: 15px;
         }
+
         .flower3 {
             margin-bottom: 20px;
         }
+
         .flower4 {
             margin-bottom: -5px;
         }
+
         .flower5 {
             margin-bottom: -20px;
-            
         }
+
         .flower6 {
             margin-bottom: -40px;
         }
+
         .flower7 {
             margin-bottom: -35px;
-            
         }
+
         .flower8 {
             margin-bottom: -65px;
         }
     }
 
-    #frame1 {
+    //FRAMES
+    .frame1 {
+        opacity: 0;
+        background-color: colors.$background-spring;
+
         .ground1 {
             fill: #79D186;
         }
     }
+    .frame2 {
+        opacity: 0;
+        background-color: colors.$background-spring;
 
-    #frame2 {
         .ground2 {
             fill: #79D186;
         }
     }
-
-    #frame3 {
+    .frame3 {
+        opacity: 0;
         background-color: colors.$background-summerBlue;
 
         .ground3 {
             fill: #8EEA81;
         }
-    }
 
-    #frame4 {
+    }
+    .frame4 {
+        opacity: 0;
         background-color: colors.$background-summerRed;
 
         .ground4 {
             fill: #8EEA81;
         }
-    }
 
-    #frame5 {
+    }
+    .frame5 {
+        opacity: 0;
         background-color: colors.$background-summerBlue;
 
         .ground5 {
             fill: #8EEA81;
         }
     }
-
-    #frame6 {
+    .frame6 {
+        opacity: 0;
         background-color: colors.$background-autumnLight;
-       
 
         .ground6 {
             fill: #E0A53D;
         }
     }
-
-    #frame7 {
+    .frame7 {
+        opacity: 0;
         background-color: colors.$background-autumnDark;
 
         .ground7 {
             fill: #E0A53D;
         }
     }
-
-    #frame8 {
+    .frame8 {
+        opacity: 0;
         background-color: colors.$background-autumnDark;
 
         .ground8 {
             fill: #E0A53D;
         }
     }
-
-    #frame9 {
+    .frame9 {
+        opacity: 0;
         background-color: colors.$background-winter;
 
         .ground9 {
             fill: #DAF6F7;
         }
     }
-
-    #frame10 {
+    .frame10 {
+        opacity: 0;
         background-color: colors.$background-winter;
 
         .ground10 {
             fill: #DAF6F7;
         }
     }
-
-    #frame11 {
+    .frame11 {
+        opacity: 0;
         background-color: colors.$background-winter;
 
         .ground11 {
             fill: #DAF6F7;
         }
     }
-}
+
+    //SCROLLY MAGIC CHANGES
+    .frame1.show1, 
+    .frame2.show2,
+    .frame3.show3, 
+    .frame4.show4, 
+    .frame5.show5, 
+    .frame6.show6, 
+    .frame7.show7, 
+    .frame8.show8, 
+    .frame9.show9, 
+    .frame10.show10,
+    .frame11.show11  {
+        opacity: 1;
+        transition: 1s;
+    
+        .text {
+            animation: text 10s ease;
+        }
+        .tree {
+            animation: tree 2s ease;
+        }
+        .pinetree {
+            animation: pinetreeBig 2s ease;
+        }
+        .pinetreeSmall{
+            animation: pinetreeSmall 2s ease;
+        }
+        .flower1 {
+            animation: flower1 2s ease-in;
+        }
+        .flower2 {
+            animation: flower2 2s ease-in;
+        }
+        .flower3 {
+            animation: flower3 2s ease-in;
+        }
+        .flower4 {
+            animation: flower4 2s ease-in;
+        }
+        .flower5 {
+            animation: flower5 2s ease-in;
+        }
+        .flower6 {
+            animation: flower6 2s ease-in;
+        }
+        .flower7 {
+            animation: flower7 2s ease-in;   
+        }
+        .flower8 {
+            animation: flower8 2s ease-in;
+        }
+        
+      
+
+    }
+} 
