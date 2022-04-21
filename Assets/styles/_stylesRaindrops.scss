@@ -44,80 +44,124 @@
 }
 
 
-.rain2 {
+.rain2, .snow2 {
     margin-left: -15%;
 }
 
-.rain3 {
+.rain3, .snow3 {
     margin-left: -10%;
 }
 
-.rain4 {
+.rain4, .snow4{
     margin-left: 5%;
 }
 
-.rain5 {
+.rain5, .snow5 {
     margin-left: 10%;
 }
 
-.rain6 {
+.rain6, .snow6{
     margin-left: 15%;
 }
 
-.rain7 {
+.rain7, .snow7{
     margin-left: 20%;
 }
 
-.rain8 {
+.rain8, .snow8{
     margin-left: 20%;
 }
 
-.rain9 {
+.rain9, .snow9 {
     margin-left: 25%;
 }
 
-.rain10 {
+.rain10, .snow10 {
     margin-left: 35%;
 }
 
-.rain11 {
+.rain11, .snow11 {
     margin-left: 40%;
 }
 
-.rain12 {
+.rain12, .snow12{
     margin-left: 45%;
 }
 
-.rain13 {
+.rain13, .snow13{
     margin-left: 50%;
 }
 
-.rain14 {
+.rain14, .snow14 {
     margin-left: 55%;
 }
 
-.rain15 {
+.rain15, .snow15 {
     margin-left: 60%;
 }
 
-.rain16 {
+.rain16, .snow16 {
     margin-left: 65%;
 }
 
-.rain17 {
+.rain17, .snow17 {
     margin-left: 70%;
 }
 
-.rain18 {
+.rain18, .snow18 {
     margin-left: 75%;
 }
 
-.rain19 {
+.rain19, .snow19 {
     margin-left: 80%;
 }
 
-.rain20 {
+.rain20, .snow20 {
     margin-left: 90%;
 }
 
 
+//Styling : Snowflakes
+
+.snowflakes{
+    position: absolute;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: white;
+    z-index: 101;
+}
+
+
+.snow1,
+.snow4,
+.snow7,
+.snow9,
+.snow14,
+.snow16 {
+    animation: snowflake 4s infinite;
+}
+
+.snow2,
+.snow6,
+.snow10,
+.snow15,
+.snow20 {
+    animation: snowflake 6s infinite;
+}
+
+.snow3,
+.snow8,
+.snow11,
+.snow19,
+.snow17 {
+    animation: snowflake 5s infinite;
+}
+
+.snow5,
+.snow13,
+.snow18,
+.snow12 {
+    animation: snowflake 8s infinite;
+}

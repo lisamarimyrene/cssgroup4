@@ -83,6 +83,14 @@
     0%   {left: 20%}
     100% { margin-top:600px; left:10%;  }
 }
+   
+@keyframes snowflake {
+    0% {left:20%}
+    50% {left:18%}
+    100% {margin-top:600px; left:15%}
+}
+
+
 @keyframes earth {
     0%   {margin-top: -600px;}
     100% { margin-top:-350px;}
