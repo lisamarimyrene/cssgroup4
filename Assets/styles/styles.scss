@@ -190,6 +190,14 @@ body {
         max-width: 150px;
         animation: flame3 2s infinite;
     }
+    .statometer {
+        z-index: 100;
+        position: absolute;
+        margin-left: 700px;
+        margin-top: 80px;
+        max-width: 15px;
+        animation: text 4s ease-in;
+    }
     .heatwave {
         z-index: 100;
         position: absolute;

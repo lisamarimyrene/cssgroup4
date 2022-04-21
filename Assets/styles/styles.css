@@ -631,7 +631,7 @@
 @-webkit-keyframes heatwave1 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -641,7 +641,7 @@
 @keyframes heatwave1 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -651,7 +651,7 @@
 @-webkit-keyframes heatwave2 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -661,7 +661,7 @@
 @keyframes heatwave2 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -671,7 +671,7 @@
 @-webkit-keyframes heatwave3 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -681,7 +681,7 @@
 @keyframes heatwave3 {
   0% {
     opacity: 0;
-    margin-top: 110vh;
+    margin-top: 80vh;
   }
   100% {
     opacity: 1;
@@ -1259,6 +1259,15 @@ body .flame3 {
   max-width: 150px;
   -webkit-animation: flame3 2s infinite;
           animation: flame3 2s infinite;
+}
+body .statometer {
+  z-index: 100;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 80px;
+  max-width: 15px;
+  -webkit-animation: text 4s ease-in;
+          animation: text 4s ease-in;
 }
 body .heatwave {
   z-index: 100;
