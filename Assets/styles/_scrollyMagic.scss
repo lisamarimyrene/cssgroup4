@@ -1,0 +1,64 @@
+    //Intersection Observer: Scroll Magic
+    
+    .frame1.show1,
+    .frame2.show2,
+    .frame3.show3,
+    .frame4.show4,
+    .frame5.show5,
+    .frame6.show6,
+    .frame7.show7,
+    .frame8.show8,
+    .frame9.show9,
+    .frame10.show10,
+    .frame11.show11 {
+        opacity: 1;
+        transition: 1s;
+
+        .text {
+            animation: text 10s ease;
+        }
+
+        .tree {
+            animation: tree 2s ease;
+        }
+
+        .pinetree {
+            animation: pinetreeBig 2s ease;
+        }
+
+        .pinetreeSmall {
+            animation: pinetreeSmall 2s ease;
+        }
+
+        .flower1 {
+            animation: flower1 2s ease-in;
+        }
+
+        .flower2 {
+            animation: flower2 2s ease-in;
+        }
+
+        .flower3 {
+            animation: flower3 2s ease-in;
+        }
+
+        .flower4 {
+            animation: flower4 2s ease-in;
+        }
+
+        .flower5 {
+            animation: flower5 2s ease-in;
+        }
+
+        .flower6 {
+            animation: flower6 2s ease-in;
+        }
+
+        .flower7 {
+            animation: flower7 2s ease-in;
+        }
+
+        .flower8 {
+            animation: flower8 2s ease-in;
+        }
+    }

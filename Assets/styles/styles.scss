@@ -1,6 +1,10 @@
 @use './colors.scss';
 @use './fonts.scss';
 @use './animation';
+@use './scrollyMagic';
+@use './mediaQuieries';
+@use './stylesRaindrops';
+@use './stylesFrames';
 
 * {
     padding: 0;
@@ -32,6 +36,29 @@ body {
         color: colors.$title;
     }
 
+    .globalwarming {
+        margin-top: 200px;
+    }
+
+    .info {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 500px;
+    }
+
+    .h1frame2 {
+        max-width: 500px;
+        font-size: 25px;
+        margin-top: 190px;
+        line-height: 40px;
+    }
+
+    .pframe2 {
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
     .frames {
         height: 100vh;
         display: flex;
@@ -54,7 +81,9 @@ body {
     .lightningS,
     .tornado,
     .tornado2,
-    .cloud2 {
+    .cloud2,
+    .bird1,
+    .bird2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
@@ -90,7 +119,7 @@ body {
     }
 
     .cloud2 {
-        margin-top:100px;
+        margin-top: 100px;
         animation: cloud2 6s infinite;
     }
 
@@ -102,6 +131,64 @@ body {
     .sun {
         margin-top: 10px;
         width: 250px;
+    }
+
+    .earth {
+        width: 120px;
+        margin-left: 900px;
+        margin-top: -350px;
+        animation: earth 5s ease;
+    }
+
+    .bunny {
+        max-width: 80px;
+        left: 250px;
+        margin-top: 650px;
+        position: absolute;
+        z-index: 100;
+        animation: bunny 10s infinite;
+    }
+
+    .bird1,
+    .bird2 {
+        max-width: 50px;
+        z-index: 200;
+    }
+
+    .bird1 {
+        animation: bird1 10s infinite;
+    }
+
+    .bird2 {
+        animation: bird2 10s infinite;
+    }
+
+    .flame1,
+    .flame2,
+    .flame3 {
+        z-index: 100;
+        position: absolute;
+    }
+
+    .flame1 {
+        margin-left: 50px;
+        margin-top: 590px;
+        max-width: 120px;
+        animation: flame1 2s infinite;
+    }
+
+    .flame2 {
+        margin-left: 220px;
+        margin-top: 520px;
+        max-width: 100px;
+        animation: flame2 2s infinite;
+    }
+
+    .flame3 {
+        margin-left: 420px;
+        margin-top: 550px;
+        max-width: 150px;
+        animation: flame3 2s infinite;
     }
 
     .lightning,
@@ -117,145 +204,26 @@ body {
     .lightningS {
         margin-left: 350px;
         margin-top: 200px;
-        
+
     }
 
-    .tornado, .tornado2 {
+    .tornado,
+    .tornado2 {
         width: 80px;
         margin-left: 40px;
         margin-top: 340px;
-        animation:  tornado 6s infinite;
-        z-index:100;
+        animation: tornado 6s infinite;
+        z-index: 100;
     }
 
-.tornado2 {
-    animation: tornado2 4s infinite; 
-    z-index:99;
-}
-
-.raindrops  {
-    position: absolute;
-    left:10px;
-    width: .5px;
-    height: 25px;
-    background:white;
-    transform: rotate(10deg);
-    z-index:101;
-}
-
-
-.rain1, .rain4, .rain7, .rain9, .rain14, .rain16 {
-    animation: raindrop 1.5s infinite;
-}
-
-.rain2, .rain6, .rain10, .rain15, .rain20 {
-    animation: raindrop 2s infinite;
-}
-
-.rain3, .rain8, .rain11, .rain19, .rain17 {
-    animation: raindrop .5s infinite;
-}
-
-.rain5, .rain13, .rain18, .rain12 {
-    animation: raindrop 1s infinite;
-}
-
-
-.rain2 {
-    margin-left:-15%;
-}
-
-.rain3 {
-    margin-left:-10%; 
-}
-
-.rain4 {
-    margin-left:5%; 
-}
-
-.rain5 {
-    margin-left:10%;
-}
-  
-.rain6 {
-    margin-left:15%;  
-}
-
-.rain7 {
-    margin-left:20%;
-}
-
-.rain8 {
-    margin-left:20%;
-}
-
-.rain9 {
-    margin-left:25%;
-}
-
-.rain10 {
-    margin-left:35%;
-}
-
-.rain11 {
-    margin-left:40%;
-}
-
-.rain12 {
-    margin-left:45%;
-}
-
-.rain13 {
-    margin-left:50%;
-}
-
-.rain14 {
-    margin-left:55%;
-}
-
-.rain15 {
-    margin-left:60%;
-}
-
-.rain16 {
-    margin-left:65%;
-}
-
-.rain17 {
-    margin-left:70%;
-}
-
-.rain18 {
-    margin-left:75%;
-}
-
-.rain19 {
-    margin-left:80%;
-}
-
-.rain20 {
-    margin-left:90%;
-}
-
-//Media quieries to reduce animations
-
-@media (prefers-reduced-motion) {
-    .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
-        animation: none;
+    .tornado2 {
+        animation: tornado2 4s infinite;
+        z-index: 99;
     }
-
-    .raindrops {
-        visibility: hidden;
-    }
-
-    .cloud {
-        left:250px;
-    }
-}
 
 
     .info-txt {
-        margin-top: 280px;
+        margin-top: 200px;
         max-width: 400px;
         line-height: 35px;
         font-size: 25px;
@@ -308,152 +276,4 @@ body {
             margin-bottom: -65px;
         }
     }
-
-    //FRAMES
-    .frame1 {
-        opacity: 0;
-        background-color: colors.$background-spring;
-
-        .ground1 {
-            fill: #79D186;
-        }
-    }
-    .frame2 {
-        opacity: 0;
-        background-color: colors.$background-spring;
-
-        .ground2 {
-            fill: #79D186;
-        }
-    }
-    .frame3 {
-        opacity: 0;
-        background-color: colors.$background-summerBlue;
-
-        .ground3 {
-            fill: #8EEA81;
-        }
-
-    }
-    .frame4 {
-        opacity: 0;
-        background-color: colors.$background-summerRed;
-
-        .ground4 {
-            fill: #8EEA81;
-        }
-
-    }
-    .frame5 {
-        opacity: 0;
-        background-color: colors.$background-summerBlue;
-
-        .ground5 {
-            fill: #8EEA81;
-        }
-    }
-    .frame6 {
-        opacity: 0;
-        background-color: colors.$background-autumnLight;
-
-        .ground6 {
-            fill: #E0A53D;
-        }
-    }
-    .frame7 {
-        opacity: 0;
-        background-color: colors.$background-autumnDark;
-
-        .ground7 {
-            fill: #E0A53D;
-        }
-    }
-    .frame8 {
-        opacity: 0;
-        background-color: colors.$background-autumnDark;
-
-        .ground8 {
-            fill: #E0A53D;
-        }
-    }
-    .frame9 {
-        opacity: 0;
-        background-color: colors.$background-winter;
-
-        .ground9 {
-            fill: #DAF6F7;
-        }
-    }
-    .frame10 {
-        opacity: 0;
-        background-color: colors.$background-winter;
-
-        .ground10 {
-            fill: #DAF6F7;
-        }
-    }
-    .frame11 {
-        opacity: 0;
-        background-color: colors.$background-winter;
-
-        .ground11 {
-            fill: #DAF6F7;
-        }
-    }
-
-    //SCROLLY MAGIC CHANGES
-    .frame1.show1, 
-    .frame2.show2,
-    .frame3.show3, 
-    .frame4.show4, 
-    .frame5.show5, 
-    .frame6.show6, 
-    .frame7.show7, 
-    .frame8.show8, 
-    .frame9.show9, 
-    .frame10.show10,
-    .frame11.show11  {
-        opacity: 1;
-        transition: 1s;
-    
-        .text {
-            animation: text 10s ease;
-        }
-        .tree {
-            animation: tree 2s ease;
-        }
-        .pinetree {
-            animation: pinetreeBig 2s ease;
-        }
-        .pinetreeSmall{
-            animation: pinetreeSmall 2s ease;
-        }
-        .flower1 {
-            animation: flower1 2s ease-in;
-        }
-        .flower2 {
-            animation: flower2 2s ease-in;
-        }
-        .flower3 {
-            animation: flower3 2s ease-in;
-        }
-        .flower4 {
-            animation: flower4 2s ease-in;
-        }
-        .flower5 {
-            animation: flower5 2s ease-in;
-        }
-        .flower6 {
-            animation: flower6 2s ease-in;
-        }
-        .flower7 {
-            animation: flower7 2s ease-in;   
-        }
-        .flower8 {
-            animation: flower8 2s ease-in;
-        }
-        
-      
-
-    }
-} 
+}
