@@ -452,27 +452,27 @@
   }
   20% {
     margin-left: 10vw;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   40% {
     margin-left: 25vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
   60% {
     margin-left: 50vw;
-    margin-top: -200px;
+    margin-top: 200px;
   }
   80% {
     margin-left: 65vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
   90% {
     margin-left: 85vw;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   100% {
     margin-left: 110vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
 }
 @keyframes bird1 {
@@ -481,27 +481,27 @@
   }
   20% {
     margin-left: 10vw;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   40% {
     margin-left: 25vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
   60% {
     margin-left: 50vw;
-    margin-top: -200px;
+    margin-top: 200px;
   }
   80% {
     margin-left: 65vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
   90% {
     margin-left: 85vw;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   100% {
     margin-left: 110vw;
-    margin-top: -50px;
+    margin-top: 50px;
   }
 }
 @-webkit-keyframes bird2 {
@@ -628,6 +628,413 @@
     max-width: 150px;
   }
 }
+.frame1.show1,
+.frame2.show2,
+.frame3.show3,
+.frame4.show4,
+.frame5.show5,
+.frame6.show6,
+.frame7.show7,
+.frame8.show8,
+.frame9.show9,
+.frame10.show10,
+.frame11.show11 {
+  opacity: 1;
+  transition: 1s;
+}
+.frame1.show1 .text,
+.frame2.show2 .text,
+.frame3.show3 .text,
+.frame4.show4 .text,
+.frame5.show5 .text,
+.frame6.show6 .text,
+.frame7.show7 .text,
+.frame8.show8 .text,
+.frame9.show9 .text,
+.frame10.show10 .text,
+.frame11.show11 .text {
+  -webkit-animation: text 10s ease;
+          animation: text 10s ease;
+}
+.frame1.show1 .tree,
+.frame2.show2 .tree,
+.frame3.show3 .tree,
+.frame4.show4 .tree,
+.frame5.show5 .tree,
+.frame6.show6 .tree,
+.frame7.show7 .tree,
+.frame8.show8 .tree,
+.frame9.show9 .tree,
+.frame10.show10 .tree,
+.frame11.show11 .tree {
+  -webkit-animation: tree 2s ease;
+          animation: tree 2s ease;
+}
+.frame1.show1 .pinetree,
+.frame2.show2 .pinetree,
+.frame3.show3 .pinetree,
+.frame4.show4 .pinetree,
+.frame5.show5 .pinetree,
+.frame6.show6 .pinetree,
+.frame7.show7 .pinetree,
+.frame8.show8 .pinetree,
+.frame9.show9 .pinetree,
+.frame10.show10 .pinetree,
+.frame11.show11 .pinetree {
+  -webkit-animation: pinetreeBig 2s ease;
+          animation: pinetreeBig 2s ease;
+}
+.frame1.show1 .pinetreeSmall,
+.frame2.show2 .pinetreeSmall,
+.frame3.show3 .pinetreeSmall,
+.frame4.show4 .pinetreeSmall,
+.frame5.show5 .pinetreeSmall,
+.frame6.show6 .pinetreeSmall,
+.frame7.show7 .pinetreeSmall,
+.frame8.show8 .pinetreeSmall,
+.frame9.show9 .pinetreeSmall,
+.frame10.show10 .pinetreeSmall,
+.frame11.show11 .pinetreeSmall {
+  -webkit-animation: pinetreeSmall 2s ease;
+          animation: pinetreeSmall 2s ease;
+}
+.frame1.show1 .flower1,
+.frame2.show2 .flower1,
+.frame3.show3 .flower1,
+.frame4.show4 .flower1,
+.frame5.show5 .flower1,
+.frame6.show6 .flower1,
+.frame7.show7 .flower1,
+.frame8.show8 .flower1,
+.frame9.show9 .flower1,
+.frame10.show10 .flower1,
+.frame11.show11 .flower1 {
+  -webkit-animation: flower1 2s ease-in;
+          animation: flower1 2s ease-in;
+}
+.frame1.show1 .flower2,
+.frame2.show2 .flower2,
+.frame3.show3 .flower2,
+.frame4.show4 .flower2,
+.frame5.show5 .flower2,
+.frame6.show6 .flower2,
+.frame7.show7 .flower2,
+.frame8.show8 .flower2,
+.frame9.show9 .flower2,
+.frame10.show10 .flower2,
+.frame11.show11 .flower2 {
+  -webkit-animation: flower2 2s ease-in;
+          animation: flower2 2s ease-in;
+}
+.frame1.show1 .flower3,
+.frame2.show2 .flower3,
+.frame3.show3 .flower3,
+.frame4.show4 .flower3,
+.frame5.show5 .flower3,
+.frame6.show6 .flower3,
+.frame7.show7 .flower3,
+.frame8.show8 .flower3,
+.frame9.show9 .flower3,
+.frame10.show10 .flower3,
+.frame11.show11 .flower3 {
+  -webkit-animation: flower3 2s ease-in;
+          animation: flower3 2s ease-in;
+}
+.frame1.show1 .flower4,
+.frame2.show2 .flower4,
+.frame3.show3 .flower4,
+.frame4.show4 .flower4,
+.frame5.show5 .flower4,
+.frame6.show6 .flower4,
+.frame7.show7 .flower4,
+.frame8.show8 .flower4,
+.frame9.show9 .flower4,
+.frame10.show10 .flower4,
+.frame11.show11 .flower4 {
+  -webkit-animation: flower4 2s ease-in;
+          animation: flower4 2s ease-in;
+}
+.frame1.show1 .flower5,
+.frame2.show2 .flower5,
+.frame3.show3 .flower5,
+.frame4.show4 .flower5,
+.frame5.show5 .flower5,
+.frame6.show6 .flower5,
+.frame7.show7 .flower5,
+.frame8.show8 .flower5,
+.frame9.show9 .flower5,
+.frame10.show10 .flower5,
+.frame11.show11 .flower5 {
+  -webkit-animation: flower5 2s ease-in;
+          animation: flower5 2s ease-in;
+}
+.frame1.show1 .flower6,
+.frame2.show2 .flower6,
+.frame3.show3 .flower6,
+.frame4.show4 .flower6,
+.frame5.show5 .flower6,
+.frame6.show6 .flower6,
+.frame7.show7 .flower6,
+.frame8.show8 .flower6,
+.frame9.show9 .flower6,
+.frame10.show10 .flower6,
+.frame11.show11 .flower6 {
+  -webkit-animation: flower6 2s ease-in;
+          animation: flower6 2s ease-in;
+}
+.frame1.show1 .flower7,
+.frame2.show2 .flower7,
+.frame3.show3 .flower7,
+.frame4.show4 .flower7,
+.frame5.show5 .flower7,
+.frame6.show6 .flower7,
+.frame7.show7 .flower7,
+.frame8.show8 .flower7,
+.frame9.show9 .flower7,
+.frame10.show10 .flower7,
+.frame11.show11 .flower7 {
+  -webkit-animation: flower7 2s ease-in;
+          animation: flower7 2s ease-in;
+}
+.frame1.show1 .flower8,
+.frame2.show2 .flower8,
+.frame3.show3 .flower8,
+.frame4.show4 .flower8,
+.frame5.show5 .flower8,
+.frame6.show6 .flower8,
+.frame7.show7 .flower8,
+.frame8.show8 .flower8,
+.frame9.show9 .flower8,
+.frame10.show10 .flower8,
+.frame11.show11 .flower8 {
+  -webkit-animation: flower8 2s ease-in;
+          animation: flower8 2s ease-in;
+}
+
+@media (prefers-reduced-motion) {
+  .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .raindrops {
+    visibility: hidden;
+  }
+
+  .cloud {
+    left: 250px;
+  }
+}
+.raindrops {
+  position: absolute;
+  left: 10px;
+  width: 0.5px;
+  height: 25px;
+  background: white;
+  transform: rotate(10deg);
+  z-index: 101;
+}
+
+.rain1,
+.rain4,
+.rain7,
+.rain9,
+.rain14,
+.rain16 {
+  -webkit-animation: raindrop 1.5s infinite;
+          animation: raindrop 1.5s infinite;
+}
+
+.rain2,
+.rain6,
+.rain10,
+.rain15,
+.rain20 {
+  -webkit-animation: raindrop 2s infinite;
+          animation: raindrop 2s infinite;
+}
+
+.rain3,
+.rain8,
+.rain11,
+.rain19,
+.rain17 {
+  -webkit-animation: raindrop 0.5s infinite;
+          animation: raindrop 0.5s infinite;
+}
+
+.rain5,
+.rain13,
+.rain18,
+.rain12 {
+  -webkit-animation: raindrop 1s infinite;
+          animation: raindrop 1s infinite;
+}
+
+.rain2 {
+  margin-left: -15%;
+}
+
+.rain3 {
+  margin-left: -10%;
+}
+
+.rain4 {
+  margin-left: 5%;
+}
+
+.rain5 {
+  margin-left: 10%;
+}
+
+.rain6 {
+  margin-left: 15%;
+}
+
+.rain7 {
+  margin-left: 20%;
+}
+
+.rain8 {
+  margin-left: 20%;
+}
+
+.rain9 {
+  margin-left: 25%;
+}
+
+.rain10 {
+  margin-left: 35%;
+}
+
+.rain11 {
+  margin-left: 40%;
+}
+
+.rain12 {
+  margin-left: 45%;
+}
+
+.rain13 {
+  margin-left: 50%;
+}
+
+.rain14 {
+  margin-left: 55%;
+}
+
+.rain15 {
+  margin-left: 60%;
+}
+
+.rain16 {
+  margin-left: 65%;
+}
+
+.rain17 {
+  margin-left: 70%;
+}
+
+.rain18 {
+  margin-left: 75%;
+}
+
+.rain19 {
+  margin-left: 80%;
+}
+
+.rain20 {
+  margin-left: 90%;
+}
+
+.frame1 {
+  opacity: 0;
+  background-color: #B5E0EA;
+}
+.frame1 .ground1 {
+  fill: #79D186;
+}
+
+.frame2 {
+  opacity: 0;
+  background-color: #B5E0EA;
+}
+.frame2 .ground2 {
+  fill: #79D186;
+}
+
+.frame3 {
+  opacity: 0;
+  background-color: #70E6F2;
+}
+.frame3 .ground3 {
+  fill: #8EEA81;
+}
+
+.frame4 {
+  opacity: 0;
+  background-color: #F2A5A5;
+}
+.frame4 .ground4 {
+  fill: #8EEA81;
+}
+
+.frame5 {
+  opacity: 0;
+  background-color: #70E6F2;
+}
+.frame5 .ground5 {
+  fill: #8EEA81;
+}
+
+.frame6 {
+  opacity: 0;
+  background-color: #BDD6D4;
+}
+.frame6 .ground6 {
+  fill: #E0A53D;
+}
+
+.frame7 {
+  opacity: 0;
+  background-color: #9BAAA7;
+}
+.frame7 .ground7 {
+  fill: #E0A53D;
+}
+
+.frame8 {
+  opacity: 0;
+  background-color: #9BAAA7;
+}
+.frame8 .ground8 {
+  fill: #E0A53D;
+}
+
+.frame9 {
+  opacity: 0;
+  background-color: #83C2CC;
+}
+.frame9 .ground9 {
+  fill: #DAF6F7;
+}
+
+.frame10 {
+  opacity: 0;
+  background-color: #83C2CC;
+}
+.frame10 .ground10 {
+  fill: #DAF6F7;
+}
+
+.frame11 {
+  opacity: 0;
+  background-color: #83C2CC;
+}
+.frame11 .ground11 {
+  fill: #DAF6F7;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -693,7 +1100,8 @@ body .lightningS,
 body .tornado,
 body .tornado2,
 body .cloud2,
-body .bird1, body .bird2 {
+body .bird1,
+body .bird2 {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
@@ -752,7 +1160,8 @@ body .bunny {
   -webkit-animation: bunny 10s infinite;
           animation: bunny 10s infinite;
 }
-body .bird1, body .bird2 {
+body .bird1,
+body .bird2 {
   max-width: 50px;
   z-index: 200;
 }
@@ -764,7 +1173,9 @@ body .bird2 {
   -webkit-animation: bird2 10s infinite;
           animation: bird2 10s infinite;
 }
-body .flame1, body .flame2, body .flame3 {
+body .flame1,
+body .flame2,
+body .flame3 {
   z-index: 100;
   position: absolute;
 }
@@ -802,7 +1213,8 @@ body .lightningS {
   margin-left: 350px;
   margin-top: 200px;
 }
-body .tornado, body .tornado2 {
+body .tornado,
+body .tornado2 {
   width: 80px;
   margin-left: 40px;
   margin-top: 340px;
@@ -814,100 +1226,6 @@ body .tornado2 {
   -webkit-animation: tornado2 4s infinite;
           animation: tornado2 4s infinite;
   z-index: 99;
-}
-body .raindrops {
-  position: absolute;
-  left: 10px;
-  width: 0.5px;
-  height: 25px;
-  background: white;
-  transform: rotate(10deg);
-  z-index: 101;
-}
-body .rain1, body .rain4, body .rain7, body .rain9, body .rain14, body .rain16 {
-  -webkit-animation: raindrop 1.5s infinite;
-          animation: raindrop 1.5s infinite;
-}
-body .rain2, body .rain6, body .rain10, body .rain15, body .rain20 {
-  -webkit-animation: raindrop 2s infinite;
-          animation: raindrop 2s infinite;
-}
-body .rain3, body .rain8, body .rain11, body .rain19, body .rain17 {
-  -webkit-animation: raindrop 0.5s infinite;
-          animation: raindrop 0.5s infinite;
-}
-body .rain5, body .rain13, body .rain18, body .rain12 {
-  -webkit-animation: raindrop 1s infinite;
-          animation: raindrop 1s infinite;
-}
-body .rain2 {
-  margin-left: -15%;
-}
-body .rain3 {
-  margin-left: -10%;
-}
-body .rain4 {
-  margin-left: 5%;
-}
-body .rain5 {
-  margin-left: 10%;
-}
-body .rain6 {
-  margin-left: 15%;
-}
-body .rain7 {
-  margin-left: 20%;
-}
-body .rain8 {
-  margin-left: 20%;
-}
-body .rain9 {
-  margin-left: 25%;
-}
-body .rain10 {
-  margin-left: 35%;
-}
-body .rain11 {
-  margin-left: 40%;
-}
-body .rain12 {
-  margin-left: 45%;
-}
-body .rain13 {
-  margin-left: 50%;
-}
-body .rain14 {
-  margin-left: 55%;
-}
-body .rain15 {
-  margin-left: 60%;
-}
-body .rain16 {
-  margin-left: 65%;
-}
-body .rain17 {
-  margin-left: 70%;
-}
-body .rain18 {
-  margin-left: 75%;
-}
-body .rain19 {
-  margin-left: 80%;
-}
-body .rain20 {
-  margin-left: 90%;
-}
-@media (prefers-reduced-motion) {
-  body .cloud, body .cloud2, body .lightning, body .lightningS, body .raindrops, body .flower-div, body .tornado, body .tornado2 {
-    -webkit-animation: none;
-            animation: none;
-  }
-  body .raindrops {
-    visibility: hidden;
-  }
-  body .cloud {
-    left: 250px;
-  }
 }
 body .info-txt {
   margin-top: 200px;
@@ -951,263 +1269,4 @@ body .flower-div .flower7 {
 }
 body .flower-div .flower8 {
   margin-bottom: -65px;
-}
-body .frame1 {
-  opacity: 0;
-  background-color: #B5E0EA;
-}
-body .frame1 .ground1 {
-  fill: #79D186;
-}
-body .frame2 {
-  opacity: 0;
-  background-color: #B5E0EA;
-}
-body .frame2 .ground2 {
-  fill: #79D186;
-}
-body .frame3 {
-  opacity: 0;
-  background-color: #70E6F2;
-}
-body .frame3 .ground3 {
-  fill: #8EEA81;
-}
-body .frame4 {
-  opacity: 0;
-  background-color: #F2A5A5;
-}
-body .frame4 .ground4 {
-  fill: #8EEA81;
-}
-body .frame5 {
-  opacity: 0;
-  background-color: #70E6F2;
-}
-body .frame5 .ground5 {
-  fill: #8EEA81;
-}
-body .frame6 {
-  opacity: 0;
-  background-color: #BDD6D4;
-}
-body .frame6 .ground6 {
-  fill: #E0A53D;
-}
-body .frame7 {
-  opacity: 0;
-  background-color: #9BAAA7;
-}
-body .frame7 .ground7 {
-  fill: #E0A53D;
-}
-body .frame8 {
-  opacity: 0;
-  background-color: #9BAAA7;
-}
-body .frame8 .ground8 {
-  fill: #E0A53D;
-}
-body .frame9 {
-  opacity: 0;
-  background-color: #83C2CC;
-}
-body .frame9 .ground9 {
-  fill: #DAF6F7;
-}
-body .frame10 {
-  opacity: 0;
-  background-color: #83C2CC;
-}
-body .frame10 .ground10 {
-  fill: #DAF6F7;
-}
-body .frame11 {
-  opacity: 0;
-  background-color: #83C2CC;
-}
-body .frame11 .ground11 {
-  fill: #DAF6F7;
-}
-body .frame1.show1,
-body .frame2.show2,
-body .frame3.show3,
-body .frame4.show4,
-body .frame5.show5,
-body .frame6.show6,
-body .frame7.show7,
-body .frame8.show8,
-body .frame9.show9,
-body .frame10.show10,
-body .frame11.show11 {
-  opacity: 1;
-  transition: 1s;
-}
-body .frame1.show1 .text,
-body .frame2.show2 .text,
-body .frame3.show3 .text,
-body .frame4.show4 .text,
-body .frame5.show5 .text,
-body .frame6.show6 .text,
-body .frame7.show7 .text,
-body .frame8.show8 .text,
-body .frame9.show9 .text,
-body .frame10.show10 .text,
-body .frame11.show11 .text {
-  -webkit-animation: text 10s ease;
-          animation: text 10s ease;
-}
-body .frame1.show1 .tree,
-body .frame2.show2 .tree,
-body .frame3.show3 .tree,
-body .frame4.show4 .tree,
-body .frame5.show5 .tree,
-body .frame6.show6 .tree,
-body .frame7.show7 .tree,
-body .frame8.show8 .tree,
-body .frame9.show9 .tree,
-body .frame10.show10 .tree,
-body .frame11.show11 .tree {
-  -webkit-animation: tree 2s ease;
-          animation: tree 2s ease;
-}
-body .frame1.show1 .pinetree,
-body .frame2.show2 .pinetree,
-body .frame3.show3 .pinetree,
-body .frame4.show4 .pinetree,
-body .frame5.show5 .pinetree,
-body .frame6.show6 .pinetree,
-body .frame7.show7 .pinetree,
-body .frame8.show8 .pinetree,
-body .frame9.show9 .pinetree,
-body .frame10.show10 .pinetree,
-body .frame11.show11 .pinetree {
-  -webkit-animation: pinetreeBig 2s ease;
-          animation: pinetreeBig 2s ease;
-}
-body .frame1.show1 .pinetreeSmall,
-body .frame2.show2 .pinetreeSmall,
-body .frame3.show3 .pinetreeSmall,
-body .frame4.show4 .pinetreeSmall,
-body .frame5.show5 .pinetreeSmall,
-body .frame6.show6 .pinetreeSmall,
-body .frame7.show7 .pinetreeSmall,
-body .frame8.show8 .pinetreeSmall,
-body .frame9.show9 .pinetreeSmall,
-body .frame10.show10 .pinetreeSmall,
-body .frame11.show11 .pinetreeSmall {
-  -webkit-animation: pinetreeSmall 2s ease;
-          animation: pinetreeSmall 2s ease;
-}
-body .frame1.show1 .flower1,
-body .frame2.show2 .flower1,
-body .frame3.show3 .flower1,
-body .frame4.show4 .flower1,
-body .frame5.show5 .flower1,
-body .frame6.show6 .flower1,
-body .frame7.show7 .flower1,
-body .frame8.show8 .flower1,
-body .frame9.show9 .flower1,
-body .frame10.show10 .flower1,
-body .frame11.show11 .flower1 {
-  -webkit-animation: flower1 2s ease-in;
-          animation: flower1 2s ease-in;
-}
-body .frame1.show1 .flower2,
-body .frame2.show2 .flower2,
-body .frame3.show3 .flower2,
-body .frame4.show4 .flower2,
-body .frame5.show5 .flower2,
-body .frame6.show6 .flower2,
-body .frame7.show7 .flower2,
-body .frame8.show8 .flower2,
-body .frame9.show9 .flower2,
-body .frame10.show10 .flower2,
-body .frame11.show11 .flower2 {
-  -webkit-animation: flower2 2s ease-in;
-          animation: flower2 2s ease-in;
-}
-body .frame1.show1 .flower3,
-body .frame2.show2 .flower3,
-body .frame3.show3 .flower3,
-body .frame4.show4 .flower3,
-body .frame5.show5 .flower3,
-body .frame6.show6 .flower3,
-body .frame7.show7 .flower3,
-body .frame8.show8 .flower3,
-body .frame9.show9 .flower3,
-body .frame10.show10 .flower3,
-body .frame11.show11 .flower3 {
-  -webkit-animation: flower3 2s ease-in;
-          animation: flower3 2s ease-in;
-}
-body .frame1.show1 .flower4,
-body .frame2.show2 .flower4,
-body .frame3.show3 .flower4,
-body .frame4.show4 .flower4,
-body .frame5.show5 .flower4,
-body .frame6.show6 .flower4,
-body .frame7.show7 .flower4,
-body .frame8.show8 .flower4,
-body .frame9.show9 .flower4,
-body .frame10.show10 .flower4,
-body .frame11.show11 .flower4 {
-  -webkit-animation: flower4 2s ease-in;
-          animation: flower4 2s ease-in;
-}
-body .frame1.show1 .flower5,
-body .frame2.show2 .flower5,
-body .frame3.show3 .flower5,
-body .frame4.show4 .flower5,
-body .frame5.show5 .flower5,
-body .frame6.show6 .flower5,
-body .frame7.show7 .flower5,
-body .frame8.show8 .flower5,
-body .frame9.show9 .flower5,
-body .frame10.show10 .flower5,
-body .frame11.show11 .flower5 {
-  -webkit-animation: flower5 2s ease-in;
-          animation: flower5 2s ease-in;
-}
-body .frame1.show1 .flower6,
-body .frame2.show2 .flower6,
-body .frame3.show3 .flower6,
-body .frame4.show4 .flower6,
-body .frame5.show5 .flower6,
-body .frame6.show6 .flower6,
-body .frame7.show7 .flower6,
-body .frame8.show8 .flower6,
-body .frame9.show9 .flower6,
-body .frame10.show10 .flower6,
-body .frame11.show11 .flower6 {
-  -webkit-animation: flower6 2s ease-in;
-          animation: flower6 2s ease-in;
-}
-body .frame1.show1 .flower7,
-body .frame2.show2 .flower7,
-body .frame3.show3 .flower7,
-body .frame4.show4 .flower7,
-body .frame5.show5 .flower7,
-body .frame6.show6 .flower7,
-body .frame7.show7 .flower7,
-body .frame8.show8 .flower7,
-body .frame9.show9 .flower7,
-body .frame10.show10 .flower7,
-body .frame11.show11 .flower7 {
-  -webkit-animation: flower7 2s ease-in;
-          animation: flower7 2s ease-in;
-}
-body .frame1.show1 .flower8,
-body .frame2.show2 .flower8,
-body .frame3.show3 .flower8,
-body .frame4.show4 .flower8,
-body .frame5.show5 .flower8,
-body .frame6.show6 .flower8,
-body .frame7.show7 .flower8,
-body .frame8.show8 .flower8,
-body .frame9.show9 .flower8,
-body .frame10.show10 .flower8,
-body .frame11.show11 .flower8 {
-  -webkit-animation: flower8 2s ease-in;
-          animation: flower8 2s ease-in;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,121 @@
+//Styling: Raindrops
+
+
+.raindrops {
+    position: absolute;
+    left: 10px;
+    width: .5px;
+    height: 25px;
+    background: white;
+    transform: rotate(10deg);
+    z-index: 101;
+}
+
+.rain1,
+.rain4,
+.rain7,
+.rain9,
+.rain14,
+.rain16 {
+    animation: raindrop 1.5s infinite;
+}
+
+.rain2,
+.rain6,
+.rain10,
+.rain15,
+.rain20 {
+    animation: raindrop 2s infinite;
+}
+
+.rain3,
+.rain8,
+.rain11,
+.rain19,
+.rain17 {
+    animation: raindrop .5s infinite;
+}
+
+.rain5,
+.rain13,
+.rain18,
+.rain12 {
+    animation: raindrop 1s infinite;
+}
+
+
+.rain2 {
+    margin-left: -15%;
+}
+
+.rain3 {
+    margin-left: -10%;
+}
+
+.rain4 {
+    margin-left: 5%;
+}
+
+.rain5 {
+    margin-left: 10%;
+}
+
+.rain6 {
+    margin-left: 15%;
+}
+
+.rain7 {
+    margin-left: 20%;
+}
+
+.rain8 {
+    margin-left: 20%;
+}
+
+.rain9 {
+    margin-left: 25%;
+}
+
+.rain10 {
+    margin-left: 35%;
+}
+
+.rain11 {
+    margin-left: 40%;
+}
+
+.rain12 {
+    margin-left: 45%;
+}
+
+.rain13 {
+    margin-left: 50%;
+}
+
+.rain14 {
+    margin-left: 55%;
+}
+
+.rain15 {
+    margin-left: 60%;
+}
+
+.rain16 {
+    margin-left: 65%;
+}
+
+.rain17 {
+    margin-left: 70%;
+}
+
+.rain18 {
+    margin-left: 75%;
+}
+
+.rain19 {
+    margin-left: 80%;
+}
+
+.rain20 {
+    margin-left: 90%;
+}

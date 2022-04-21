@@ -1,0 +1,104 @@
+//Styling: Frames
+
+@use './colors';
+
+.frame1 {
+    opacity: 0;
+    background-color: colors.$background-spring;
+
+    .ground1 {
+        fill: #79D186;
+    }
+}
+
+.frame2 {
+    opacity: 0;
+    background-color: colors.$background-spring;
+
+    .ground2 {
+        fill: #79D186;
+    }
+}
+
+.frame3 {
+    opacity: 0;
+    background-color: colors.$background-summerBlue;
+
+    .ground3 {
+        fill: #8EEA81;
+    }
+
+}
+
+.frame4 {
+    opacity: 0;
+    background-color: colors.$background-summerRed;
+
+    .ground4 {
+        fill: #8EEA81;
+    }
+
+}
+
+.frame5 {
+    opacity: 0;
+    background-color: colors.$background-summerBlue;
+
+    .ground5 {
+        fill: #8EEA81;
+    }
+}
+
+.frame6 {
+    opacity: 0;
+    background-color: colors.$background-autumnLight;
+
+    .ground6 {
+        fill: #E0A53D;
+    }
+}
+
+.frame7 {
+    opacity: 0;
+    background-color: colors.$background-autumnDark;
+
+    .ground7 {
+        fill: #E0A53D;
+    }
+}
+
+.frame8 {
+    opacity: 0;
+    background-color: colors.$background-autumnDark;
+
+    .ground8 {
+        fill: #E0A53D;
+    }
+}
+
+.frame9 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground9 {
+        fill: #DAF6F7;
+    }
+}
+
+.frame10 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground10 {
+        fill: #DAF6F7;
+    }
+}
+
+.frame11 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground11 {
+        fill: #DAF6F7;
+    }
+}

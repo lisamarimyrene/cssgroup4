@@ -1,0 +1,15 @@
+//Media Quieries to reduce animations
+
+@media (prefers-reduced-motion) {
+    .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
+        animation: none;
+    }
+
+    .raindrops {
+        visibility: hidden;
+    }
+
+    .cloud {
+        left:250px;
+    }
+}
