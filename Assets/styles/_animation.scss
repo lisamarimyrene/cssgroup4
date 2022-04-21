@@ -43,7 +43,6 @@
 @keyframes pinetreeBig {
     from {left: -200px;}
     to {left: 50px;}
-    
 }
 @keyframes pinetreeSmall {
     from {left: -200px;}
@@ -58,41 +57,31 @@
     50% {left: 250px;}
     100% {left: 100px;}
 }
-
 @keyframes cloud2 {
     0% {left: 1000px;}
     50% {left: 1100px;}
     100% {left: 1000px;}
-    
 }
-
 @keyframes lightning {
     0% {  left: 100px;}
     50% { margin-top:400px; left: 100px;}
     100% {left: 100px; }
 }
-
 @keyframes tornado {
-   
     0% { left: 350px; margin-top:450px; }
     30% {left: 500px; width:80px; margin-top:500px; }
     50% { margin-top:400px; left: 600px; width:100px;}
     75% {left: 500px; width:90px; margin-top:450px; }
     100% {left: 350px;  margin-top:450px }
 }
-
 @keyframes tornado2 {
-
     0% { right: 50px; margin-top:450px; }
     50% { margin-top:460px; right: 100px; width:130px;}
     100% {right: 50px;  margin-top:450px; }
-
 }
-
 @keyframes raindrop {
-0% {left:20%}
+    0%   {left: 20%}
     100% { margin-top:600px; left:10%;  }
-
 }
 @keyframes earth {
     0%   {margin-top: -600px;}
@@ -106,7 +95,6 @@
     80%  {margin-left: 1000px; margin-top: 650px;}
     100% { margin-left: 120vw; margin-top: 590px;}
 }
-
 @keyframes bird1 {
     0%   {margin-left: -100px;}
     20%  {margin-left: 10vw; margin-top: 100px;}
@@ -141,14 +129,14 @@
     100% {max-width: 150px;}
 }
 @keyframes heatwave1 {
-    0%   {opacity: 0; margin-top: 110vh;}
+    0%   {opacity: 0; margin-top: 80vh;}
     100% {opacity: 1; margin-top: 550px;}
 }
 @keyframes heatwave2 {
-    0%   {opacity: 0; margin-top: 110vh;}
+    0%   {opacity: 0; margin-top: 80vh;}
     100% {opacity: 1; margin-top: 400px;}
 }
 @keyframes heatwave3 {
-    0%   {opacity: 0; margin-top: 110vh;}
+    0%   {opacity: 0; margin-top: 80vh;}
     100% {opacity: 1; margin-top: 560px;}
 }
