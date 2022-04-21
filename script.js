@@ -123,3 +123,10 @@ let scene11 = new ScrollMagic.Scene({
     .setClassToggle('.frame11', 'show11')
     //Add the scene to the controller
     .addTo(controller)
+
+    
+//Function that scroll back to top when 'topBtn' is clicked
+document.getElementById("topBtn").onclick = function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
