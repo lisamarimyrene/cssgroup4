@@ -628,6 +628,66 @@
     max-width: 150px;
   }
 }
+@-webkit-keyframes heatwave1 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 550px;
+  }
+}
+@keyframes heatwave1 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 550px;
+  }
+}
+@-webkit-keyframes heatwave2 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 400px;
+  }
+}
+@keyframes heatwave2 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 400px;
+  }
+}
+@-webkit-keyframes heatwave3 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 560px;
+  }
+}
+@keyframes heatwave3 {
+  0% {
+    opacity: 0;
+    margin-top: 110vh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 560px;
+  }
+}
 .frame1.show1,
 .frame2.show2,
 .frame3.show3,
@@ -1199,6 +1259,29 @@ body .flame3 {
   max-width: 150px;
   -webkit-animation: flame3 2s infinite;
           animation: flame3 2s infinite;
+}
+body .heatwave {
+  z-index: 100;
+  position: absolute;
+  max-width: 100px;
+}
+body .wave1 {
+  margin-left: 420px;
+  margin-top: 580px;
+  -webkit-animation: heatwave1 4s infinite;
+          animation: heatwave1 4s infinite;
+}
+body .wave2 {
+  margin-left: 620px;
+  margin-top: 500px;
+  -webkit-animation: heatwave2 4s infinite;
+          animation: heatwave2 4s infinite;
+}
+body .wave3 {
+  margin-left: 820px;
+  margin-top: 590px;
+  -webkit-animation: heatwave3 4s infinite;
+          animation: heatwave3 4s infinite;
 }
 body .lightning,
 body .lightningS {

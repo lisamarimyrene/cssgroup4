@@ -1,8 +1,8 @@
 @use './colors.scss';
 @use './fonts.scss';
 @use './animation';
-@use './scrollyMagic';
-@use './mediaQuieries';
+@use './scrollmagic';
+@use './mediaquieries';
 @use './stylesRaindrops';
 @use './stylesFrames';
 
@@ -190,6 +190,28 @@ body {
         max-width: 150px;
         animation: flame3 2s infinite;
     }
+    .heatwave {
+        z-index: 100;
+        position: absolute;
+        max-width: 100px;
+    } 
+    .wave1 {
+        margin-left: 420px;
+        margin-top: 580px;
+        animation: heatwave1 4s infinite;
+
+    }
+    .wave2 {
+        margin-left: 620px;
+        margin-top: 500px;
+        animation: heatwave2 4s infinite;
+    }
+    .wave3 {
+        margin-left: 820px;
+        margin-top: 590px;
+        animation: heatwave3 4s infinite;
+    }
+
 
     .lightning,
     .lightningS {
