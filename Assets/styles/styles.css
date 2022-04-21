@@ -200,44 +200,38 @@
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 1;
-  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes text {
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 1;
-  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @-webkit-keyframes cloud {
   0% {
-    left: 300px;
+    left: 100px;
   }
   50% {
-    left: 500px;
+    left: 250px;
   }
   100% {
-    left: 300px;
+    left: 100px;
   }
 }
 @keyframes cloud {
   0% {
-    left: 300px;
+    left: 100px;
   }
   50% {
-    left: 500px;
+    left: 250px;
   }
   100% {
-    left: 300px;
+    left: 100px;
   }
 }
 @-webkit-keyframes cloud2 {
@@ -384,6 +378,256 @@
     left: 10%;
   }
 }
+@-webkit-keyframes earth {
+  0% {
+    margin-top: -600px;
+  }
+  100% {
+    margin-top: -350px;
+  }
+}
+@keyframes earth {
+  0% {
+    margin-top: -600px;
+  }
+  100% {
+    margin-top: -350px;
+  }
+}
+@-webkit-keyframes bunny {
+  0% {
+    margin-left: -300px;
+    margin-top: 650px;
+  }
+  20% {
+    margin-left: 50px;
+    margin-top: 590px;
+  }
+  40% {
+    margin-left: 400px;
+    margin-top: 650px;
+  }
+  60% {
+    margin-left: 700px;
+    margin-top: 590px;
+  }
+  80% {
+    margin-left: 1000px;
+    margin-top: 650px;
+  }
+  100% {
+    margin-left: 120vw;
+    margin-top: 590px;
+  }
+}
+@keyframes bunny {
+  0% {
+    margin-left: -300px;
+    margin-top: 650px;
+  }
+  20% {
+    margin-left: 50px;
+    margin-top: 590px;
+  }
+  40% {
+    margin-left: 400px;
+    margin-top: 650px;
+  }
+  60% {
+    margin-left: 700px;
+    margin-top: 590px;
+  }
+  80% {
+    margin-left: 1000px;
+    margin-top: 650px;
+  }
+  100% {
+    margin-left: 120vw;
+    margin-top: 590px;
+  }
+}
+@-webkit-keyframes bird1 {
+  0% {
+    margin-left: -100px;
+  }
+  20% {
+    margin-left: 10vw;
+    margin-top: -100px;
+  }
+  40% {
+    margin-left: 25vw;
+    margin-top: -50px;
+  }
+  60% {
+    margin-left: 50vw;
+    margin-top: -200px;
+  }
+  80% {
+    margin-left: 65vw;
+    margin-top: -50px;
+  }
+  90% {
+    margin-left: 85vw;
+    margin-top: -100px;
+  }
+  100% {
+    margin-left: 110vw;
+    margin-top: -50px;
+  }
+}
+@keyframes bird1 {
+  0% {
+    margin-left: -100px;
+  }
+  20% {
+    margin-left: 10vw;
+    margin-top: -100px;
+  }
+  40% {
+    margin-left: 25vw;
+    margin-top: -50px;
+  }
+  60% {
+    margin-left: 50vw;
+    margin-top: -200px;
+  }
+  80% {
+    margin-left: 65vw;
+    margin-top: -50px;
+  }
+  90% {
+    margin-left: 85vw;
+    margin-top: -100px;
+  }
+  100% {
+    margin-left: 110vw;
+    margin-top: -50px;
+  }
+}
+@-webkit-keyframes bird2 {
+  0% {
+    margin-left: -100px;
+  }
+  20% {
+    margin-left: 15vw;
+    margin-top: 200px;
+  }
+  40% {
+    margin-left: 30vw;
+    margin-top: 250px;
+  }
+  60% {
+    margin-left: 55vw;
+    margin-top: 200px;
+  }
+  80% {
+    margin-left: 70vw;
+    margin-top: 250px;
+  }
+  90% {
+    margin-left: 90vw;
+    margin-top: 200px;
+  }
+  100% {
+    margin-left: 110vw;
+    margin-top: 250px;
+  }
+}
+@keyframes bird2 {
+  0% {
+    margin-left: -100px;
+  }
+  20% {
+    margin-left: 15vw;
+    margin-top: 200px;
+  }
+  40% {
+    margin-left: 30vw;
+    margin-top: 250px;
+  }
+  60% {
+    margin-left: 55vw;
+    margin-top: 200px;
+  }
+  80% {
+    margin-left: 70vw;
+    margin-top: 250px;
+  }
+  90% {
+    margin-left: 90vw;
+    margin-top: 200px;
+  }
+  100% {
+    margin-left: 110vw;
+    margin-top: 250px;
+  }
+}
+@-webkit-keyframes flame1 {
+  0% {
+    max-width: 120px;
+  }
+  50% {
+    max-width: 100px;
+  }
+  100% {
+    max-width: 120px;
+  }
+}
+@keyframes flame1 {
+  0% {
+    max-width: 120px;
+  }
+  50% {
+    max-width: 100px;
+  }
+  100% {
+    max-width: 120px;
+  }
+}
+@-webkit-keyframes flame2 {
+  0% {
+    max-width: 100px;
+  }
+  50% {
+    max-width: 80px;
+  }
+  100% {
+    max-width: 100px;
+  }
+}
+@keyframes flame2 {
+  0% {
+    max-width: 100px;
+  }
+  50% {
+    max-width: 80px;
+  }
+  100% {
+    max-width: 100px;
+  }
+}
+@-webkit-keyframes flame3 {
+  0% {
+    max-width: 150px;
+  }
+  50% {
+    max-width: 130px;
+  }
+  100% {
+    max-width: 150px;
+  }
+}
+@keyframes flame3 {
+  0% {
+    max-width: 150px;
+  }
+  50% {
+    max-width: 130px;
+  }
+  100% {
+    max-width: 150px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -410,6 +654,25 @@ body h1 {
   font-family: "Libre Baskerville", serif;
   color: #575757;
 }
+body .globalwarming {
+  margin-top: 200px;
+}
+body .info {
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 500px;
+}
+body .h1frame2 {
+  max-width: 500px;
+  font-size: 25px;
+  margin-top: 190px;
+  line-height: 40px;
+}
+body .pframe2 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
 body .frames {
   height: 100vh;
   display: flex;
@@ -429,7 +692,8 @@ body .lightning,
 body .lightningS,
 body .tornado,
 body .tornado2,
-body .cloud2 {
+body .cloud2,
+body .bird1, body .bird2 {
   width: 240px;
   margin-top: 230px;
   z-index: 100;
@@ -471,6 +735,59 @@ body .sunsky {
 body .sun {
   margin-top: 10px;
   width: 250px;
+}
+body .earth {
+  width: 120px;
+  margin-left: 900px;
+  margin-top: -350px;
+  -webkit-animation: earth 5s ease;
+          animation: earth 5s ease;
+}
+body .bunny {
+  max-width: 80px;
+  left: 250px;
+  margin-top: 650px;
+  position: absolute;
+  z-index: 100;
+  -webkit-animation: bunny 10s infinite;
+          animation: bunny 10s infinite;
+}
+body .bird1, body .bird2 {
+  max-width: 50px;
+  z-index: 200;
+}
+body .bird1 {
+  -webkit-animation: bird1 10s infinite;
+          animation: bird1 10s infinite;
+}
+body .bird2 {
+  -webkit-animation: bird2 10s infinite;
+          animation: bird2 10s infinite;
+}
+body .flame1, body .flame2, body .flame3 {
+  z-index: 100;
+  position: absolute;
+}
+body .flame1 {
+  margin-left: 50px;
+  margin-top: 590px;
+  max-width: 120px;
+  -webkit-animation: flame1 2s infinite;
+          animation: flame1 2s infinite;
+}
+body .flame2 {
+  margin-left: 220px;
+  margin-top: 520px;
+  max-width: 100px;
+  -webkit-animation: flame2 2s infinite;
+          animation: flame2 2s infinite;
+}
+body .flame3 {
+  margin-left: 420px;
+  margin-top: 550px;
+  max-width: 150px;
+  -webkit-animation: flame3 2s infinite;
+          animation: flame3 2s infinite;
 }
 body .lightning,
 body .lightningS {
@@ -593,7 +910,7 @@ body .rain20 {
   }
 }
 body .info-txt {
-  margin-top: 280px;
+  margin-top: 200px;
   max-width: 400px;
   line-height: 35px;
   font-size: 25px;

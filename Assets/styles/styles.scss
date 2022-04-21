@@ -31,6 +31,25 @@ body {
         font-family: fonts.$fontLibreBaskerville;
         color: colors.$title;
     }
+    .globalwarming {
+        margin-top: 200px;
+    }
+    .info {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 500px;
+    }
+    .h1frame2 {
+        max-width: 500px;
+        font-size: 25px;
+        margin-top: 190px;
+        line-height: 40px;
+    }
+    .pframe2 {
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+    }
 
     .frames {
         height: 100vh;
@@ -54,7 +73,8 @@ body {
     .lightningS,
     .tornado,
     .tornado2,
-    .cloud2 {
+    .cloud2,
+    .bird1, .bird2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
@@ -102,6 +122,52 @@ body {
     .sun {
         margin-top: 10px;
         width: 250px;
+    }
+    .earth {
+        width: 120px;
+        margin-left: 900px;
+        margin-top: -350px;
+        animation: earth 5s ease;
+    }
+    .bunny {
+        max-width: 80px;
+        left: 250px;
+        margin-top: 650px;
+        position: absolute;
+        z-index: 100;
+        animation: bunny 10s infinite;
+    }
+    .bird1, .bird2 {
+        max-width: 50px;
+        z-index: 200;
+    }
+    .bird1 {
+        animation: bird1 10s infinite;
+    }
+    .bird2 {
+        animation: bird2 10s infinite;
+    }
+    .flame1, .flame2, .flame3 {
+        z-index: 100;
+        position: absolute;
+    }
+    .flame1 {
+        margin-left: 50px;
+        margin-top: 590px;
+        max-width: 120px;
+        animation: flame1 2s infinite;
+    }
+    .flame2 {
+        margin-left: 220px;
+        margin-top: 520px;
+        max-width: 100px;
+        animation: flame2 2s infinite;
+    }
+    .flame3 {
+        margin-left: 420px;
+        margin-top: 550px;
+        max-width: 150px;
+        animation: flame3 2s infinite;
     }
 
     .lightning,
@@ -255,7 +321,7 @@ body {
 
 
     .info-txt {
-        margin-top: 280px;
+        margin-top: 200px;
         max-width: 400px;
         line-height: 35px;
         font-size: 25px;

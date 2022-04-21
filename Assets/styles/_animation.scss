@@ -49,13 +49,12 @@
 }
 @keyframes text {
     0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
+    100% {opacity: 1;}
 }
 @keyframes cloud {
-    0% {left: 300px;}
-    50% {left: 500px;}
-    100% {left: 300px;}
+    0% {left: 100px;}
+    50% {left: 250px;}
+    100% {left: 100px;}
 }
 
 @keyframes cloud2 {
@@ -92,4 +91,50 @@
 0% {left:20%}
     100% { margin-top:600px; left:10%;  }
 
+}
+@keyframes earth {
+    0%   {margin-top: -600px;}
+    100% { margin-top:-350px;}
+}
+@keyframes bunny {
+    0%   {margin-left: -300px; margin-top: 650px;}
+    20%  {margin-left: 50px; margin-top: 590px; }
+    40%  {margin-left: 400px; margin-top: 650px;}
+    60%  {margin-left: 700px; margin-top: 590px;}
+    80%  {margin-left: 1000px; margin-top: 650px;}
+    100% { margin-left: 120vw; margin-top: 590px;}
+}
+
+@keyframes bird1 {
+    0%   {margin-left: -100px;}
+    20%  {margin-left: 10vw; margin-top: -100px;}
+    40%  {margin-left: 25vw; margin-top: -50px;}
+    60%  {margin-left: 50vw; margin-top: -200px;}
+    80%  {margin-left: 65vw; margin-top: -50px;}
+    90%  {margin-left: 85vw; margin-top: -100px;}
+    100% { margin-left: 110vw; margin-top: -50px;}
+}
+@keyframes bird2 {
+    0%   {margin-left: -100px;}
+    20%  {margin-left: 15vw; margin-top: 200px;}
+    40%  {margin-left: 30vw; margin-top: 250px;}
+    60%  {margin-left: 55vw; margin-top: 200px;}
+    80%  {margin-left: 70vw; margin-top: 250px;}
+    90%  {margin-left: 90vw; margin-top: 200px;}
+    100% { margin-left: 110vw; margin-top: 250px;}
+}
+@keyframes flame1 {
+    0%   {max-width: 120px;}
+    50%  {max-width: 100px;}
+    100% {max-width: 120px;}
+}
+@keyframes flame2 {
+    0%   {max-width: 100px;}
+    50%  {max-width: 80px;}
+    100% {max-width: 100px;}
+}
+@keyframes flame3 {
+    0%   {max-width: 150px;}
+    50%  {max-width: 130px;}
+    100% {max-width: 150px;}
 }
