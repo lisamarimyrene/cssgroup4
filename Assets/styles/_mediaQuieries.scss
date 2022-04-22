@@ -1,94 +1,104 @@
 //Media Quieries to reduce animations
 
 @media (prefers-reduced-motion) {
-    
+
 
     img {
-       animation : none !important;
+        animation: none !important;
     }
 
-    .raindrops, .snowflakes {
+    .raindrops,
+    .snowflakes {
         visibility: hidden;
     }
 
     .cloud {
-        left:250px;
+        left: 250px;
     }
 
     .bunny {
-        margin-top:440px !important;
-        margin-left:200px !important;
+        margin-top: 440px !important;
+        margin-left: 200px !important;
 
     }
 
     .bird1 {
-        margin-left:100px !important;
+        margin-left: 100px !important;
     }
-.wave1, .wave3, .wave2{
-    margin-top:35% !important;
+
+    .wave1,
+    .wave3,
+    .wave2 {
+        margin-top: 35% !important;
+    }
+
+    .tornado2 {
+        margin-left: 85% !important;
+        width: 180px !important;
+
+    }
+
+    .lightning,
+    .lightningS {
+        margin-left: 25% !important;
+
+    }
 }
 
-.tornado2 {
-    margin-left:85% !important;
-    width:180px !important;
-
-}
-
-.lightning, .lightningS {
-    margin-left:25% !important;
-
-}
-}
-
-/*For some reason the prefers color scheme media quiery doesn't work, I have tried many different approaches but I can't seem to figure out the error. Here is the code for it:
+/* For some reason the prefers color scheme media quiery doesn't work, 
+   I have tried many different approaches but I can't seem to figure out the error. 
+   Here is the code for it:
 
 @media (prefers-color-scheme:dark) {
 
 
     .frame1, .frame2{
-         background-color:colors.$background-springDark;
+        background-color:colors.$background-springDark;
 
-       
-         .ground1, .ground2 {
-             fill: colors.$fill-springDark;
-         }  } 
-
+        .ground1, .ground2 {
+            fill: colors.$fill-springDark;
+        }  
+    } 
     
-     .frame3, .frame4, .frame5 {
+    .frame3, .frame4, .frame5 {
         background-color:colors.$background-summerDark;
-.ground3, .ground4, .ground5 {
-fill: colors.$fill-summerDark;
-}
-     }
 
-     .frame6, .frame7, .frame8 {
-         background-color:colors.$background-fallDark;
+        .ground3, .ground4, .ground5 {
 
-         .ground6, .ground7, .ground8 {
-             fill: colors.$fill-fallDark;
-         }
-     }
-
-     .frame9, .frame10, .frame11 {
-         background-color: colors.$background-winterDark;
-
-         .ground9, .ground10, .ground11 {
-            fill: colors.$fill-winterDark;
-         }
-       
-     }
-
-     .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11 {
-      h1, p{
-        color:white; }
-       
+            fill: colors.$fill-summerDark;
+        }
     }
 
-   
-    
+    .frame6, .frame7, .frame8 {
+        background-color:colors.$background-fallDark;
+
+        .ground6, .ground7, .ground8 {
+            fill: colors.$fill-fallDark;
+        }
+    }
+
+    .frame9, .frame10, .frame11 {
+        background-color: colors.$background-winterDark;
+
+        .ground9, .ground10, .ground11 {
+            fill: colors.$fill-winterDark;
+        }
+     }
+
+    .frame1, 
+    .frame2, 
+    .frame3, 
+    .frame4, 
+    .frame5, 
+    .frame6, 
+    .frame7, 
+    .frame8, 
+    .frame9, 
+    .frame10, 
+    .frame11 {
+        h1, p {
+            color:white; 
+        }
+    }
  }
-
  */
-
-
-
