@@ -1270,6 +1270,11 @@ body #infoFrame {
 body #infoFrame h1 {
   margin-top: 20px;
   padding-bottom: 10px;
+  font-size: 20px;
+}
+body #infoFrame p {
+  font-size: 16px;
+  line-height: 25px;
 }
 body #infoFrame #closeBtn {
   z-index: 300;
