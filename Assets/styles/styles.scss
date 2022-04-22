@@ -380,3 +380,46 @@ body {
         }
     }
 }
+
+
+//Prefers dark color scheme 
+
+@media (prefers-color-scheme: dark) {
+    .frame1, .frame2{
+        
+         background-color:colors.$background-springDark;
+         .ground1, .ground2 {
+             fill: colors.$fill-springDark;
+         }
+     }
+
+     h1, p{
+         color:white;
+     }
+
+     .frame3, .frame4, .frame5 {
+        background-color:colors.$background-summerDark;
+.ground3, .ground4, .ground5 {
+fill: colors.$fill-summerDark;
+}
+     }
+
+     .frame6, .frame7, .frame8 {
+         background-color:colors.$background-fallDark;
+
+         .ground6, .ground7, .ground8 {
+             fill: colors.$fill-fallDark;
+         }
+     }
+
+     .frame9, .frame10, .frame11 {
+         background-color: colors.$background-winterDark;
+
+         .ground9, .ground10, .ground11 {
+            fill: colors.$fill-winterDark;
+         }
+       
+     }
+
+    
+ }
