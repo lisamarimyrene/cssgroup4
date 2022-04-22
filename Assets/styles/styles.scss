@@ -426,5 +426,14 @@ body {
             margin-bottom: -65px;
         }
     }
-
+    .windWinter {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        z-index: 300;
+        animation-name: windd;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+    }
 }

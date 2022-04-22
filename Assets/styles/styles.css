@@ -712,6 +712,40 @@
     margin-top: 560px;
   }
 }
+@-webkit-keyframes windd {
+  0% {
+    transform: translateX(-90px);
+  }
+  25% {
+    transform: translateY(-90px);
+    left: 250px;
+  }
+  50% {
+    transform: translateX(0px);
+    left: 750px;
+  }
+  100% {
+    transform: translateY(-90px);
+    left: 1000px;
+  }
+}
+@keyframes windd {
+  0% {
+    transform: translateX(-90px);
+  }
+  25% {
+    transform: translateY(-90px);
+    left: 250px;
+  }
+  50% {
+    transform: translateX(0px);
+    left: 750px;
+  }
+  100% {
+    transform: translateY(-90px);
+    left: 1000px;
+  }
+}
 .frame1.show1,
 .frame2.show2,
 .frame3.show3,
@@ -1612,4 +1646,16 @@ body .flower-div .flower7 {
 }
 body .flower-div .flower8 {
   margin-bottom: -65px;
+}
+body .windWinter {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  z-index: 300;
+  -webkit-animation-name: windd;
+          animation-name: windd;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }/*# sourceMappingURL=styles.css.map */
