@@ -1207,6 +1207,12 @@ body h1 {
   font-family: "Libre Baskerville", serif;
   color: #575757;
 }
+body .info-txt {
+  margin-top: 200px;
+  max-width: 400px;
+  line-height: 35px;
+  font-size: 25px;
+}
 body .globalwarming {
   margin-top: 200px;
 }
@@ -1222,6 +1228,24 @@ body .h1frame2 {
   line-height: 40px;
 }
 body .pframe2 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .h1frame9 {
+  margin-top: 190px;
+}
+body .pframe2 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .pframe10 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .pframe11 {
   max-width: 500px;
   font-size: 20px;
   line-height: 30px;
@@ -1404,12 +1428,6 @@ body .tornado2 {
   -webkit-animation: tornado2 4s infinite;
           animation: tornado2 4s infinite;
   z-index: 99;
-}
-body .info-txt {
-  margin-top: 200px;
-  max-width: 400px;
-  line-height: 35px;
-  font-size: 25px;
 }
 body .flower-div {
   position: absolute;
