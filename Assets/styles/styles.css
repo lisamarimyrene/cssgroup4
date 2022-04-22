@@ -1405,17 +1405,6 @@ body .lightningS {
   -webkit-animation: lightning 6s infinite;
           animation: lightning 6s infinite;
 }
-body .iceberg {
-  margin-left: 1000px;
-  z-index: 200;
-  margin-top: -300px;
-  width: 0;
-  height: 0;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 300px solid white;
-  border-radius: 10%;
-}
 body .lightningS {
   margin-left: 170px;
   margin-top: 200px;
