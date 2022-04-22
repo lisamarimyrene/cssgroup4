@@ -1265,15 +1265,15 @@ body #infoBtn:hover, body #topBtn:hover {
 body #infoFrame {
   position: fixed;
   background-color: white;
-  height: 400px;
-  width: 700px;
+  height: 410px;
+  width: 400px;
   margin: 0 auto;
   z-index: 300;
-  margin-top: 25vh;
-  margin-left: 25vw;
+  margin-top: 27vh;
+  margin-left: 1vw;
   overflow: scroll;
   border-radius: 10px;
-  max-width: 70ch;
+  border: 0.5px dotted rgb(151, 151, 151);
 }
 body #infoFrame h1 {
   margin-top: 20px;
@@ -1281,8 +1281,10 @@ body #infoFrame h1 {
   font-size: 20px;
 }
 body #infoFrame p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
+  max-width: 60ch;
+  width: 70%;
 }
 body #infoFrame #closeBtn {
   z-index: 300;

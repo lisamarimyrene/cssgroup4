@@ -17,7 +17,7 @@
 
 body {
     width: 100%;
-
+    
     #infoBtn {
         z-index: 200;
         position: fixed;
@@ -41,15 +41,17 @@ body {
     
         position: fixed;
         background-color: white;
-        height: 400px;
-        width: 700px;
+        height: 410px;
+        width: 400px;
         margin: 0 auto;
         z-index: 300;
-        margin-top: 25vh;
-        margin-left: 25vw;
+        margin-top: 27vh;
+        margin-left: 1vw;
         overflow:scroll;
         border-radius:10px;
-        max-width:70ch;
+        border: .5px dotted rgb(151, 151, 151);
+       
+       
        
 
         h1 {
@@ -58,8 +60,10 @@ body {
             font-size: 20px;
         }
         p {
-            font-size: 16px;
+            font-size: 18px;
             line-height: 25px;
+            max-width:60ch;
+            width:70%;
         }
 
         #closeBtn {
