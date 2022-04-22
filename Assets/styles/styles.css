@@ -1264,7 +1264,12 @@ body #infoFrame {
   width: 700px;
   margin: 0 auto;
   z-index: 300;
-  margin-top: 200px;
+  margin-top: 25vh;
+  margin-left: 25vw;
+}
+body #infoFrame h1 {
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 body #infoFrame #closeBtn {
   z-index: 300;

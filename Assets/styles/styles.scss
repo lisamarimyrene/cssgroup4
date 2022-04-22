@@ -39,7 +39,13 @@ body {
         width: 700px;
         margin: 0 auto;
         z-index: 300;
-        margin-top: 200px;
+        margin-top: 25vh;
+        margin-left: 25vw;
+
+        h1 {
+            margin-top: 20px;
+            padding-bottom: 10px;
+        }
 
         #closeBtn {
         z-index: 300;
