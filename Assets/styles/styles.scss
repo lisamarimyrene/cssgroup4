@@ -53,6 +53,12 @@ body {
         font-family: fonts.$fontLibreBaskerville;
         color: colors.$title;
     }
+    .info-txt {
+        margin-top: 200px;
+        max-width: 400px;
+        line-height: 35px;
+        font-size: 25px;
+    }
 
     .globalwarming {
         margin-top: 200px;
@@ -72,6 +78,25 @@ body {
     }
 
     .pframe2 {
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .h1frame9 {
+        margin-top: 190px;
+    }
+
+    .pframe2 {
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pframe10 {
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pframe11 {
         max-width: 500px;
         font-size: 20px;
         line-height: 30px;
@@ -270,13 +295,6 @@ body {
         z-index: 99;
     }
 
-
-    .info-txt {
-        margin-top: 200px;
-        max-width: 400px;
-        line-height: 35px;
-        font-size: 25px;
-    }
 
     .flower-div {
         position: absolute;
