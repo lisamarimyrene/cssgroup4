@@ -1164,6 +1164,28 @@
   .cloud {
     left: 250px;
   }
+
+  .bunny {
+    margin-top: 440px !important;
+    margin-left: 200px !important;
+  }
+
+  .bird1 {
+    margin-left: 100px !important;
+  }
+
+  .wave1, .wave3, .wave2 {
+    margin-top: 35% !important;
+  }
+
+  .tornado2 {
+    margin-left: 85% !important;
+    width: 180px !important;
+  }
+
+  .lightning, .lightningS {
+    margin-left: 25% !important;
+  }
 }
 /*For some reason the prefers color scheme media quiery doesn't work, I have tried many different approaches but I can't seem to figure out the error. Here is the code for it:
 
