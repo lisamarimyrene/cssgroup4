@@ -1498,38 +1498,4 @@ body .flower-div .flower7 {
 }
 body .flower-div .flower8 {
   margin-bottom: -65px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .frame1, .frame2 {
-    background-color: #508494;
-  }
-  .frame1 .ground1, .frame1 .ground2, .frame2 .ground1, .frame2 .ground2 {
-    fill: #4d995e;
-  }
-
-  .frame3, .frame4, .frame5 {
-    background-color: #3e4f66;
-  }
-  .frame3 .ground3, .frame3 .ground4, .frame3 .ground5, .frame4 .ground3, .frame4 .ground4, .frame4 .ground5, .frame5 .ground3, .frame5 .ground4, .frame5 .ground5 {
-    fill: #198b32;
-  }
-
-  .frame6, .frame7, .frame8 {
-    background-color: #1e2835;
-  }
-  .frame6 .ground6, .frame6 .ground7, .frame6 .ground8, .frame7 .ground6, .frame7 .ground7, .frame7 .ground8, .frame8 .ground6, .frame8 .ground7, .frame8 .ground8 {
-    fill: #aa6210;
-  }
-
-  .frame9, .frame10, .frame11 {
-    background-color: #1e2836;
-  }
-  .frame9 .ground9, .frame9 .ground10, .frame9 .ground11, .frame10 .ground9, .frame10 .ground10, .frame10 .ground11, .frame11 .ground9, .frame11 .ground10, .frame11 .ground11 {
-    fill: #82afbd;
-  }
-
-  h1, p {
-    color: white;
-  }
 }/*# sourceMappingURL=styles.css.map */
