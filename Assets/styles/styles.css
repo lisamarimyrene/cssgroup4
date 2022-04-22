@@ -895,20 +895,6 @@
           animation: flower8 2s ease-in;
 }
 
-@media (prefers-reduced-motion) {
-  .cloud, .cloud2, .lightning, .lightningS, .raindrops, .flower-div, .tornado, .tornado2 {
-    -webkit-animation: none;
-            animation: none;
-  }
-
-  .raindrops {
-    visibility: hidden;
-  }
-
-  .cloud {
-    left: 250px;
-  }
-}
 .raindrops {
   position: absolute;
   left: 10px;
@@ -1165,6 +1151,69 @@
   fill: #DAF6F7;
 }
 
+@media (prefers-reduced-motion) {
+  img {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+
+  .raindrops, .snowflakes {
+    visibility: hidden;
+  }
+
+  .cloud {
+    left: 250px;
+  }
+}
+/*For some reason the prefers color scheme media quiery doesn't work, I have tried many different approaches but I can't seem to figure out the error. Here is the code for it:
+
+@media (prefers-color-scheme:dark) {
+
+
+    .frame1, .frame2{
+         background-color:colors.$background-springDark;
+
+
+         .ground1, .ground2 {
+             fill: colors.$fill-springDark;
+         }  } 
+
+
+     .frame3, .frame4, .frame5 {
+        background-color:colors.$background-summerDark;
+.ground3, .ground4, .ground5 {
+fill: colors.$fill-summerDark;
+}
+     }
+
+     .frame6, .frame7, .frame8 {
+         background-color:colors.$background-fallDark;
+
+         .ground6, .ground7, .ground8 {
+             fill: colors.$fill-fallDark;
+         }
+     }
+
+     .frame9, .frame10, .frame11 {
+         background-color: colors.$background-winterDark;
+
+         .ground9, .ground10, .ground11 {
+            fill: colors.$fill-winterDark;
+         }
+
+     }
+
+     .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11 {
+      h1, p{
+        color:white; }
+
+    }
+
+
+
+ }
+
+ */
 * {
   padding: 0;
   margin: 0;

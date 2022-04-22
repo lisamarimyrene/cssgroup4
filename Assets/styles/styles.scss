@@ -2,17 +2,18 @@
 @use './fonts';
 @use './animation';
 @use './scrollmagic';
-@use './mediaquieries';
 @use './stylesRainSnow';
 @use './stylesFrames';
-
-
+@use './mediaQuieries';
 
 
 * {
     padding: 0;
     margin: 0;
 }
+
+
+
 
 body {
     width: 100%;
@@ -382,3 +383,4 @@ body {
             margin-bottom: -65px;
         }
     }
+
