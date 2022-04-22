@@ -31,6 +31,12 @@ body {
         margin-top: 3vh;
         margin-left: 2vw;
     }
+
+    #infoBtn:hover, #topBtn:hover {
+        background-color: black;
+        color:white;
+        transition-duration:1s;
+    }
     #infoFrame {
     
         position: fixed;
@@ -44,6 +50,7 @@ body {
         overflow:scroll;
         border-radius:10px;
         max-width:70ch;
+       
 
         h1 {
             margin-top: 20px;
@@ -69,13 +76,15 @@ body {
         height:50px;
         width:60px;
         border-radius:5px;
-        transition-duration:.5s;
+        
         }
 
         #closeBtn:hover {
             background-color: white;
             color:black;
         }
+
+       
     }
 
     #topBtn {
@@ -83,6 +92,7 @@ body {
         position: absolute;
         border: none;
         background-color: white;
+        color:black;
         font-family: fonts.$fontJosefinSans;
         font-size: 18px;
         cursor: pointer;
@@ -90,7 +100,10 @@ body {
         border-radius: 10px;
         margin-top: 90vh;
         margin-left: 90vw;
+        
     }
+
+   
 
     h1,
     p {
