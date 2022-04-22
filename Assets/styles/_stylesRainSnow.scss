@@ -1,4 +1,4 @@
-//Styling: Raindrops
+//Styling: Raindrops and Snowfall
 
 
 .raindrops {
@@ -10,8 +10,6 @@
     transform: rotate(10deg);
     z-index: 101;
 }
-
-
 
 .rain1,
 .rain4,
@@ -44,7 +42,6 @@
 .rain12 {
     animation: raindrop 1s infinite;
 }
-
 
 .rain2, .snow2 {
     margin-left: -15%;
@@ -134,7 +131,6 @@
     background: white;
     z-index: 101;
 }
-
 
 .snow1,
 .snow4,
