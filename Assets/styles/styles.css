@@ -378,24 +378,6 @@
     left: 10%;
   }
 }
-@-webkit-keyframes raindropFast {
-  0% {
-    left: 20%;
-  }
-  100% {
-    margin-top: 800px;
-    left: 5%;
-  }
-}
-@keyframes raindropFast {
-  0% {
-    left: 20%;
-  }
-  100% {
-    margin-top: 800px;
-    left: 5%;
-  }
-}
 @-webkit-keyframes snowflake {
   0% {
     left: 20%;
