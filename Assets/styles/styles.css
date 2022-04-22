@@ -258,26 +258,26 @@
 }
 @-webkit-keyframes lightning {
   0% {
-    left: 100px;
+    left: 0px;
   }
   50% {
     margin-top: 400px;
     left: 100px;
   }
   100% {
-    left: 100px;
+    left: 0px;
   }
 }
 @keyframes lightning {
   0% {
-    left: 100px;
+    left: 0px;
   }
   50% {
     margin-top: 400px;
     left: 100px;
   }
   100% {
-    left: 100px;
+    left: 0px;
   }
 }
 @-webkit-keyframes tornado {
@@ -376,6 +376,30 @@
   100% {
     margin-top: 600px;
     left: 10%;
+  }
+}
+@-webkit-keyframes snowflake {
+  0% {
+    left: 20%;
+  }
+  50% {
+    left: 18%;
+  }
+  100% {
+    margin-top: 600px;
+    left: 15%;
+  }
+}
+@keyframes snowflake {
+  0% {
+    left: 20%;
+  }
+  50% {
+    left: 18%;
+  }
+  100% {
+    margin-top: 600px;
+    left: 15%;
   }
 }
 @-webkit-keyframes earth {
@@ -931,80 +955,126 @@
           animation: raindrop 1s infinite;
 }
 
-.rain2 {
+.rain2, .snow2 {
   margin-left: -15%;
 }
 
-.rain3 {
+.rain3, .snow3 {
   margin-left: -10%;
 }
 
-.rain4 {
+.rain4, .snow4 {
   margin-left: 5%;
 }
 
-.rain5 {
+.rain5, .snow5 {
   margin-left: 10%;
 }
 
-.rain6 {
+.rain6, .snow6 {
   margin-left: 15%;
 }
 
-.rain7 {
+.rain7, .snow7 {
   margin-left: 20%;
 }
 
-.rain8 {
+.rain8, .snow8 {
   margin-left: 20%;
 }
 
-.rain9 {
+.rain9, .snow9 {
   margin-left: 25%;
 }
 
-.rain10 {
+.rain10, .snow10 {
   margin-left: 35%;
 }
 
-.rain11 {
+.rain11, .snow11 {
   margin-left: 40%;
 }
 
-.rain12 {
+.rain12, .snow12 {
   margin-left: 45%;
 }
 
-.rain13 {
+.rain13, .snow13 {
   margin-left: 50%;
 }
 
-.rain14 {
+.rain14, .snow14 {
   margin-left: 55%;
 }
 
-.rain15 {
+.rain15, .snow15 {
   margin-left: 60%;
 }
 
-.rain16 {
+.rain16, .snow16 {
   margin-left: 65%;
 }
 
-.rain17 {
+.rain17, .snow17 {
   margin-left: 70%;
 }
 
-.rain18 {
+.rain18, .snow18 {
   margin-left: 75%;
 }
 
-.rain19 {
+.rain19, .snow19 {
   margin-left: 80%;
 }
 
-.rain20 {
+.rain20, .snow20 {
   margin-left: 90%;
+}
+
+.snowflakes {
+  position: absolute;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  z-index: 101;
+}
+
+.snow1,
+.snow4,
+.snow7,
+.snow9,
+.snow14,
+.snow16 {
+  -webkit-animation: snowflake 4s infinite;
+          animation: snowflake 4s infinite;
+}
+
+.snow2,
+.snow6,
+.snow10,
+.snow15,
+.snow20 {
+  -webkit-animation: snowflake 6s infinite;
+          animation: snowflake 6s infinite;
+}
+
+.snow3,
+.snow8,
+.snow11,
+.snow19,
+.snow17 {
+  -webkit-animation: snowflake 5s infinite;
+          animation: snowflake 5s infinite;
+}
+
+.snow5,
+.snow13,
+.snow18,
+.snow12 {
+  -webkit-animation: snowflake 8s infinite;
+          animation: snowflake 8s infinite;
 }
 
 .frame1 {
@@ -1103,6 +1173,39 @@
 body {
   width: 100%;
 }
+body #infoBtn {
+  z-index: 200;
+  position: fixed;
+  border: none;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 3vh;
+  margin-left: 2vw;
+}
+body #infoFrame {
+  position: fixed;
+  background-color: white;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  z-index: 300;
+  margin-top: 200px;
+}
+body #infoFrame #closeBtn {
+  z-index: 300;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 0;
+  margin-left: 0;
+}
 body #topBtn {
   z-index: 100;
   position: absolute;
@@ -1122,10 +1225,13 @@ body p {
   text-align: center;
   margin-top: 10px;
 }
+body #aboutText {
+  display: none;
+}
 body p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
-  max-width: 430px;
+  max-width: 500px;
   line-height: 35px;
   font-weight: 1000;
 }
@@ -1133,6 +1239,12 @@ body h1 {
   margin-top: 280px;
   font-family: "Libre Baskerville", serif;
   color: #575757;
+}
+body .info-txt {
+  margin-top: 200px;
+  max-width: 400px;
+  line-height: 35px;
+  font-size: 25px;
 }
 body .globalwarming {
   margin-top: 200px;
@@ -1149,6 +1261,24 @@ body .h1frame2 {
   line-height: 40px;
 }
 body .pframe2 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .h1frame9 {
+  margin-top: 190px;
+}
+body .pframe2 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .pframe10 {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .pframe11 {
   max-width: 500px;
   font-size: 20px;
   line-height: 30px;
@@ -1308,14 +1438,14 @@ body .wave3 {
 body .lightning,
 body .lightningS {
   width: 30px;
-  margin-left: 330px;
+  margin-left: 150px;
   margin-top: 120px;
   z-index: 80;
   -webkit-animation: lightning 6s infinite;
           animation: lightning 6s infinite;
 }
 body .lightningS {
-  margin-left: 350px;
+  margin-left: 170px;
   margin-top: 200px;
 }
 body .tornado,
@@ -1331,12 +1461,6 @@ body .tornado2 {
   -webkit-animation: tornado2 4s infinite;
           animation: tornado2 4s infinite;
   z-index: 99;
-}
-body .info-txt {
-  margin-top: 200px;
-  max-width: 400px;
-  line-height: 35px;
-  font-size: 25px;
 }
 body .flower-div {
   position: absolute;
