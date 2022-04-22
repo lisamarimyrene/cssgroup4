@@ -378,6 +378,24 @@
     left: 10%;
   }
 }
+@-webkit-keyframes raindropFast {
+  0% {
+    left: 20%;
+  }
+  100% {
+    margin-top: 800px;
+    left: 5%;
+  }
+}
+@keyframes raindropFast {
+  0% {
+    left: 20%;
+  }
+  100% {
+    margin-top: 800px;
+    left: 5%;
+  }
+}
 @-webkit-keyframes snowflake {
   0% {
     left: 20%;
@@ -1192,10 +1210,13 @@ body p {
   text-align: center;
   margin-top: 10px;
 }
+body #aboutText {
+  display: none;
+}
 body p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
-  max-width: 430px;
+  max-width: 500px;
   line-height: 35px;
   font-weight: 1000;
 }
@@ -1383,6 +1404,17 @@ body .lightningS {
   z-index: 80;
   -webkit-animation: lightning 6s infinite;
           animation: lightning 6s infinite;
+}
+body .iceberg {
+  margin-left: 1000px;
+  z-index: 200;
+  margin-top: -300px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 300px solid white;
+  border-radius: 10%;
 }
 body .lightningS {
   margin-left: 170px;
