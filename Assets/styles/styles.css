@@ -1266,6 +1266,9 @@ body #infoFrame {
   z-index: 300;
   margin-top: 25vh;
   margin-left: 25vw;
+  overflow: scroll;
+  border-radius: 10px;
+  max-width: 70ch;
 }
 body #infoFrame h1 {
   margin-top: 20px;
