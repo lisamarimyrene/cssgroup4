@@ -6,6 +6,9 @@
 @use './stylesRainSnow';
 @use './stylesFrames';
 
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -382,21 +385,16 @@ body {
 }
 
 
-//Prefers dark color scheme 
-
 @media (prefers-color-scheme: dark) {
+
+
     .frame1, .frame2{
-        
          background-color:colors.$background-springDark;
          .ground1, .ground2 {
              fill: colors.$fill-springDark;
-         }
-     }
+         }  }
 
-     h1, p{
-         color:white;
-     }
-
+    
      .frame3, .frame4, .frame5 {
         background-color:colors.$background-summerDark;
 .ground3, .ground4, .ground5 {
@@ -421,5 +419,10 @@ fill: colors.$fill-summerDark;
        
      }
 
+     h1, p{
+        color:white;
+    }
     
  }
+
+
