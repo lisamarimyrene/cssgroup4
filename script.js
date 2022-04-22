@@ -132,3 +132,18 @@ document.getElementById("topBtn").onclick = function() {
 }
 
 
+//Get the information frame, an put it into a variable
+const infoFrame = document.querySelector("#infoFrame");
+
+//Make the information frame hidden by default
+infoFrame.style.visibility = 'hidden';
+
+//Function that makes the information frame visible when 'infoBtn' is clicked
+document.getElementById("infoBtn").onclick = function() {
+    infoFrame.style.visibility = 'visible';
+}
+
+//Function that makes the information frame hidden when 'closeBtn' is clicked
+document.getElementById("closeBtn").onclick = function() {
+    infoFrame.style.visibility = 'hidden';
+}
