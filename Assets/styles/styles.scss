@@ -49,7 +49,9 @@ body {
         margin-left: 1vw;
         overflow:scroll;
         border-radius:10px;
+        padding: 10px;
         border: .5px dotted rgb(151, 151, 151);
+        padding-bottom: 80px;
        
        
        
@@ -62,7 +64,7 @@ body {
         p {
             font-size: 18px;
             line-height: 25px;
-            max-width:60ch;
+            max-width:80ch;
             width:70%;
         }
 
@@ -75,8 +77,8 @@ body {
         font-family: fonts.$fontJosefinSans;
         font-size: 18px;
         cursor: pointer;
-        margin-top: 0;
-        margin-left: 0;
+        margin-top: 30px;
+        margin-left: -10px;
         height:50px;
         width:60px;
         border-radius:5px;
