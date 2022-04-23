@@ -436,4 +436,34 @@ body {
         animation-iteration-count: infinite;
         
     }
+
+    .snowmanWinter {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        animation-name: jump;
+        animation-duration: 5s;
+       
+    }
+
+    .snowmanWinter2 {
+        height: 80px;
+        width: 80px;
+        margin-top: -80px;
+        margin-left: 75px;
+        position: relative;
+        animation-name: jump;
+        animation-duration: 5s;
+
+    }
+
+    .snowmanWinter3 {
+        height: 60px;
+        width: 80px;
+        margin-top: -60px;
+        margin-left: 135px;
+        position: relative;
+        animation-name: jump;
+        animation-duration: 5s;
+    }
 }

@@ -170,4 +170,14 @@
         }
 }
 
-
+@keyframes jump{
+    0%{
+        transform: translateX(-90px);
+        }
+    
+        25%{
+        transform: translateY(-90px);
+        top: 250px;
+        opacity: 0;
+        }
+}
