@@ -647,7 +647,7 @@
   }
   100% {
     opacity: 1;
-    margin-top: 400px;
+    margin-top: 450px;
   }
 }
 @keyframes heatwave2 {
@@ -657,7 +657,7 @@
   }
   100% {
     opacity: 1;
-    margin-top: 400px;
+    margin-top: 450px;
   }
 }
 @-webkit-keyframes heatwave3 {
