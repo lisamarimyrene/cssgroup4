@@ -282,82 +282,50 @@
 }
 @-webkit-keyframes tornado {
   0% {
-    left: 350px;
-    margin-top: 450px;
+    margin-top: 90px;
   }
   30% {
-    left: 500px;
+    left: 600px;
     width: 80px;
-    margin-top: 500px;
+    margin-top: 60px;
   }
   50% {
-    margin-top: 400px;
-    left: 600px;
+    margin-top: 90px;
+    left: 700px;
     width: 100px;
   }
   75% {
     left: 500px;
     width: 90px;
-    margin-top: 450px;
+    margin-top: 100px;
   }
   100% {
-    left: 350px;
-    margin-top: 450px;
+    margin-left: 550px;
+    margin-top: 90px;
   }
 }
 @keyframes tornado {
   0% {
-    left: 350px;
-    margin-top: 450px;
+    margin-top: 90px;
   }
   30% {
-    left: 500px;
+    left: 600px;
     width: 80px;
-    margin-top: 500px;
+    margin-top: 60px;
   }
   50% {
-    margin-top: 400px;
-    left: 600px;
+    margin-top: 90px;
+    left: 700px;
     width: 100px;
   }
   75% {
     left: 500px;
     width: 90px;
-    margin-top: 450px;
+    margin-top: 100px;
   }
   100% {
-    left: 350px;
-    margin-top: 450px;
-  }
-}
-@-webkit-keyframes tornado2 {
-  0% {
-    right: 50px;
-    margin-top: 450px;
-  }
-  50% {
-    margin-top: 460px;
-    right: 100px;
-    width: 130px;
-  }
-  100% {
-    right: 50px;
-    margin-top: 450px;
-  }
-}
-@keyframes tornado2 {
-  0% {
-    right: 50px;
-    margin-top: 450px;
-  }
-  50% {
-    margin-top: 460px;
-    right: 100px;
-    width: 130px;
-  }
-  100% {
-    right: 50px;
-    margin-top: 450px;
+    margin-left: 550px;
+    margin-top: 90px;
   }
 }
 @-webkit-keyframes raindrop {
@@ -1549,7 +1517,6 @@ body .frames__cloud,
 body .frames__pinetree--small,
 body .frames__lightning,
 body .frames__lightning--small,
-body .frames__tornado,
 body .frames__cloud--2,
 body .frames__bird--1,
 body .frames__bird--2 {
@@ -1696,19 +1663,12 @@ body .frames__lightning--small {
   margin-left: 170px;
   margin-top: 200px;
 }
-body .frames__tornado--1,
-body .frames__tornado--2 {
+body .frames__tornado--1 {
   width: 80px;
-  margin-left: 40px;
-  margin-top: 340px;
+  margin-left: 400px;
   -webkit-animation: tornado 6s infinite;
           animation: tornado 6s infinite;
-  z-index: 100;
-}
-body .frames__tornado--2 {
-  -webkit-animation: tornado2 4s infinite;
-          animation: tornado2 4s infinite;
-  z-index: 99;
+  z-index: 102;
 }
 body .frames__flowerDiv {
   position: absolute;

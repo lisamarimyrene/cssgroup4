@@ -208,7 +208,6 @@ body {
     .frames__pinetree--small,
     .frames__lightning,
     .frames__lightning--small,
-    .frames__tornado,
     .frames__cloud--2,
     .frames__bird--1,
     .frames__bird--2 {
@@ -370,20 +369,16 @@ body {
 
     }
 
-    .frames__tornado--1,
-    .frames__tornado--2 {
+    .frames__tornado--1
+     {
         width: 80px;
-        margin-left: 40px;
-        margin-top: 340px;
+        margin-left: 400px;
+       
         animation: tornado 6s infinite;
-        z-index: 100;
+        z-index: 102;
     }
 
-    .frames__tornado--2 {
-        animation: tornado2 4s infinite;
-        z-index: 99;
-    }
-
+  
 
     .frames__flowerDiv {
         position: absolute;
