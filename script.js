@@ -7,10 +7,10 @@ let controller = new ScrollMagic.Controller();
 // ––––––––– New scene - SCENE 1 –––––––––
 let scene1 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame1'
+    triggerElement: '.frames--frame1'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame1', 'show1')
+    .setClassToggle('.frames--frame1', 'show1')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -18,10 +18,10 @@ let scene1 = new ScrollMagic.Scene({
 // ––––––––– New scene - SCENE 2 –––––––––
 let scene2 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame2'
+    triggerElement: '.frames--frame2'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame2', 'show2')
+    .setClassToggle('.frames--frame2', 'show2')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -29,10 +29,10 @@ let scene2 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 3 –––––––––
 let scene3 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame3'
+    triggerElement: '.frames--frame3'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame3', 'show3')
+    .setClassToggle('.frames--frame3', 'show3')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -40,10 +40,10 @@ let scene3 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 4 –––––––––
 let scene4 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame4'
+    triggerElement: '.frames--frame4'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame4', 'show4')
+    .setClassToggle('.frames--frame4', 'show4')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -51,10 +51,10 @@ let scene4 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 5 –––––––––
 let scene5 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame5'
+    triggerElement: '.frames--frame5'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame5', 'show5')
+    .setClassToggle('.frames--frame5', 'show5')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -62,10 +62,10 @@ let scene5 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 6 –––––––––
 let scene6 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame6'
+    triggerElement: '.frames--frame6'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame6', 'show6')
+    .setClassToggle('.frames--frame6', 'show6')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -73,10 +73,10 @@ let scene6 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 7 –––––––––
 let scene7 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame7'
+    triggerElement: '.frames--frame7'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame7', 'show7')
+    .setClassToggle('.frames--frame7', 'show7')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -84,10 +84,10 @@ let scene7 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 8 –––––––––
 let scene8 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame8'
+    triggerElement: '.frames--frame8'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame8', 'show8')
+    .setClassToggle('.frames--frame8', 'show8')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -95,10 +95,10 @@ let scene8 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 9 –––––––––
 let scene9 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame9'
+    triggerElement: '.frames--frame9'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame9', 'show9')
+    .setClassToggle('.frames--frame9', 'show9')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -106,10 +106,10 @@ let scene9 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 10 –––––––––
 let scene10 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame10'
+    triggerElement: '.frames--frame10'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame10', 'show10')
+    .setClassToggle('.frames--frame10', 'show10')
     //Add the scene to the controller
     .addTo(controller)
 
@@ -117,10 +117,10 @@ let scene10 = new ScrollMagic.Scene({
 // ––––––––– New Scene - SCENE 11 –––––––––
 let scene11 = new ScrollMagic.Scene({
     //Choose trigger element
-    triggerElement: '.frame11'
+    triggerElement: '.frames--frame11'
 })
     //Give trigger element a toggle, and class
-    .setClassToggle('.frame11', 'show11')
+    .setClassToggle('.frames--frame11', 'show11')
     //Add the scene to the controller
     .addTo(controller)
 

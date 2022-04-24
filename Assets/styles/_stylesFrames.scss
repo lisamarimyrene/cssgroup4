@@ -2,103 +2,103 @@
 
 @use './colors';
 
-.frame1 {
+.frames--frame1 {
     opacity: 0;
     background-color: colors.$background-spring;
 
-    .ground1 {
+    .ground--ground1 {
         fill: #79D186;
     }
 }
 
-.frame2 {
+.frames--frame2 {
     opacity: 0;
     background-color: colors.$background-spring;
 
-    .ground2 {
+    .ground--ground2 {
         fill: #79D186;
     }
 }
 
-.frame3 {
+.frames--frame3 {
     opacity: 0;
     background-color: colors.$background-summerBlue;
 
-    .ground3 {
+    .ground--ground3 {
         fill: #8EEA81;
     }
 
 }
 
-.frame4 {
+.frames--frame4 {
     opacity: 0;
     background-color: colors.$background-summerRed;
 
-    .ground4 {
+    .ground--ground4 {
         fill: #8EEA81;
     }
 
 }
 
-.frame5 {
+.frames--frame5 {
     opacity: 0;
     background-color: colors.$background-summerBlue;
 
-    .ground5 {
+    .ground--ground5 {
         fill: #8EEA81;
     }
 }
 
-.frame6 {
+.frames--frame6 {
     opacity: 0;
     background-color: colors.$background-autumnLight;
 
-    .ground6 {
+    .ground--ground6 {
         fill: #E0A53D;
     }
 }
 
-.frame7 {
+.frames--frame7 {
     opacity: 0;
     background-color: colors.$background-autumnDark;
 
-    .ground7 {
+    .ground--ground7 {
         fill: #E0A53D;
     }
 }
 
-.frame8 {
+.frames--frame8 {
     opacity: 0;
     background-color: colors.$background-autumnDark;
 
-    .ground8 {
+    .ground--ground8 {
         fill: #E0A53D;
     }
 }
 
-.frame9 {
+.frames--frame9 {
     opacity: 0;
     background-color: colors.$background-winter;
 
-    .ground9 {
+    .ground--ground9 {
         fill: #DAF6F7;
     }
 }
 
-.frame10 {
+.frames--frame10 {
     opacity: 0;
     background-color: colors.$background-winter;
 
-    .ground10 {
+    .ground--ground10 {
         fill: #DAF6F7;
     }
 }
 
-.frame11 {
+.frames--frame11 {
     opacity: 0;
     background-color: colors.$background-winter;
 
-    .ground11 {
+    .ground--ground11 {
         fill: #DAF6F7;
     }
 }
