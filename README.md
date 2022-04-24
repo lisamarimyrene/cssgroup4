@@ -21,3 +21,16 @@ In this website, technologies such as HTML, CSS/SASS (including SCSS variabels) 
 ### Maintaining and contributing the project
 The group of this project (group 4), Lisa Mari, Alexandra, and Fadumo, are all responsible to contribute and maintaining the project. Each member contributes to the project through Git commits, working on different branches. 
 
+### Resources used for informational text
+https://www.downtoearth.org.in/news/climate-change/lightning-strikes-linked-to-climate-change-1-697-killed-in-a-year-in-india-77897
+
+https://www.nytimes.com/2020/05/18/climate/climate-changes-hurricane-intensity.html
+
+https://www.un.org/sustainabledevelopment/climate-change/
+
+https://climatekids.nasa.gov/permafrost/
+
+https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting
+
+https://yaleclimateconnections.org/2019/07/how-climate-change-is-making-hurricanes-more-dangerous/
+
