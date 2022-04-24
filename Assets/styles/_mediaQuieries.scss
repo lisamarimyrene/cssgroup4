@@ -1,3 +1,5 @@
+@use './colors';
+
 //Media Quieries to reduce animations
 
 @media (prefers-reduced-motion) {
@@ -47,7 +49,7 @@
 
 /* For some reason the prefers color scheme media quiery doesn't work, 
    We have tried many different approaches but we can't seem to figure out the error. 
-   Here is the code for it:
+   Here is the code for it: */
 
 @media (prefers-color-scheme:dark) {
 
@@ -101,4 +103,3 @@
         }
     }
  }
- */

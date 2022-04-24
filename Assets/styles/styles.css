@@ -1330,61 +1330,60 @@
 }
 /* For some reason the prefers color scheme media quiery doesn't work, 
    We have tried many different approaches but we can't seem to figure out the error. 
-   Here is the code for it:
+   Here is the code for it: */
+@media (prefers-color-scheme: dark) {
+  .frame1, .frame2 {
+    background-color: #508494;
+  }
+  .frame1 .ground1, .frame1 .ground2, .frame2 .ground1, .frame2 .ground2 {
+    fill: #4d995e;
+  }
 
-@media (prefers-color-scheme:dark) {
+  .frame3, .frame4, .frame5 {
+    background-color: #3e4f66;
+  }
+  .frame3 .ground3, .frame3 .ground4, .frame3 .ground5, .frame4 .ground3, .frame4 .ground4, .frame4 .ground5, .frame5 .ground3, .frame5 .ground4, .frame5 .ground5 {
+    fill: #198b32;
+  }
 
+  .frame6, .frame7, .frame8 {
+    background-color: #1e2835;
+  }
+  .frame6 .ground6, .frame6 .ground7, .frame6 .ground8, .frame7 .ground6, .frame7 .ground7, .frame7 .ground8, .frame8 .ground6, .frame8 .ground7, .frame8 .ground8 {
+    fill: #aa6210;
+  }
 
-    .frame1, .frame2{
-        background-color:colors.$background-springDark;
+  .frame9, .frame10, .frame11 {
+    background-color: #1e2836;
+  }
+  .frame9 .ground9, .frame9 .ground10, .frame9 .ground11, .frame10 .ground9, .frame10 .ground10, .frame10 .ground11, .frame11 .ground9, .frame11 .ground10, .frame11 .ground11 {
+    fill: #82afbd;
+  }
 
-        .ground1, .ground2 {
-            fill: colors.$fill-springDark;
-        }  
-    } 
-
-    .frame3, .frame4, .frame5 {
-        background-color:colors.$background-summerDark;
-
-        .ground3, .ground4, .ground5 {
-
-            fill: colors.$fill-summerDark;
-        }
-    }
-
-    .frame6, .frame7, .frame8 {
-        background-color:colors.$background-fallDark;
-
-        .ground6, .ground7, .ground8 {
-            fill: colors.$fill-fallDark;
-        }
-    }
-
-    .frame9, .frame10, .frame11 {
-        background-color: colors.$background-winterDark;
-
-        .ground9, .ground10, .ground11 {
-            fill: colors.$fill-winterDark;
-        }
-     }
-
-    .frame1, 
-    .frame2, 
-    .frame3, 
-    .frame4, 
-    .frame5, 
-    .frame6, 
-    .frame7, 
-    .frame8, 
-    .frame9, 
-    .frame10, 
-    .frame11 {
-        h1, p {
-            color:white; 
-        }
-    }
- }
- */
+  .frame1 h1, .frame1 p,
+.frame2 h1,
+.frame2 p,
+.frame3 h1,
+.frame3 p,
+.frame4 h1,
+.frame4 p,
+.frame5 h1,
+.frame5 p,
+.frame6 h1,
+.frame6 p,
+.frame7 h1,
+.frame7 p,
+.frame8 h1,
+.frame8 p,
+.frame9 h1,
+.frame9 p,
+.frame10 h1,
+.frame10 p,
+.frame11 h1,
+.frame11 p {
+    color: white;
+  }
+}
 * {
   padding: 0;
   margin: 0;
