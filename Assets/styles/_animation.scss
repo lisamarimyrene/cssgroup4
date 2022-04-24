@@ -1,183 +1,511 @@
 //Animation: Keyframes
 
 @keyframes ground {
-    from {opacity: 0; bottom: -350px;}
-    to {opacity: 1; bottom: 0px;}
+    from {
+        opacity: 0;
+        bottom: -350px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0px;
+    }
 }
+
 @keyframes flower1 {
-    from {margin-bottom: 200px;}
-    to {margin-bottom: 35px;}
+    from {
+        margin-bottom: 200px;
+    }
+
+    to {
+        margin-bottom: 35px;
+    }
 }
+
 @keyframes flower2 {
-    from {margin-bottom: 150px;}
-    to {margin-bottom: 15px}
+    from {
+        margin-bottom: 150px;
+    }
+
+    to {
+        margin-bottom: 15px
+    }
 }
+
 @keyframes flower3 {
-    from {margin-bottom: 200px;}
-    to {margin-bottom: 20px;}
+    from {
+        margin-bottom: 200px;
+    }
+
+    to {
+        margin-bottom: 20px;
+    }
 }
+
 @keyframes flower4 {
-    from {margin-bottom: 150px;}
-    to {margin-bottom: -5px;}
+    from {
+        margin-bottom: 150px;
+    }
+
+    to {
+        margin-bottom: -5px;
+    }
 }
+
 @keyframes flower5 {
-    from {margin-bottom: 200px;}
-    to {margin-bottom: -20px;}
+    from {
+        margin-bottom: 200px;
+    }
+
+    to {
+        margin-bottom: -20px;
+    }
 }
+
 @keyframes flower6 {
-    from {margin-bottom: 150px;}
-    to {margin-bottom: -45px;}
+    from {
+        margin-bottom: 150px;
+    }
+
+    to {
+        margin-bottom: -45px;
+    }
 }
+
 @keyframes flower7 {
-    from {margin-bottom: 200px;}
-    to {margin-bottom: -35px;}
+    from {
+        margin-bottom: 200px;
+    }
+
+    to {
+        margin-bottom: -35px;
+    }
 }
+
 @keyframes flower8 {
-    from {margin-bottom: 150px;}
-    to {margin-bottom: -65px;}
+    from {
+        margin-bottom: 150px;
+    }
+
+    to {
+        margin-bottom: -65px;
+    }
 }
+
 @keyframes tree {
-    from {left: 1500px;}
-    to {left: 1000px;}
+    from {
+        left: 1500px;
+    }
+
+    to {
+        left: 1000px;
+    }
 }
+
 @keyframes pinetreeBig {
-    from {left: -200px;}
-    to {left: 50px;}
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 50px;
+    }
 }
+
 @keyframes pinetreeSmall {
-    from {left: -200px;}
-    to {left: 250px;}
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 250px;
+    }
 }
+
 @keyframes text {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes cloud {
-    0% {left: 100px;}
-    50% {left: 250px;}
-    100% {left: 100px;}
+    0% {
+        left: 100px;
+    }
+
+    50% {
+        left: 250px;
+    }
+
+    100% {
+        left: 100px;
+    }
 }
+
 @keyframes cloud2 {
-    0% {left: 1000px;}
-    50% {left: 1100px;}
-    100% {left: 1000px;}
+    0% {
+        left: 1000px;
+    }
+
+    50% {
+        left: 1100px;
+    }
+
+    100% {
+        left: 1000px;
+    }
 }
+
 @keyframes lightning {
-    0% {  left: 00px;}
-    50% { margin-top:400px; left: 100px;}
-    100% {left: 00px; }
+    0% {
+        left: 00px;
+    }
+
+    50% {
+        margin-top: 400px;
+        left: 100px;
+    }
+
+    100% {
+        left: 00px;
+    }
 }
+
 @keyframes tornado {
-    0% { left: 350px; margin-top:450px; }
-    30% {left: 500px; width:80px; margin-top:500px; }
-    50% { margin-top:400px; left: 600px; width:100px;}
-    75% {left: 500px; width:90px; margin-top:450px; }
-    100% {left: 350px;  margin-top:450px }
+    0% {
+        left: 350px;
+        margin-top: 450px;
+    }
+
+    30% {
+        left: 500px;
+        width: 80px;
+        margin-top: 500px;
+    }
+
+    50% {
+        margin-top: 400px;
+        left: 600px;
+        width: 100px;
+    }
+
+    75% {
+        left: 500px;
+        width: 90px;
+        margin-top: 450px;
+    }
+
+    100% {
+        left: 350px;
+        margin-top: 450px
+    }
 }
+
 @keyframes tornado2 {
-    0% { right: 50px; margin-top:450px; }
-    50% { margin-top:460px; right: 100px; width:130px;}
-    100% {right: 50px;  margin-top:450px; }
+    0% {
+        right: 50px;
+        margin-top: 450px;
+    }
+
+    50% {
+        margin-top: 460px;
+        right: 100px;
+        width: 130px;
+    }
+
+    100% {
+        right: 50px;
+        margin-top: 450px;
+    }
 }
+
 @keyframes raindrop {
-    0%   {left: 20%}
-    100% { margin-top:600px; left:10%;  }
+    0% {
+        left: 20%
+    }
+
+    100% {
+        margin-top: 600px;
+        left: 10%;
+    }
 }
 
 @keyframes snowflake {
-    0% {left:20%}
-    50% {left:18%}
-    100% {margin-top:600px; left:15%}
+    0% {
+        left: 20%
+    }
+
+    50% {
+        left: 18%
+    }
+
+    100% {
+        margin-top: 600px;
+        left: 15%
+    }
 }
 
 
 @keyframes earth {
-    0%   {margin-top: -600px;}
-    100% { margin-top:-350px;}
+    0% {
+        margin-top: -600px;
+    }
+
+    100% {
+        margin-top: -350px;
+    }
 }
+
 @keyframes bunny {
-    0%   {margin-left: -300px; margin-top: 650px;}
-    20%  {margin-left: 50px; margin-top: 590px; }
-    40%  {margin-left: 400px; margin-top: 650px;}
-    60%  {margin-left: 700px; margin-top: 590px;}
-    80%  {margin-left: 1000px; margin-top: 650px;}
-    100% { margin-left: 120vw; margin-top: 590px;}
+    0% {
+        margin-left: -300px;
+        margin-top: 650px;
+    }
+
+    20% {
+        margin-left: 50px;
+        margin-top: 590px;
+    }
+
+    40% {
+        margin-left: 400px;
+        margin-top: 650px;
+    }
+
+    60% {
+        margin-left: 700px;
+        margin-top: 590px;
+    }
+
+    80% {
+        margin-left: 1000px;
+        margin-top: 650px;
+    }
+
+    100% {
+        margin-left: 120vw;
+        margin-top: 590px;
+    }
 }
+
 @keyframes bird1 {
-    0%   {margin-left: -100px;}
-    20%  {margin-left: 10vw; margin-top: 100px;}
-    40%  {margin-left: 25vw; margin-top: 50px;}
-    60%  {margin-left: 50vw; margin-top: 200px;}
-    80%  {margin-left: 65vw; margin-top: 50px;}
-    90%  {margin-left: 85vw; margin-top: 100px;}
-    100% { margin-left: 110vw; margin-top: 50px;}
+    0% {
+        margin-left: -100px;
+    }
+
+    20% {
+        margin-left: 10vw;
+        margin-top: 100px;
+    }
+
+    40% {
+        margin-left: 25vw;
+        margin-top: 50px;
+    }
+
+    60% {
+        margin-left: 50vw;
+        margin-top: 200px;
+    }
+
+    80% {
+        margin-left: 65vw;
+        margin-top: 50px;
+    }
+
+    90% {
+        margin-left: 85vw;
+        margin-top: 100px;
+    }
+
+    100% {
+        margin-left: 110vw;
+        margin-top: 50px;
+    }
 }
+
 @keyframes bird2 {
-    0%   {margin-left: -100px;}
-    20%  {margin-left: 15vw; margin-top: 200px;}
-    40%  {margin-left: 30vw; margin-top: 250px;}
-    60%  {margin-left: 55vw; margin-top: 200px;}
-    80%  {margin-left: 70vw; margin-top: 250px;}
-    90%  {margin-left: 90vw; margin-top: 200px;}
-    100% { margin-left: 110vw; margin-top: 250px;}
+    0% {
+        margin-left: -100px;
+    }
+
+    20% {
+        margin-left: 15vw;
+        margin-top: 200px;
+    }
+
+    40% {
+        margin-left: 30vw;
+        margin-top: 250px;
+    }
+
+    60% {
+        margin-left: 55vw;
+        margin-top: 200px;
+    }
+
+    80% {
+        margin-left: 70vw;
+        margin-top: 250px;
+    }
+
+    90% {
+        margin-left: 90vw;
+        margin-top: 200px;
+    }
+
+    100% {
+        margin-left: 110vw;
+        margin-top: 250px;
+    }
 }
+
 @keyframes flame1 {
-    0%   {max-width: 120px;}
-    50%  {max-width: 100px;}
-    100% {max-width: 120px;}
+    0% {
+        max-width: 120px;
+    }
+
+    50% {
+        max-width: 100px;
+    }
+
+    100% {
+        max-width: 120px;
+    }
 }
+
 @keyframes flame2 {
-    0%   {max-width: 100px;}
-    50%  {max-width: 80px;}
-    100% {max-width: 100px;}
+    0% {
+        max-width: 100px;
+    }
+
+    50% {
+        max-width: 80px;
+    }
+
+    100% {
+        max-width: 100px;
+    }
 }
+
 @keyframes flame3 {
-    0%   {max-width: 150px;}
-    50%  {max-width: 130px;}
-    100% {max-width: 150px;}
+    0% {
+        max-width: 150px;
+    }
+
+    50% {
+        max-width: 130px;
+    }
+
+    100% {
+        max-width: 150px;
+    }
 }
+
 @keyframes heatwave1 {
-    0%   {opacity: 0; margin-top: 80vh;}
-    100% {opacity: 1; margin-top: 550px;}
-}
-@keyframes heatwave2 {
-    0%   {opacity: 0; margin-top: 80vh;}
-    100% {opacity: 1; margin-top: 400px;}
-}
-@keyframes heatwave3 {
-    0%   {opacity: 0; margin-top: 80vh;}
-    100% {opacity: 1; margin-top: 560px;}
-}
-
-@keyframes wind{
-    0%{
-    transform: translateX(-90px);
-    }
-
-    25%{
-    transform: translateY(-90px);
-    left: 250px;
-    }
-
-    50%{
-        transform: translateX(0px);
-        left: 750px;
-        }
-    
-        100%{
-        transform: translateY(-90px);
-        left: 1000px;
-        }
-}
-
-@keyframes snowman{
-    0%{
-        transform: translateX(-90px);
-        }
-    
-        25%{
-        transform: translateY(-90px);
-        top: 250px;
+    0% {
         opacity: 0;
-        }
+        margin-top: 80vh;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 550px;
+    }
+}
+
+@keyframes heatwave2 {
+    0% {
+        opacity: 0;
+        margin-top: 80vh;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 400px;
+    }
+}
+
+@keyframes heatwave3 {
+    0% {
+        opacity: 0;
+        margin-top: 80vh;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 560px;
+    }
+}
+
+@keyframes wind {
+    0% {
+        transform: translateX(-90px);
+        left: -10vw;
+    }
+
+    25% {
+        transform: translateY(-90px);
+        left: 30vw;
+    }
+
+    50% {
+        transform: translateX(0px);
+        left: 80vwpx;
+    }
+
+    100% {
+        transform: translateY(-90px);
+        left: 110vw;
+    }
+}
+
+@keyframes snowman {
+    0% {
+        transform: translateY(-85px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(-85px);
+    }
+
+}
+@keyframes meltdrop1 {
+    0% {
+        margin-top: 500px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 95vh;
+        opacity: 1;
+    }
+}
+@keyframes meltdrop2 {
+    0% {
+        margin-top: 580px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 95vh;
+        opacity: 1;
+    }
+}
+@keyframes meltdrop3 {
+    0% {
+        margin-top: 540px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 95vh;
+        opacity: 1;
+    }
 }

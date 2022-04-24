@@ -433,43 +433,61 @@ body {
     }
 
     .frames__wind {
-        height: 100px;
         width: 100px;
-        position: relative;
+        position: absolute;
         z-index: 300;
-        animation-name: wind;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
+        margin-top: 100px;
+        animation: wind 10s infinite;
 
     }
 
-    .frames__snowman {
-        height: 100px;
+    .frames__snowman--1 {
         width: 100px;
-        position: relative;
-        animation-name: snowman;
-        animation-duration: 5s;
+        position: absolute;
+        margin-top: 590px;
+        margin-left: 85vw;
+        animation: snowman 4s infinite;
+        z-index: 100;
 
     }
-
     .frames__snowman--2 {
-        height: 80px;
-        width: 80px;
-        margin-top: -80px;
-        margin-left: 75px;
-        position: relative;
-        animation-name: snowman;
-        animation-duration: 5s;
+        width: 100px;
+        position: absolute;
+        margin-top: 590px;
+        margin-left: 85vw;
+        animation: snowman 4s infinite;
+        z-index: 100;
 
     }
-
     .frames__snowman--3 {
-        height: 60px;
-        width: 80px;
-        margin-top: -60px;
-        margin-left: 135px;
-        position: relative;
-        animation-name: snowman;
-        animation-duration: 5s;
+        width: 110px;
+        position: absolute;
+        margin-top: 570px;
+        margin-left: 85vw;
+        animation: snowman 4s infinite;
+        z-index: 100;
+
+    }
+    .frames__meltdrop--1,
+    .frames__meltdrop--2,
+    .frames__meltdrop--3 {
+        width: 20px;
+        position: absolute;
+        z-index: 100;
+    }
+    .frames__meltdrop--1 {
+        margin-top: 500px;
+        margin-left: 30vw;
+        animation: meltdrop1 6s infinite;
+    }
+    .frames__meltdrop--2 {
+        margin-top: 580px;
+        margin-left: 35vw;
+        animation: meltdrop2 4s infinite;
+    }
+    .frames__meltdrop--3 {
+        margin-top: 540px;
+        margin-left: 40vw;
+        animation: meltdrop3 7s infinite;
     }
 }
