@@ -1658,8 +1658,8 @@ body .frames__statometer {
   margin-left: 700px;
   margin-top: 80px;
   max-width: 15px;
-  -webkit-animation: text s ease-in;
-          animation: text s ease-in;
+  -webkit-animation: text 3s infinite;
+          animation: text 3s infinite;
 }
 body .frames__heatwave {
   z-index: 100;
