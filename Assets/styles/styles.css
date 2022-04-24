@@ -1362,6 +1362,7 @@ body #infoFrame {
   padding: 10px;
   border: 0.5px dotted rgb(151, 151, 151);
   padding-bottom: 80px;
+
 }
 body #infoFrame .infoframe--h1 {
   margin-top: 20px;
