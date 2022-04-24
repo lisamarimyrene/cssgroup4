@@ -19,5 +19,5 @@ For us as developers, the project is useful for further developing our skills an
 In this website, technologies such as HTML, CSS/SASS (including SCSS variabels) and JavaScript is used to develop the scrollytelling website. We have chosen to use Scroll Magic as out Intersection Observer technology in this scrollytelling. This was a simple and effective way to develop out scrollytelling, using each scene as a trigger for our animations. The code is constructed using BEM, for a more structured and effective workflow. For better accessibility, we have implemented several media-quieries that for example reduces motions. 
 
 ### Maintaining and contributing the project
-The group of this project, Lisa Mari, Alexandra, and Fadumo, are all responsible to contribute and maintaining the project. Each member contributes to the project through Git commits, working on different branches. 
+The group of this project (group 4), Lisa Mari, Alexandra, and Fadumo, are all responsible to contribute and maintaining the project. Each member contributes to the project through Git commits, working on different branches. 
 
