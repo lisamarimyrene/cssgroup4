@@ -288,17 +288,17 @@
   30% {
     left: 500px;
     width: 80px;
-    margin-top: 500px;
+    margin-top: 560px;
   }
   50% {
-    margin-top: 400px;
+    margin-top: 480px;
     left: 600px;
     width: 100px;
   }
   75% {
     left: 500px;
     width: 90px;
-    margin-top: 450px;
+    margin-top: 500px;
   }
   100% {
     left: 350px;
@@ -313,50 +313,20 @@
   30% {
     left: 500px;
     width: 80px;
-    margin-top: 500px;
+    margin-top: 560px;
   }
   50% {
-    margin-top: 400px;
+    margin-top: 480px;
     left: 600px;
     width: 100px;
   }
   75% {
     left: 500px;
     width: 90px;
-    margin-top: 450px;
+    margin-top: 500px;
   }
   100% {
     left: 350px;
-    margin-top: 450px;
-  }
-}
-@-webkit-keyframes tornado2 {
-  0% {
-    right: 50px;
-    margin-top: 450px;
-  }
-  50% {
-    margin-top: 460px;
-    right: 100px;
-    width: 130px;
-  }
-  100% {
-    right: 50px;
-    margin-top: 450px;
-  }
-}
-@keyframes tornado2 {
-  0% {
-    right: 50px;
-    margin-top: 450px;
-  }
-  50% {
-    margin-top: 460px;
-    right: 100px;
-    width: 130px;
-  }
-  100% {
-    right: 50px;
     margin-top: 450px;
   }
 }
@@ -1697,19 +1667,13 @@ body .frames__lightning--small {
   margin-left: 170px;
   margin-top: 200px;
 }
-body .frames__tornado,
-body .frames__tornado--2 {
+body .frames__tornado {
   width: 80px;
   margin-left: 40px;
   margin-top: 340px;
   -webkit-animation: tornado 6s infinite;
           animation: tornado 6s infinite;
-  z-index: 100;
-}
-body .frames__tornado--2 {
-  -webkit-animation: tornado2 4s infinite;
-          animation: tornado2 4s infinite;
-  z-index: 99;
+  z-index: 102;
 }
 body .frames__flowerDiv {
   position: absolute;

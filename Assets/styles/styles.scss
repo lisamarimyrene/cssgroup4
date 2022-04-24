@@ -370,20 +370,16 @@ body {
 
     }
 
-    .frames__tornado,
-    .frames__tornado--2 {
+    .frames__tornado
+     {
         width: 80px;
         margin-left: 40px;
         margin-top: 340px;
         animation: tornado 6s infinite;
-        z-index: 100;
+        z-index: 102;
     }
 
-    .frames__tornado--2 {
-        animation: tornado2 4s infinite;
-        z-index: 99;
-    }
-
+  
 
     .frames__flowerDiv {
         position: absolute;
