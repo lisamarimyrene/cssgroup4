@@ -13,11 +13,9 @@
 }
 
 
-
-
 body {
     width: 100%;
-    
+
     #infoBtn {
         z-index: 200;
         position: fixed;
@@ -32,13 +30,15 @@ body {
         margin-left: 2vw;
     }
 
-    #infoBtn:hover, #topBtn:hover {
+    #infoBtn:hover,
+    #topBtn:hover {
         background-color: black;
-        color:white;
-        transition-duration:1s;
+        color: white;
+        transition-duration: 1s;
     }
+
     #infoFrame {
-    
+
         position: fixed;
         background-color: white;
         height: 410px;
@@ -47,50 +47,49 @@ body {
         z-index: 300;
         margin-top: 27vh;
         margin-left: 1vw;
-        overflow:scroll;
-        border-radius:10px;
+        overflow: scroll;
+        border-radius: 10px;
         padding: 10px;
         border: .5px dotted rgb(151, 151, 151);
         padding-bottom: 80px;
-       
-       
-       
 
-        h1 {
+
+        .infoframe--h1 {
             margin-top: 20px;
             padding-bottom: 10px;
             font-size: 20px;
         }
-        p {
+
+        .infoframe--p {
             font-size: 18px;
             line-height: 25px;
-            max-width:80ch;
-            width:70%;
+            max-width: 80ch;
+            width: 70%;
         }
 
         #closeBtn {
-        z-index: 300;
-        position: absolute;
-        border: none;
-        background-color: black;
-        color:white;
-        font-family: fonts.$fontJosefinSans;
-        font-size: 18px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left: -10px;
-        height:50px;
-        width:60px;
-        border-radius:5px;
-        
+            z-index: 300;
+            position: absolute;
+            border: none;
+            background-color: black;
+            color: white;
+            font-family: fonts.$fontJosefinSans;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 30px;
+            margin-left: -10px;
+            height: 50px;
+            width: 60px;
+            border-radius: 5px;
+
         }
 
         #closeBtn:hover {
             background-color: white;
-            color:black;
+            color: black;
         }
 
-       
+
     }
 
     #topBtn {
@@ -98,7 +97,7 @@ body {
         position: absolute;
         border: none;
         background-color: white;
-        color:black;
+        color: black;
         font-family: fonts.$fontJosefinSans;
         font-size: 18px;
         cursor: pointer;
@@ -106,10 +105,10 @@ body {
         border-radius: 10px;
         margin-top: 90vh;
         margin-left: 90vw;
-        
+
     }
 
-   
+
 
     h1,
     p {
@@ -118,9 +117,9 @@ body {
         margin-top: 10px;
     }
 
-#aboutText {
-    display: none;
-}
+    #aboutText { /* What is this doing? */
+        display: none;
+    }
 
     p {
         font-family: fonts.$fontJosefinSans;
@@ -128,7 +127,7 @@ body {
         max-width: 500px;
         line-height: 35px;
         font-weight: 1000;
-       
+
     }
 
     h1 {
@@ -136,50 +135,54 @@ body {
         font-family: fonts.$fontLibreBaskerville;
         color: colors.$title;
     }
-    .info-txt {
+
+    .text--infoTxt {
         margin-top: 200px;
         max-width: 400px;
         line-height: 35px;
         font-size: 25px;
     }
 
-    .globalwarming {
+    .text--globalwarming {
         margin-top: 200px;
     }
 
-    .info {
+    .text--info {
         font-size: 18px;
         line-height: 30px;
         max-width: 500px;
     }
 
-    .h1frame2 {
+    .text--h1frame2 {
         max-width: 500px;
         font-size: 25px;
         margin-top: 190px;
         line-height: 40px;
     }
 
-    .pframe2 {
+    .text--pframe2 {
         max-width: 500px;
         font-size: 20px;
         line-height: 30px;
     }
-    .h1frame9 {
+
+    .text--h1frame9 {
         margin-top: 190px;
     }
 
-    .pframe2 {
+    .text--pframe2 {
         max-width: 500px;
         font-size: 20px;
         line-height: 30px;
     }
-    .pframe10 {
+
+    .text--pframe10 {
         max-width: 500px;
         font-size: 20px;
         line-height: 30px;
     }
-    .pframe11 {
+
+    .text--pframe11 {
         max-width: 500px;
         font-size: 20px;
         line-height: 30px;
@@ -191,7 +194,7 @@ body {
         flex-direction: column;
     }
 
-    .ground {
+    .frames__ground {
         margin-top: auto;
         bottom: 0;
         width: 100%;
@@ -199,24 +202,23 @@ body {
 
     }
 
-    .tree,
-    .pinetree,
-    .cloud,
-    .pinetreeSmall,
-    .lightning,
-    .lightningS,
-    .tornado,
-    .tornado2,
-    .cloud2,
-    .bird1,
-    .bird2 {
+    .frames__tree,
+    .frames__pinetree,
+    .frames__cloud,
+    .frames__pinetree--small,
+    .frames__lightning,
+    .frames__lightning--small,
+    .frames__tornado,
+    .frames__cloud--2,
+    .frames__bird--1,
+    .frames__bird--2 {
         width: 240px;
         margin-top: 230px;
         z-index: 100;
         position: absolute;
     }
 
-    .tree {
+    .frames__tree {
         width: 300px;
         left: 1000px;
         margin-top: 250px;
@@ -224,49 +226,49 @@ body {
 
     }
 
-    .pinetree {
+    .frames__pinetree {
         left: 50px;
         width: 220px;
         margin-top: 370px;
         position: absolute;
     }
 
-    .pinetreeSmall {
+    .frames__pinetree--small {
         width: 140px;
         left: 250px;
         margin-top: 390px;
         position: absolute;
     }
 
-    .cloud {
+    .frames__cloud {
         margin-top: 50px;
         width: 200px;
         animation: cloud 6s infinite;
     }
 
-    .cloud2 {
+    .frames__cloud--2 {
         margin-top: 100px;
         animation: cloud2 6s infinite;
     }
 
-    .sunsky {
+    .cloud--sunsky {
         width: 190px;
         margin-top: 20px;
     }
 
-    .sun {
+    .cloud--sun {
         margin-top: 10px;
         width: 250px;
     }
 
-    .earth {
+    .frames__earth {
         width: 120px;
         margin-left: 900px;
         margin-top: -350px;
         animation: earth 5s ease;
     }
 
-    .bunny {
+    .frames__bunny {
         max-width: 80px;
         left: 250px;
         margin-top: 650px;
@@ -275,48 +277,49 @@ body {
         animation: bunny 10s infinite;
     }
 
-    .bird1,
-    .bird2 {
+    .frames__bird--1,
+    .frames__bird--2 {
         max-width: 50px;
         z-index: 200;
     }
 
-    .bird1 {
+    .frames__bird--1 {
         animation: bird1 10s infinite;
     }
 
-    .bird2 {
+    .frames__bird--2 {
         animation: bird2 10s infinite;
     }
 
-    .flame1,
-    .flame2,
-    .flame3 {
+    .frames__flame--1,
+    .frames__flame--2,
+    .frames__flame--3 {
         z-index: 100;
         position: absolute;
     }
 
-    .flame1 {
+    .frames__flame--1 {
         margin-left: 50px;
         margin-top: 590px;
         max-width: 120px;
         animation: flame1 2s infinite;
     }
 
-    .flame2 {
+    .frames__flame--2 {
         margin-left: 220px;
         margin-top: 520px;
         max-width: 100px;
         animation: flame2 2s infinite;
     }
 
-    .flame3 {
+    .frames__flame--3 {
         margin-left: 420px;
         margin-top: 550px;
         max-width: 150px;
         animation: flame3 2s infinite;
     }
-    .statometer {
+
+    .frames__statometer {
         z-index: 100;
         position: absolute;
         margin-left: 700px;
@@ -324,31 +327,35 @@ body {
         max-width: 15px;
         animation: text s ease-in;
     }
-    .heatwave {
+
+    .frames__heatwave {
         z-index: 100;
         position: absolute;
         max-width: 100px;
-    } 
-    .wave1 {
+    }
+
+    .heatwave--wave1 {
         margin-left: 420px;
         margin-top: 580px;
         animation: heatwave1 4s infinite;
 
     }
-    .wave2 {
+
+    .heatwave--wave2 {
         margin-left: 620px;
         margin-top: 500px;
         animation: heatwave2 4s infinite;
     }
-    .wave3 {
+
+    .heatwave--wave3 {
         margin-left: 820px;
         margin-top: 590px;
         animation: heatwave3 4s infinite;
     }
 
 
-    .lightning,
-    .lightningS {
+    .frames__lightning,
+    .frames__lightning--small {
         width: 30px;
         margin-left: 150px;
         margin-top: 120px;
@@ -357,15 +364,14 @@ body {
 
     }
 
-
-    .lightningS {
+    .frames__lightning--small {
         margin-left: 170px;
         margin-top: 200px;
 
     }
 
-    .tornado,
-    .tornado2 {
+    .frames__tornado,
+    .frames__tornado--2 {
         width: 80px;
         margin-left: 40px;
         margin-top: 340px;
@@ -373,13 +379,13 @@ body {
         z-index: 100;
     }
 
-    .tornado2 {
+    .frames__tornado--2 {
         animation: tornado2 4s infinite;
         z-index: 99;
     }
 
 
-    .flower-div {
+    .frames__flowerDiv {
         position: absolute;
         width: 400px;
         z-index: 100;
@@ -389,81 +395,81 @@ body {
         display: flex;
         flex-direction: row;
 
-        .flower {
+        .flowerDiv__flower {
             width: 30px;
-
         }
 
-        .flower1 {
+        .flower--flower1 {
             margin-bottom: 35px;
         }
 
-        .flower2 {
+        .flower--flower2 {
             margin-bottom: 15px;
         }
 
-        .flower3 {
+        .flower--flower3 {
             margin-bottom: 20px;
         }
 
-        .flower4 {
+        .flower--flower4 {
             margin-bottom: -5px;
         }
 
-        .flower5 {
+        .flower--flower5 {
             margin-bottom: -20px;
         }
 
-        .flower6 {
+        .flower--flower6 {
             margin-bottom: -40px;
         }
 
-        .flower7 {
+        .flower--flower7 {
             margin-bottom: -35px;
         }
 
-        .flower8 {
+        .flower--flower8 {
             margin-bottom: -65px;
         }
     }
-    .windWinter {
+
+    .frames__wind {
         height: 100px;
         width: 100px;
         position: relative;
         z-index: 300;
-        animation-name: windd;
+        animation-name: wind;
         animation-duration: 10s;
         animation-iteration-count: infinite;
-        
+
     }
 
-    .snowmanWinter {
+    .frames__snowman {
         height: 100px;
         width: 100px;
         position: relative;
-        animation-name: jump;
+        animation-name: snowman;
         animation-duration: 5s;
-       
+
     }
 
-    .snowmanWinter2 {
+    .frames__snowman--2 {
         height: 80px;
         width: 80px;
         margin-top: -80px;
         margin-left: 75px;
         position: relative;
-        animation-name: jump;
+        animation-name: snowman;
         animation-duration: 5s;
 
     }
 
-    .snowmanWinter3 {
+    .frames__snowman--3 {
         height: 60px;
         width: 80px;
         margin-top: -60px;
         margin-left: 135px;
         position: relative;
-        animation-name: jump;
+        animation-name: snowman;
         animation-duration: 5s;
     }
 }

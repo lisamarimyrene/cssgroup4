@@ -16,423 +16,532 @@
 
     <!------------------------- SPRING ------------------------->
 
-    <div class="frames frame1">
+    <div class="frames frames--frame1">
+
         <button id="infoBtn">Info</button>
         <div id="infoFrame">
-            <h1>Information about the procject</h1>
-            <p>This story is created to spread awareness of Global Warming, based off of the UN's sustainable development goal 13: "Take urgent action to combat climate change and its impacts". By spreading awareness we are taking action, and through animations we are showing some of the consequences climate change will have on our earth.</p>
-            <h1>How it works</h1>
-            <p>This is a scrollytelling story being told as you scroll down the page. As you go down the page, pause at the different frames for informational text and watch the animations before scrolling further. The frames displays the different consequences climate change has on the different seasons.</p>
+            <h1 class="infoFrame--h1">Information about the procject</h1>
+            <p class="infoFrame--p">This story is created to spread awareness of Global Warming, based off of the UN's sustainable
+                development goal 13: "Take urgent action to combat climate change and its impacts". By spreading
+                awareness we are taking action, and through animations we are showing some of the consequences climate
+                change will have on our earth.</p>
+            <h1 class="infoFrame--h1">How it works</h1>
+            <p class="infoFrame--p">This is a scrollytelling story being told as you scroll down the page. As you go down the page, pause at
+                the different frames for informational text and watch the animations before scrolling further. The
+                frames displays the different consequences climate change has on the different seasons.</p>
             <button id="closeBtn">Close</button>
         </div>
-        <h1 class="text globalwarming">Global Warming...</h1>
-        <p class="text">..is a real issue affecting the entire globe.</p>
-        <p class="text info">Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.</p>
 
-        <img class="tree" src="./assets/svgGeneral/svgSpring/threeSpringWinter.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
-        <img class="pinetreeSmall" id="pinetreeSmall1" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsWhite.svg" alt="Clouds">
-        <img class="earth" src="./Assets/svgGeneral/svgSpring/earth.svg" alt="Earth">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink1.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow1.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink1.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow1.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg" alt="flower8">
+        <h1 class="frames__text text--globalwarming">Global Warming...</h1>
+        <p class="frames__text">..is a real issue affecting the entire globe.</p>
+        <p class="frames__text text--info">Global warming is the long-term heating of Earth's climate system observed
+            since the pre-industrial period due to human activities, primarily fossil fuel burning, which increases
+            heat-trapping greenhouse gas levels in Earth's atmosphere.</p>
+
+        <img class="frames__tree" src="./assets/svgGeneral/svgSpring/threeSpringWinter.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" id="pinetreeSmall1" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg"
+            alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgSpring/cloudsWhite.svg" alt="Clouds">
+        <img class="frames__earth" src="./Assets/svgGeneral/svgSpring/earth.svg" alt="Earth">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink1.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow1.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink1.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow1.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg"
+                alt="flower8">
         </div>
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground1" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground1"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground1" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground1"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
 
-    <div class="frames frame2">
-        <h1 class="text h1frame2">We will take you through every season and their changes</h1>
-        <p class="text pframe2">Shifting seasons are directly linked to warmer global temperatures. A slight change in temperature is enough to push the spring thaw earlier, and delay the first frost until later in the fall.</p>
-        <p class="text"></p>
+    <div class="frames frames--frame2">
+        <h1 class="text text--h1frame2">We will take you through every season and their changes</h1>
+        <p class="text text--pframe2">Shifting seasons are directly linked to warmer global temperatures. A slight
+            change in temperature is enough to push the spring thaw earlier, and delay the first frost until later in
+            the fall.</p>
 
-        <img class="tree" src="./assets/svgGeneral/svgSpring/threeSpringFlowers.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud sunsky" src="./Assets/svgGeneral/svgSpring/cloudsWhiteSun.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg" alt="flower8">
+        <img class="frames__tree" src="./assets/svgGeneral/svgSpring/threeSpringFlowers.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
+        <img class="frames__cloud cloud--sunsky" src="./Assets/svgGeneral/svgSpring/cloudsWhiteSun.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink2.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow2.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg"
+                alt="flower8">
         </div>
-        <img class="bunny" src="./Assets/svgGeneral/svgSpring/whitebunny.png" alt="bunny">
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground2" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground2"
+        <img class="frames__bunny" src="./Assets/svgGeneral/svgSpring/whitebunny.png" alt="bunny">
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground2" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground2"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
 
     <!------------------------- SUMMER ------------------------->
-    <div class="frames frame3">
-        <h1 class="text">Summer</h1>
-        <p class="text">The summers are growing hotter.</p>
-        <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
-        <img class="cloud sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
-        <img class="bird1" src="./Assets/svgGeneral/svgSummer/bird1.svg" alt="bird1">
-        <img class="bird2" src="./Assets/svgGeneral/svgSummer/bird2.svg" alt="bird2">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg" alt="flower8">
+    <div class="frames frames--frame3">
+        <h1 class="frames__text">Summer</h1>
+        <p class="frames__text">The summers are growing hotter.</p>
+        <img class="frames__tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
+        <img class="frames__cloud cloud--sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
+        <img class="frames__bird--1" src="./Assets/svgGeneral/svgSummer/bird1.svg" alt="bird1">
+        <img class="frames__bird--2" src="./Assets/svgGeneral/svgSummer/bird2.svg" alt="bird2">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink3.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow3.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg"
+                alt="flower8">
         </div>
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground3" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground3"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground3" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground3"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
-    <div class="frames frame4">
-        <p class="text info-txt">The temperature are getting higher with an increased risk of drought. Long summers also increase the length of heat waves and wildfires and would be a further source of air pollution. </p>
-        <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
-        <img class="cloud sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg" alt="flower8">
+    <div class="frames frames--frame4">
+        <p class="frames__text text--infoTxt">The temperature are getting higher with an increased risk of drought. Long
+            summers also increase the length of heat waves and wildfires and would be a further source of air pollution.
+        </p>
+        <img class="frames__tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
+        <img class="frames__cloud cloud--sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink4.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow4.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg"
+                alt="flower8">
         </div>
-        <img class="flame1" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame1">
-        <img class="flame2" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame2">
-        <img class="flame3" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame3">
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground4" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground4"
+        <img class="frames__flame--1" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame1">
+        <img class="frames__flame--2" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame2">
+        <img class="frames__flame--3" src="./Assets/svgGeneral/svgSummer/flame.png" alt="flame3">
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground4" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground4"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
-    <div class="frames frame5">
-        <p class="text info-txt">The summer will also last longer which shortens the other seasons. Global warming will contribute with more frequent heat waves in coming years.</p>
-        <img class="tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
-        <img class="cloud sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg" alt="flower8">
+    <div class="frames frames--frame5">
+        <p class="frames__text text--infoTxt">The summer will also last longer which shortens the other seasons. Global
+            warming will contribute with more frequent heat waves in coming years.</p>
+        <img class="frames__tree" src="./assets/svgGeneral/svgSummer/threeSummer.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree2.svg" alt="Pine tree small">
+        <img class="frames__cloud cloud--sun" src="./Assets/svgGeneral/svgSummer/sunOnly.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink5.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow5.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg"
+                alt="flower8">
         </div>
-        <img class="statometer" src="./Assets/svgGeneral/svgSummer/warmstat.png" alt="">
-        <img class="heatwave wave1" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
-        <img class="heatwave wave2" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
-        <img class="heatwave wave3" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground5" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground5"
+        <img class="frames__statometer" src="./Assets/svgGeneral/svgSummer/warmstat.png" alt="">
+        <img class="frames__heatwave heatwave--wave1" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
+        <img class="frames__heatwave heatwave--wave2" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
+        <img class="frames__heatwave heatwave--wave3" src="./Assets/svgGeneral/svgSummer/heatwaves.svg" alt="heatwave">
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground5" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground5"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
 
     <!------------------------- FALL ------------------------->
-    <div class="frames frame6">
-        <h1 class="text">Fall</h1>
+    <div class="frames frames--frame6">
+        <h1 class="frames__text">Fall</h1>
         <p>The fall season will be warmer and shorter, with more weather changes..</p>
-        <img class="tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
+        <img class="frames__tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
 
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg" alt="flower8">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink6.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow6.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg"
+                alt="flower8">
         </div>
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground6" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground6"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground6" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground6"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
 
     </div>
-    <div class="frames frame7">
-        <p class="text info-txt">The temperature changes causes more destructive and extreme weather than ever before.
+    <div class="frames frames--frame7">
+        <p class="frames__text text--infoTxt">The temperature changes causes more destructive and extreme weather than
+            ever before.
             *add more text later* </p>
-        <div class="raindrops rain1"></div>
-        <div class="raindrops rain2"></div>
-        <div class="raindrops rain3"></div>
-        <div class="raindrops rain4"></div>
-        <div class="raindrops rain5"></div>
-        <div class="raindrops rain6"></div>
-        <div class="raindrops rain7"></div>
-        <div class="raindrops rain8"></div>
-        <div class="raindrops rain9"></div>
-        <div class="raindrops rain10"></div>
-        <div class="raindrops rain11"></div>
-        <div class="raindrops rain12"></div>
-        <div class="raindrops rain13"></div>
-        <div class="raindrops rain14"></div>
-        <div class="raindrops rain15"></div>
-        <div class="raindrops rain16"></div>
-        <div class="raindrops rain17"></div>
-        <div class="raindrops rain18"></div>
-        <div class="raindrops rain19"></div>
-        <div class="raindrops rain20"></div>
+        <div class="frames__raindrops raindrops--rain1"></div>
+        <div class="frames__raindrops raindrops--rain2"></div>
+        <div class="frames__raindrops raindrops--rain3"></div>
+        <div class="frames__raindrops raindrops--rain4"></div>
+        <div class="frames__raindrops raindrops--rain5"></div>
+        <div class="frames__raindrops raindrops--rain6"></div>
+        <div class="frames__raindrops raindrops--rain7"></div>
+        <div class="frames__raindrops raindrops--rain8"></div>
+        <div class="frames__raindrops raindrops--rain9"></div>
+        <div class="frames__raindrops raindrops--rain10"></div>
+        <div class="frames__raindrops raindrops--rain11"></div>
+        <div class="frames__raindrops raindrops--rain12"></div>
+        <div class="frames__raindrops raindrops--rain13"></div>
+        <div class="frames__raindrops raindrops--rain14"></div>
+        <div class="frames__raindrops raindrops--rain15"></div>
+        <div class="frames__raindrops raindrops--rain16"></div>
+        <div class="frames__raindrops raindrops--rain17"></div>
+        <div class="frames__raindrops raindrops--rain18"></div>
+        <div class="frames__raindrops raindrops--rain19"></div>
+        <div class="frames__raindrops raindrops--rain20"></div>
 
-
-        <img class="tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
-        <img class="cloud2" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower8">
+        <img class="frames__tree" src="./assets/svgGeneral/svgFall/TreeFall.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
+        <img class="frames__cloud--2" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerPink7.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerYellow7.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower8">
         </div>
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground7" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground7"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground7" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground7"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
-    <div class="frames frame8">
-        <p class="text info-txt">Hurricanes and tornadoes will be more extreme and cause irrepearable damages to
-            humanity and earth... *add more text later*</p>
-        <div class="raindrops rain1"></div>
-        <div class="raindrops rain2"></div>
-        <div class="raindrops rain3"></div>
-        <div class="raindrops rain4"></div>
-        <div class="raindrops rain5"></div>
-        <div class="raindrops rain6"></div>
-        <div class="raindrops rain7"></div>
-        <div class="raindrops rain8"></div>
-        <div class="raindrops rain9"></div>
-        <div class="raindrops rain10"></div>
-        <div class="raindrops rain11"></div>
-        <div class="raindrops rain12"></div>
-        <div class="raindrops rain13"></div>
-        <div class="raindrops rain14"></div>
-        <div class="raindrops rain15"></div>
-        <div class="raindrops rain16"></div>
-        <div class="raindrops rain17"></div>
-        <div class="raindrops rain18"></div>
-        <div class="raindrops rain19"></div>
-        <div class="raindrops rain20"></div>
+    <div class="frames frames--frame8">
+        <p class="frames__text text--infoTxt">Hurricanes and tornadoes will be more extreme and cause irrepearable damages to humanity and earth... *add more text later*</p>
 
+        <div class="frames__raindrops raindrops--rain1"></div>
+        <div class="frames__raindrops raindrops--rain2"></div>
+        <div class="frames__raindrops raindrops--rain3"></div>
+        <div class="frames__raindrops raindrops--rain4"></div>
+        <div class="frames__raindrops raindrops--rain5"></div>
+        <div class="frames__raindrops raindrops--rain6"></div>
+        <div class="frames__raindrops raindrops--rain7"></div>
+        <div class="frames__raindrops raindrops--rain8"></div>
+        <div class="frames__raindrops raindrops--rain9"></div>
+        <div class="frames__raindrops raindrops--rain10"></div>
+        <div class="frames__raindrops raindrops--rain11"></div>
+        <div class="frames__raindrops raindrops--rain12"></div>
+        <div class="frames__raindrops raindrops--rain13"></div>
+        <div class="frames__raindrops raindrops--rain14"></div>
+        <div class="frames__raindrops raindrops--rain15"></div>
+        <div class="frames__raindrops raindrops--rain16"></div>
+        <div class="frames__raindrops raindrops--rain17"></div>
+        <div class="frames__raindrops raindrops--rain18"></div>
+        <div class="frames__raindrops raindrops--rain19"></div>
+        <div class="frames__raindrops raindrops--rain20"></div>
 
-        <img class="tree" src="./assets/svgGeneral/svgFall/treeFallWinter.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
-        <img class="lightning" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
-        <img class="lightningS" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
+        <img class="frames__tree" src="./assets/svgGeneral/svgFall/treeFallWinter.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree1.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgSpring/cloudsGrey.svg" alt="Clouds">
+        <img class="frames__lightning" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
+        <img class="frames__lightning--small" src="./Assets/svgGeneral/svgFall/Lightning.svg" alt="Lightning">
 
-        <img class="tornado2" src="./Assets/svgGeneral/svgFall/stormSmall.svg" alt="Tornado">
+        <img class="frames__tornado" src="./Assets/svgGeneral/svgFall/stormSmall.svg" alt="Tornado">
 
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower8">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey1.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower8">
         </div>
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground8" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground8"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground8" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground8"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
 
     <!------------------------- WINTER ------------------------->
-    <div class="frames frame9">
-        <h1 class="text h1frame9">Winter</h1>
-        <p class="text">The winters are getting shorter due to the increase of heat, which causes ice and permafrost to melt.</p>
+    <div class="frames frames--frame9">
+        <h1 class="frames__text text--h1frame9">Winter</h1>
+        <p class="frames__text">The winters are getting shorter due to the increase of heat, which causes ice and permafrost to
+            melt.</p>
 
-        <div class="snowflakes snow1"></div>
-        <div class="snowflakes snow2"></div>
-        <div class="snowflakes snow3"></div>
-        <div class="snowflakes snow4"></div>
-        <div class="snowflakes snow5"></div>
-        <div class="snowflakes snow6"></div>
-        <div class="snowflakes snow7"></div>
-        <div class="snowflakes snow8"></div>
-        <div class="snowflakes snow9"></div>
-        <div class="snowflakes snow10"></div>
-        <div class="snowflakes snow11"></div>
-        <div class="snowflakes snow12"></div>
-        <div class="snowflakes snow13"></div>
-        <div class="snowflakes snow14"></div>
-        <div class="snowflakes snow15"></div>
-        <div class="snowflakes snow16"></div>
-        <div class="snowflakes snow17"></div>
-        <div class="snowflakes snow18"></div>
-        <div class="snowflakes snow19"></div>
-        <div class="snowflakes snow20"></div>
+        <div class="frames__snowflakes snowflakes--flake1"></div>
+        <div class="frames__snowflakes snowflakes--flake2"></div>
+        <div class="frames__snowflakes snowflakes--flake3"></div>
+        <div class="frames__snowflakes snowflakes--flake4"></div>
+        <div class="frames__snowflakes snowflakes--flake5"></div>
+        <div class="frames__snowflakes snowflakes--flake6"></div>
+        <div class="frames__snowflakes snowflakes--flake7"></div>
+        <div class="frames__snowflakes snowflakes--flake8"></div>
+        <div class="frames__snowflakes snowflakes--flake9"></div>
+        <div class="frames__snowflakes snowflakes--flake10"></div>
+        <div class="frames__snowflakes snowflakes--flake11"></div>
+        <div class="frames__snowflakes snowflakes--flake12"></div>
+        <div class="frames__snowflakes snowflakes--flake13"></div>
+        <div class="frames__snowflakes snowflakes--flake14"></div>
+        <div class="frames__snowflakes snowflakes--flake15"></div>
+        <div class="frames__snowflakes snowflakes--flake16"></div>
+        <div class="frames__snowflakes snowflakes--flake17"></div>
+        <div class="frames__snowflakes snowflakes--flake18"></div>
+        <div class="frames__snowflakes snowflakes--flake19"></div>
+        <div class="frames__snowflakes snowflakes--flake20"></div>
 
-        <img class="tree" src="./assets/svgGeneral/svgWinter/threeYellow.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower8">
+        <img class="frames__tree" src="./assets/svgGeneral/svgWinter/threeYellow.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey2.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower8">
         </div>
-        <img class="windWinter" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
-        <img class="snowmanWinter" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
+        <img class="frames__wind" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
+        <img class="frames__snowman" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
 
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground9" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground9"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground9" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground9"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
     </div>
-    <div class="frames frame10">
-        <p class="text info-txt pframe10">Ice protects the earth and oceans by reflecting excess heat back into space. This keeps the planet cooler; however, due to global warming, glaciers have begun to melt. As the ice melts sea levels rise, impacting coastal communities heavily. Wildlife is also threatened, with species such as walruses and polar bears losing their homes.</p>
-        <div class="snowflakes snow1"></div>
-        <div class="snowflakes snow2"></div>
-        <div class="snowflakes snow3"></div>
-        <div class="snowflakes snow4"></div>
-        <div class="snowflakes snow5"></div>
-        <div class="snowflakes snow6"></div>
-        <div class="snowflakes snow7"></div>
-        <div class="snowflakes snow8"></div>
-        <div class="snowflakes snow9"></div>
-        <div class="snowflakes snow10"></div>
-        <div class="snowflakes snow11"></div>
-        <div class="snowflakes snow12"></div>
-        <div class="snowflakes snow13"></div>
-        <div class="snowflakes snow14"></div>
-        <div class="snowflakes snow15"></div>
-        <div class="snowflakes snow16"></div>
-        <div class="snowflakes snow17"></div>
-        <div class="snowflakes snow18"></div>
-        <div class="snowflakes snow19"></div>
-        <div class="snowflakes snow20"></div>
-        <img class="tree" src="./assets/svgGeneral/svgWinter/threeWinter.svg" alt="Tree">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower8">
+    <div class="frames frames--frame10">
+        <p class="frames__text text--infoTxt text--pframe10">Ice protects the earth and oceans by reflecting excess heat back into space.
+            This keeps the planet cooler; however, due to global warming, glaciers have begun to melt. As the ice melts
+            sea levels rise, impacting coastal communities heavily. Wildlife is also threatened, with species such as
+            walruses and polar bears losing their homes.</p>
+        <div class="frames__snowflakes snowflakes--flake1"></div>
+        <div class="frames__snowflakes snowflakes--flake2"></div>
+        <div class="frames__snowflakes snowflakes--flake3"></div>
+        <div class="frames__snowflakes snowflakes--flake4"></div>
+        <div class="frames__snowflakes snowflakes--flake5"></div>
+        <div class="frames__snowflakes snowflakes--flake6"></div>
+        <div class="frames__snowflakes snowflakes--flake7"></div>
+        <div class="frames__snowflakes snowflakes--flake8"></div>
+        <div class="frames__snowflakes snowflakes--flake9"></div>
+        <div class="frames__snowflakes snowflakes--flake10"></div>
+        <div class="frames__snowflakes snowflakes--flake11"></div>
+        <div class="frames__snowflakes snowflakes--flake12"></div>
+        <div class="frames__snowflakes snowflakes--flake13"></div>
+        <div class="frames__snowflakes snowflakes--flake14"></div>
+        <div class="frames__snowflakes snowflakes--flake15"></div>
+        <div class="frames__snowflakes snowflakes--flake16"></div>
+        <div class="frames__snowflakes snowflakes--flake17"></div>
+        <div class="frames__snowflakes snowflakes--flake18"></div>
+        <div class="frames__snowflakes snowflakes--flake19"></div>
+        <div class="frames__snowflakes snowflakes--flake20"></div>
+
+        <img class="frames__tree" src="./assets/svgGeneral/svgWinter/threeWinter.svg" alt="Tree">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower8">
         </div>
-        <img class="windWinter" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
-        <img class="windWinter" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
-        <img class="snowmanWinter" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
-        <img class="snowmanWinter2" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
-        <img class="snowmanWinter3" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
+        <img class="frames__wind" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
+        <img class="frames__wind" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
+        <img class="frames__snowman" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
+        <img class="frames__snowman--2" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
+        <img class="frames__snowman--3" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
 
 
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground10" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground10"
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground10" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground10"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>
 
     </div>
-    <div class="frames frame11">
-        <p class="text info-txt pframe11">The permafrost will also begin to thaw, and this will have fatal concequences for the globe. When the permafrost thaws it leaves behind water and soil containing ancient bacteria and viruses. This can make humans and animals severely sick. It also releases greenhouse gases which further speeds up the process of global warming.</p>
+    <div class="frames frames--frame11">
+        <p class="frames__text text--infoTxt text--pframe11">The permafrost will also begin to thaw, and this will have fatal concequences
+            for the globe. When the permafrost thaws it leaves behind water and soil containing ancient bacteria and
+            viruses. This can make humans and animals severely sick. It also releases greenhouse gases which further
+            speeds up the process of global warming.</p>
 
-        <div class="snowflakes snow1"></div>
-        <div class="snowflakes snow2"></div>
-        <div class="snowflakes snow3"></div>
-        <div class="snowflakes snow4"></div>
-        <div class="snowflakes snow5"></div>
-        <div class="snowflakes snow6"></div>
-        <div class="snowflakes snow7"></div>
-        <div class="snowflakes snow8"></div>
-        <div class="snowflakes snow9"></div>
-        <div class="snowflakes snow10"></div>
-        <div class="snowflakes snow11"></div>
-        <div class="snowflakes snow12"></div>
-        <div class="snowflakes snow13"></div>
-        <div class="snowflakes snow14"></div>
-        <div class="snowflakes snow15"></div>
-        <div class="snowflakes snow16"></div>
-        <div class="snowflakes snow17"></div>
-        <div class="snowflakes snow18"></div>
-        <div class="snowflakes snow19"></div>
-        <div class="snowflakes snow20"></div>
+        <div class="frames__snowflakes snowflakes--flake1"></div>
+        <div class="frames__snowflakes snowflakes--flake2"></div>
+        <div class="frames__snowflakes snowflakes--flake3"></div>
+        <div class="frames__snowflakes snowflakes--flake4"></div>
+        <div class="frames__snowflakes snowflakes--flake5"></div>
+        <div class="frames__snowflakes snowflakes--flake6"></div>
+        <div class="frames__snowflakes snowflakes--flake7"></div>
+        <div class="frames__snowflakes snowflakes--flake8"></div>
+        <div class="frames__snowflakes snowflakes--flake9"></div>
+        <div class="frames__snowflakes snowflakes--flake10"></div>
+        <div class="frames__snowflakes snowflakes--flake11"></div>
+        <div class="frames__snowflakes snowflakes--flake12"></div>
+        <div class="frames__snowflakes snowflakes--flake13"></div>
+        <div class="frames__snowflakes snowflakes--flake14"></div>
+        <div class="frames__snowflakes snowflakes--flake15"></div>
+        <div class="frames__snowflakes snowflakes--flake16"></div>
+        <div class="frames__snowflakes snowflakes--flake17"></div>
+        <div class="frames__snowflakes snowflakes--flake18"></div>
+        <div class="frames__snowflakes snowflakes--flake19"></div>
+        <div class="frames__snowflakes snowflakes--flake20"></div>
 
-       
-       <img class="tree" src="Assets/svgGeneral/svgWinter/threeWinter.svg">
-        <img class="pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">
-        <img class="pinetreeSmall" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree small">
-        <img class="cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
-        <div class="flower-div">
-            <img class="flower flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower1">
-            <img class="flower flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower2">
-            <img class="flower flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower3">
-            <img class="flower flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower4">
-            <img class="flower flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower5">
-            <img class="flower flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower6">
-            <img class="flower flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower7">
-            <img class="flower flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg" alt="flower8">
+
+        <img class="frames__tree" src="Assets/svgGeneral/svgWinter/threeWinter.svg">
+        <img class="frames__pinetree" src="./Assets/svgGeneral/svgPineThrees/pineThree4.svg" alt="Pine tree">
+        <img class="frames__pinetree--small" src="./Assets/svgGeneral/svgPineThrees/pineThree3.svg" alt="Pine tree small">
+        <img class="frames__cloud" src="./Assets/svgGeneral/svgWinter/cloudsGrey.svg" alt="Clouds">
+        <div class="frames__flowerDiv">
+            <img class="flowerDiv__flower flower--flower1" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower1">
+            <img class="flowerDiv__flower flower--flower2" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower2">
+            <img class="flowerDiv__flower flower--flower3" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower3">
+            <img class="flowerDiv__flower flower--flower4" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower4">
+            <img class="flowerDiv__flower flower--flower5" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower5">
+            <img class="flowerDiv__flower flower--flower6" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower6">
+            <img class="flowerDiv__flower flower--flower7" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower7">
+            <img class="flowerDiv__flower flower--flower8" src="./Assets/svgGeneral/svgFlowers/flowerGrey3.svg"
+                alt="flower8">
         </div>
-        <img class="windWinter" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
-        <img class="snowmanWinter" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
-        
-        <svg class="ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
-            <path class="ground11" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
-            <path class="ground11"
+        <img class="frames__wind" src="/Assets/svgGeneral/svgWinter/windWinter.svg" alt="windWinter">
+        <img class="frames__snowman" src="/Assets/svgGeneral/svgWinter/snowmanWinter.svg" alt="snowmanWinter">
+
+        <svg class="frames__ground" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.83 159.46">
+            <path class="ground--ground11" d="M801.31-204.32" transform="translate(-0.06 -8.39)" />
+            <path class="ground--ground11"
                 d="M799.88,167.85.11,167.78s0-138,0-137.27c0,0,221.48-52.14,448.64,3.67S766.68,59,799.78,55"
                 transform="translate(-0.06 -8.39)" />
         </svg>

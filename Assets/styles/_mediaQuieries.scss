@@ -7,39 +7,39 @@
         animation: none !important;
     }
 
-    .raindrops,
-    .snowflakes {
+    .frames__raindrops,
+    .frames__snowflakes {
         visibility: hidden;
     }
 
-    .cloud {
+    .frames__cloud {
         left: 250px;
     }
 
-    .bunny {
+    .frames__bunny {
         margin-top: 440px !important;
         margin-left: 200px !important;
 
     }
 
-    .bird1 {
+    .frames__bird--1 {
         margin-left: 100px !important;
     }
 
-    .wave1,
-    .wave3,
-    .wave2 {
+    .heatwave--wave1,
+    .heatwave--wave3,
+    .heatwave--wave2 {
         margin-top: 35% !important;
     }
 
-    .tornado2 {
+    .frames__tornado {
         margin-left: 85% !important;
         width: 180px !important;
 
     }
 
-    .lightning,
-    .lightningS {
+    .frames__lightning,
+    .frames__lightning--small {
         margin-left: 25% !important;
 
     }
