@@ -1,6 +1,6 @@
 # Assignment 3
 
-# About the project
+## About the project
 
 In this project we are making a scrollytelling story that has a socially impactful theme about Global Warming and how it affects the climate. 
 
