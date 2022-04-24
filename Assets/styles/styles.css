@@ -1363,12 +1363,12 @@ body #infoFrame {
   border: 0.5px dotted rgb(151, 151, 151);
   padding-bottom: 80px;
 }
-body #infoFrame h1 {
+body #infoFrame .infoframe--h1 {
   margin-top: 20px;
   padding-bottom: 10px;
   font-size: 20px;
 }
-body #infoFrame p {
+body #infoFrame .infoframe--p {
   font-size: 18px;
   line-height: 25px;
   max-width: 80ch;
@@ -1414,6 +1414,7 @@ body p {
   margin-top: 10px;
 }
 body #aboutText {
+  /* What is this doing? */
   display: none;
 }
 body p {
