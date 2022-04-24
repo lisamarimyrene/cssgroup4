@@ -1361,12 +1361,12 @@ body #infoFrame {
   border-radius: 10px;
   border: 0.5px dotted rgb(151, 151, 151);
 }
-body #infoFrame .infoframe--h1 {
+body #infoFrame .infoFrame--h1 {
   margin-top: 20px;
   padding-bottom: 10px;
   font-size: 20px;
 }
-body #infoFrame .infoframe--p {
+body #infoFrame .infoFrame--p {
   font-size: 18px;
   line-height: 25px;
   max-width: 80ch;
