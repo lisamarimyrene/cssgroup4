@@ -1348,6 +1348,14 @@
 .frames--frame11 p {
     color: white;
   }
+
+  .infoFrame--h1 {
+    background-color: black;
+  }
+
+  .infoFrame--p {
+    background-color: black;
+  }
 }
 * {
   padding: 0;
