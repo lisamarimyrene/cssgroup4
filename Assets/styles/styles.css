@@ -1349,16 +1349,12 @@
     color: white;
   }
 
-  #infoFrame {
-    background-color: black;
-  }
-
   .infoFrame--h1 {
-    background-color: black;
+    color: black;
   }
 
   .infoFrame--p {
-    background-color: black;
+    color: black;
   }
 }
 * {
@@ -1449,10 +1445,6 @@ body p {
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
-}
-body #aboutText {
-  /* What is this doing? */
-  display: none;
 }
 body p {
   font-family: "Josefin Sans", sans-serif;
