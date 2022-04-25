@@ -47,57 +47,55 @@
     }
 }
 
-/* For some reason the prefers color scheme media quiery doesn't work, 
-   We have tried many different approaches but we can't seem to figure out the error. 
-   Here is the code for it: */
+//Media Quieries for dark mode
 
 @media (prefers-color-scheme:dark) {
 
 
-    .frame1, .frame2{
+    .frames--frame1, .frames--frame2{
         background-color:colors.$background-springDark;
 
-        .ground1, .ground2 {
+        .ground--ground1, .ground--ground2 {
             fill: colors.$fill-springDark;
         }  
     } 
     
-    .frame3, .frame4, .frame5 {
+    .frames--frame3, .frames--frame4, .frames--frame5 {
         background-color:colors.$background-summerDark;
 
-        .ground3, .ground4, .ground5 {
+        .ground--ground3, .ground--ground4, .ground--ground5 {
 
             fill: colors.$fill-summerDark;
         }
     }
 
-    .frame6, .frame7, .frame8 {
+    .frames--frame6, .frames--frame7, .frames--frame8 {
         background-color:colors.$background-fallDark;
 
-        .ground6, .ground7, .ground8 {
+        .ground--ground6, .ground--ground7, .ground--ground8 {
             fill: colors.$fill-fallDark;
         }
     }
 
-    .frame9, .frame10, .frame11 {
+    .frames--frame9, .frames--frame10, .frames--frame11 {
         background-color: colors.$background-winterDark;
 
-        .ground9, .ground10, .ground11 {
+        .ground--ground9, .ground--ground10, .ground--ground11 {
             fill: colors.$fill-winterDark;
         }
      }
 
-    .frame1, 
-    .frame2, 
-    .frame3, 
-    .frame4, 
-    .frame5, 
-    .frame6, 
-    .frame7, 
-    .frame8, 
-    .frame9, 
-    .frame10, 
-    .frame11 {
+    .frames--frame1, 
+    .frames--frame2, 
+    .frames--frame3, 
+    .frames--frame4, 
+    .frames--frame5, 
+    .frames--frame6, 
+    .frames--frame7, 
+    .frames--frame8, 
+    .frames--frame9, 
+    .frames--frame10, 
+    .frames--frame11 {
         h1, p {
             color:white; 
         }
