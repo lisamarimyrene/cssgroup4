@@ -1349,6 +1349,10 @@
     color: white;
   }
 
+  #infoFrame {
+    background-color: black;
+  }
+
   .infoFrame--h1 {
     background-color: black;
   }
