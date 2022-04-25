@@ -34,3 +34,5 @@ https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting
 
 https://yaleclimateconnections.org/2019/07/how-climate-change-is-making-hurricanes-more-dangerous/
 
+https://www.globalgoals.org/goals/13-climate-action/
+
