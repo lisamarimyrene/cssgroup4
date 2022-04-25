@@ -1325,36 +1325,18 @@
     fill: #82afbd;
   }
 
-  .frames--frame1 h1, .frames--frame1 p,
-.frames--frame2 h1,
-.frames--frame2 p,
-.frames--frame3 h1,
-.frames--frame3 p,
-.frames--frame4 h1,
-.frames--frame4 p,
-.frames--frame5 h1,
-.frames--frame5 p,
-.frames--frame6 h1,
-.frames--frame6 p,
-.frames--frame7 h1,
-.frames--frame7 p,
-.frames--frame8 h1,
-.frames--frame8 p,
-.frames--frame9 h1,
-.frames--frame9 p,
-.frames--frame10 h1,
-.frames--frame10 p,
-.frames--frame11 h1,
-.frames--frame11 p {
+  .frames--frame1 .frames__text,
+.frames--frame2 .frames__text,
+.frames--frame3 .frames__text,
+.frames--frame4 .frames__text,
+.frames--frame5 .frames__text,
+.frames--frame6 .frames__text,
+.frames--frame7 .frames__text,
+.frames--frame8 .frames__text,
+.frames--frame9 .frames__text,
+.frames--frame10 .frames__text,
+.frames--frame11 .frames__text {
     color: white;
-  }
-
-  .infoFrame--h1 {
-    color: black;
-  }
-
-  .infoFrame--p {
-    color: black;
   }
 }
 * {

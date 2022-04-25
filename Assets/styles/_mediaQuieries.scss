@@ -96,17 +96,9 @@
     .frames--frame9, 
     .frames--frame10, 
     .frames--frame11 {
-        h1, p {
+        .frames__text {
             color:white; 
         }
-    }
-
-    .infoFrame--h1 {
-        color: black;
-    }
-
-    .infoFrame--p {
-        color: black;
     }
  }
 
