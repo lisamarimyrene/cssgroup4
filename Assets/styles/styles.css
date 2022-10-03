@@ -647,7 +647,7 @@
   }
   100% {
     opacity: 1;
-    margin-top: 400px;
+    margin-top: 450px;
   }
 }
 @keyframes heatwave2 {
@@ -657,7 +657,7 @@
   }
   100% {
     opacity: 1;
-    margin-top: 400px;
+    margin-top: 450px;
   }
 }
 @-webkit-keyframes heatwave3 {
@@ -1296,59 +1296,46 @@
     margin-left: 25% !important;
   }
 }
-/* For some reason the prefers color scheme media quiery doesn't work, 
-   We have tried many different approaches but we can't seem to figure out the error. 
-   Here is the code for it: */
 @media (prefers-color-scheme: dark) {
-  .frame1, .frame2 {
+  .frames--frame1, .frames--frame2 {
     background-color: #508494;
   }
-  .frame1 .ground1, .frame1 .ground2, .frame2 .ground1, .frame2 .ground2 {
+  .frames--frame1 .ground--ground1, .frames--frame1 .ground--ground2, .frames--frame2 .ground--ground1, .frames--frame2 .ground--ground2 {
     fill: #4d995e;
   }
 
-  .frame3, .frame4, .frame5 {
+  .frames--frame3, .frames--frame4, .frames--frame5 {
     background-color: #3e4f66;
   }
-  .frame3 .ground3, .frame3 .ground4, .frame3 .ground5, .frame4 .ground3, .frame4 .ground4, .frame4 .ground5, .frame5 .ground3, .frame5 .ground4, .frame5 .ground5 {
+  .frames--frame3 .ground--ground3, .frames--frame3 .ground--ground4, .frames--frame3 .ground--ground5, .frames--frame4 .ground--ground3, .frames--frame4 .ground--ground4, .frames--frame4 .ground--ground5, .frames--frame5 .ground--ground3, .frames--frame5 .ground--ground4, .frames--frame5 .ground--ground5 {
     fill: #198b32;
   }
 
-  .frame6, .frame7, .frame8 {
+  .frames--frame6, .frames--frame7, .frames--frame8 {
     background-color: #1e2835;
   }
-  .frame6 .ground6, .frame6 .ground7, .frame6 .ground8, .frame7 .ground6, .frame7 .ground7, .frame7 .ground8, .frame8 .ground6, .frame8 .ground7, .frame8 .ground8 {
+  .frames--frame6 .ground--ground6, .frames--frame6 .ground--ground7, .frames--frame6 .ground--ground8, .frames--frame7 .ground--ground6, .frames--frame7 .ground--ground7, .frames--frame7 .ground--ground8, .frames--frame8 .ground--ground6, .frames--frame8 .ground--ground7, .frames--frame8 .ground--ground8 {
     fill: #aa6210;
   }
 
-  .frame9, .frame10, .frame11 {
+  .frames--frame9, .frames--frame10, .frames--frame11 {
     background-color: #1e2836;
   }
-  .frame9 .ground9, .frame9 .ground10, .frame9 .ground11, .frame10 .ground9, .frame10 .ground10, .frame10 .ground11, .frame11 .ground9, .frame11 .ground10, .frame11 .ground11 {
+  .frames--frame9 .ground--ground9, .frames--frame9 .ground--ground10, .frames--frame9 .ground--ground11, .frames--frame10 .ground--ground9, .frames--frame10 .ground--ground10, .frames--frame10 .ground--ground11, .frames--frame11 .ground--ground9, .frames--frame11 .ground--ground10, .frames--frame11 .ground--ground11 {
     fill: #82afbd;
   }
 
-  .frame1 h1, .frame1 p,
-.frame2 h1,
-.frame2 p,
-.frame3 h1,
-.frame3 p,
-.frame4 h1,
-.frame4 p,
-.frame5 h1,
-.frame5 p,
-.frame6 h1,
-.frame6 p,
-.frame7 h1,
-.frame7 p,
-.frame8 h1,
-.frame8 p,
-.frame9 h1,
-.frame9 p,
-.frame10 h1,
-.frame10 p,
-.frame11 h1,
-.frame11 p {
+  .frames--frame1 .frames__text,
+.frames--frame2 .frames__text,
+.frames--frame3 .frames__text,
+.frames--frame4 .frames__text,
+.frames--frame5 .frames__text,
+.frames--frame6 .frames__text,
+.frames--frame7 .frames__text,
+.frames--frame8 .frames__text,
+.frames--frame9 .frames__text,
+.frames--frame10 .frames__text,
+.frames--frame11 .frames__text {
     color: white;
   }
 }
@@ -1440,10 +1427,6 @@ body p {
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
-}
-body #aboutText {
-  /* What is this doing? */
-  display: none;
 }
 body p {
   font-family: "Josefin Sans", sans-serif;
